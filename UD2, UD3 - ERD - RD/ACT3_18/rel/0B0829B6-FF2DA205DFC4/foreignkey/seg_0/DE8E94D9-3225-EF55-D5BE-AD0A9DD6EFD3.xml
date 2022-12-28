@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE8E94D9-3225-EF55-D5BE-AD0A9DD6EFD3" containerWithKeyObject="5803E13F-7B5C-B083-0F92-E60E4955013A" localFKIndex="A5AF1095-98A0-61B7-9DDE-0045BA401F65" name="CXT_TRA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>8129A93A-2A00-FFFF-EF97-EE33D3F8924E</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<referredTableLongName>TRANSPORTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>38AD8424-3C52-674D-D5F5-97992E3CECEF</referredTableID>
+<keyObject>11DBE214-E93F-AE08-34AA-AEDEE25851A9</keyObject>
+<referredKeyID>11DBE214-E93F-AE08-34AA-AEDEE25851A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRA_MATRICULA,TRA_DIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

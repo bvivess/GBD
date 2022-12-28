@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="221BA262-2D45-5E6F-00F2-C9EC075601C4" name="MEETINGS">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 15:02:42 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MEE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="1E7D2611-E70B-AB6C-6037-172B237CF4DF">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 15:03:24 UTC</createdTime>
+<generatorID>2367BE7D-FB2D-646D-E55D-96FC4148C6CA</generatorID>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<referedAttribute>0F967DA1-B73C-8467-3876-AEF76E9B58BB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE8C929D-5F45-CBCE-8C4F-4FB43EAB11B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Day" id="3C4D9E80-6F89-5C53-42D5-C83E0DC480BE">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-26 08:53:09 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hour" id="5333AA08-4D58-FE30-AF5A-1FD9361383C9">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-26 08:53:16 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ApplyDate_Inic" id="A7BFA0A6-C7E3-1F46-C8D0-232F56250764">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:20:33 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ApplyDate_End" id="32B76034-8A90-3167-48A6-5526A45502A0">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:20:48 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="D2AAE410-0FAA-1A4B-EB40-AC989C10A877">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:37:48 UTC</createdTime>
+<generatorID>091FEB1F-3CEE-9E43-E0DE-B24723C2BC95</generatorID>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<referedAttribute>FF07192F-1A5B-F285-1F78-3BA58039EADA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA2EBF01-0D0B-A645-443E-55782B320941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id11" id="6A27FF8B-AB7E-BB35-C390-27A65E6D08DD">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:37:48 UTC</createdTime>
+<generatorID>091FEB1F-3CEE-9E43-E0DE-B24723C2BC95</generatorID>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<referedAttribute>55290AD4-D498-F9DC-0B94-D3F406D9596F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1A272F22-67BB-CFA4-7104-99CDBC2A3D83" name="MEETS PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 15:03:24 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E7D2611-E70B-AB6C-6037-172B237CF4DF</attributeRef>
+<attributeRef>3C4D9E80-6F89-5C53-42D5-C83E0DC480BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

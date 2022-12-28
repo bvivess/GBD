@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="787F0F92-5C6E-14B3-69BE-89EBC10D11F5" name="PARTIDOS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:36:05 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PAR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="8785C262-6231-CB1D-1DD7-E8235111185A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:37:19 UTC</createdTime>
+<generatorID>5C5128F9-67F4-D9A3-8B52-B853B4A148F8</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<referedAttribute>E3F32308-946A-A9B3-170B-32A196803DBF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO1" id="D26C9D43-7F7E-3847-A11C-E401C462F61A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:37:44 UTC</createdTime>
+<generatorID>B76A3896-56B8-516B-43B2-A800A7DE08AE</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<referedAttribute>39500321-250F-0D7A-6213-070587A8741F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIA_PARTIDO" id="C9881BEB-9822-4F78-723E-BB7126AA7A56">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 12:10:13 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOLES_FCB" id="83CE25C0-649E-222A-9881-69E2E179042B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 12:10:28 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOLES_EQUIPO_CONTRARIO" id="919B3F3A-9E85-5059-4D79-46BB18FC88DE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 12:10:34 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO2" id="B6BCF140-CAF1-4C85-BB4D-93BC3DECA670">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 12:34:42 UTC</createdTime>
+<generatorID>415B6E31-C664-D1C0-F75C-AB6D82A7F192</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<referedAttribute>D1311A00-8CEB-1B6E-80BD-E16FCA6FFFF3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A48F1DF9-2913-875A-9522-9F9C662654DE" name="PARTIDOS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:37:22 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8785C262-6231-CB1D-1DD7-E8235111185A</attributeRef>
+<attributeRef>D26C9D43-7F7E-3847-A11C-E401C462F61A</attributeRef>
+<attributeRef>C9881BEB-9822-4F78-723E-BB7126AA7A56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

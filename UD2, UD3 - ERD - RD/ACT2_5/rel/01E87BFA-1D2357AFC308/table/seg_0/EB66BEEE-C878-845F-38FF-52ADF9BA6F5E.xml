@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB66BEEE-C878-845F-38FF-52ADF9BA6F5E" name="CARS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>3CA674D4-C4CD-B30B-CCA1-FBDD74D97BAA</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<abbreviation>CAR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAR_PNUMBER" id="906B8B7D-2E45-33B1-579E-394097A96736">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>3ABF981C-1BDC-5DD1-11FB-2CAC7EEF1333</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_REGDATE" id="5D4C4452-5339-1D79-2FB0-BE50B2115B0E">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>E4995FCC-BEB1-814F-8C21-EA7E8FC758DE</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_CUS_ID" id="6BF29A46-4C7E-5820-AAB7-7A97AA86C9CE">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>9F317079-439D-AF0E-D971-EEB2A435DB62</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F135E22-5A22-16B2-45D1-2BDC8EDC74D8" referredColumn="5E0D8F59-2E10-F42D-0E2E-F986127EFC54"/>
+</associations>
+</Column>
+<Column name="CAR_MOD_ID" id="A733CDCD-70F6-C9D4-D59C-170589B69434">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>4E51FC49-4979-4697-C370-36215A8BABBD</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55C4DED6-FD56-2F47-35F6-51CCC3DE79A1" referredColumn="EE1DCB11-D56E-0D1E-20F8-E66085C516CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="268AED6E-30CE-E847-A842-7A3A07E9714F" name="CAR_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>B8E3C3B0-64A4-9218-33DB-2A5150383AA6</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="906B8B7D-2E45-33B1-579E-394097A96736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0704DA1F-6B5C-BD0D-82E9-631607DB9F76" name="CAR_CUS_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>1884F01B-0951-5484-4AFA-B5CB698588D5</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BF29A46-4C7E-5820-AAB7-7A97AA86C9CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A349045-0D95-78C6-028D-3CF816ACD075" name="CAR_MOD_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>DCBA8738-BE65-6A11-41AD-8068FBE2F6AE</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A733CDCD-70F6-C9D4-D59C-170589B69434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18B5BA8F-B6E3-3535-F266-56C2806DC509" name="MONITORS">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 14:54:57 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MON</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="C21B663B-3D95-7519-C05A-1BC5F9ACBC00">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 14:57:15 UTC</createdTime>
+<generatorID>2C9BDC7B-2643-99FD-9FAB-706DE809EACC</generatorID>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<referedAttribute>4C7245D4-DC8B-BAE0-0B49-90EA0C224237</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA2EBF01-0D0B-A645-443E-55782B320941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="AEA37228-9DDC-40EE-F27E-B0295D25827D">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:37:43 UTC</createdTime>
+<generatorID>2C9BDC7B-2643-99FD-9FAB-706DE809EACC</generatorID>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<referedAttribute>F8FEB1BB-D9F6-0FC6-B584-1248263A388D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0E50B20-3599-D8EE-F5AA-BCE04571A51D" name="MONITORS PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 14:57:18 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C21B663B-3D95-7519-C05A-1BC5F9ACBC00</attributeRef>
+<attributeRef>AEA37228-9DDC-40EE-F27E-B0295D25827D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

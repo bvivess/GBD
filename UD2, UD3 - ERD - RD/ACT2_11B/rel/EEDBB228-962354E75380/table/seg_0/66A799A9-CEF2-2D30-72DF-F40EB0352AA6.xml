@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66A799A9-CEF2-2D30-72DF-F40EB0352AA6" name="OWNERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>CACC3AA3-DB6C-E4FE-CD99-8560A689477B</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<abbreviation>OWN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OWN_ID" id="8BB62EF1-C836-03E1-3B2A-3CA740571972">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>9BBF3C01-40E1-4B12-D0CA-36287E779B85</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWN_NAME" id="57CF7A51-0EB2-2270-1AB2-E4C2C6474100">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>66F80E1D-9E19-6E89-E933-3A60397845AB</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWN_SURNAME1" id="A6278732-DDEF-50C7-65BB-B2A3C37E3BE6">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>C529DAD0-6C42-68E3-CB02-A45BE9204E17</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWN_SURNAME2" id="C6E79924-CA11-8875-EE88-B3EE1F11BDDF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>09B56A99-ABF9-C083-8E5B-244E6F3148F3</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWN_NCO_ID" id="48540A2C-2FA1-90F2-2441-D3E66A35F647">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>CE5E3075-C164-1E9A-9E88-43AC3B4033F3</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7796368E-58C6-AD89-9661-719C6F112F82" referredColumn="E455D96A-AEF7-AE1D-EAD8-65682552BE2A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FCB87DE-9970-687E-89F9-1A51019C368A" name="OWN_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>0EB24C50-D199-EC72-11C0-A0E4824C9503</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB62EF1-C836-03E1-3B2A-3CA740571972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E1DA7C3-24BB-9C57-45AB-E5C6A542D9BD" name="OWN_NCO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>B5BECBA0-55E9-48CF-3B88-870335E2FE9B</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48540A2C-2FA1-90F2-2441-D3E66A35F647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

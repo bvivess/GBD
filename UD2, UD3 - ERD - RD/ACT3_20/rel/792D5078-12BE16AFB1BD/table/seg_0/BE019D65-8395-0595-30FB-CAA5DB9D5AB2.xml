@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE019D65-8395-0595-30FB-CAA5DB9D5AB2" name="CLUBES_X_DEPORTISTAS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<ordsAlias>clubesxdeportistas</ordsAlias>
+<abbreviation>CXD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CXD_CLU_CODIGO" id="FB7A2255-5ECC-5476-3080-BD8C63E2A04F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D392392-79E6-2566-974A-4FCF420CFE17" referredColumn="40AA3126-C6F8-B6A9-DD60-AA1F22741BEC"/>
+</associations>
+</Column>
+<Column name="CXD_DEP_CODIGO" id="6188E60F-F894-C443-1B5F-BC65735424C7">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CF12F9B-CAD1-E242-6224-94B2595C0CCF" referredColumn="B5A79C10-C902-18D5-0041-1484029282BC"/>
+</associations>
+</Column>
+<Column name="CXD_FECHA_INI" id="3F66D811-7585-F6D2-6ED8-56EF00F0C0A5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>DD786F3C-165A-6874-3C85-8C74CE08BB16</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="CXD_FECHA_FIN" id="8E77A07D-C352-392C-629B-C3B06611093C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>96638F5C-6BA3-9EA8-621E-0E81F0E682CB</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A121B02-4A5C-F271-B070-A0198C185689" name="CLUBESXDEPORTISTAS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6188E60F-F894-C443-1B5F-BC65735424C7"/>
+<colUsage columnID="FB7A2255-5ECC-5476-3080-BD8C63E2A04F"/>
+<colUsage columnID="3F66D811-7585-F6D2-6ED8-56EF00F0C0A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="941FA4F2-8FD9-CC9E-7015-4B1F994AEC25" name="CLUBESXDEPORTISTAS_DEPORTISTAS_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>7F6014A8-7AE6-4F2C-08CE-C4DDCC91C28B</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6188E60F-F894-C443-1B5F-BC65735424C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D5C7D4D-F554-EE44-80C1-DAC50120184E" name="CLUBESXDEPORTISTAS_CLUBES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>7F6014A8-7AE6-4F2C-08CE-C4DDCC91C28B</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7A2255-5ECC-5476-3080-BD8C63E2A04F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

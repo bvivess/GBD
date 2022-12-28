@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BEA14C6-76E4-9F14-F6F5-DF7CAB041FCB" name="COUNTRIES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:09:30 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>COU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="724CBDDA-D873-A0E8-69C6-340797A91D5D">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:09:42 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="ED902F62-4336-3BD8-466E-C7747CA58084">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:09:50 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97C95C1B-1E34-1E71-1A80-06E260E9429B" name="COUNTRIES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:09:49 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>724CBDDA-D873-A0E8-69C6-340797A91D5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

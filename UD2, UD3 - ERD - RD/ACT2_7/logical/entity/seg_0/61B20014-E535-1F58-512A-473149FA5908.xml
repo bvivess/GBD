@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61B20014-E535-1F58-512A-473149FA5908" name="TDIA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:54:02 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TDI</shortName>
+<synonymToDisplay>TORNS PER DIA</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Dia" id="3B68CADC-6486-A2E4-3C33-1919A90CDF00">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-19 06:47:56 UTC</createdTime>
+<generatorID>730478C3-DCF2-B84F-7395-622C8843181B</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>06BEA993-2F2F-FB73-629F-0F5D2AFB7A38</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codi" id="3111D34C-26EB-2729-CEC9-ACA685863BC0">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:38:50 UTC</createdTime>
+<generatorID>834B0E77-DF46-C38B-E211-EEC91B599DB4</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>40ADC669-5513-85CC-CC8E-6B71872AE5CC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45A3C0E0-9458-336E-8B66-FB830C62D526" name="TORNS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:54:18 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B68CADC-6486-A2E4-3C33-1919A90CDF00</attributeRef>
+<attributeRef>3111D34C-26EB-2729-CEC9-ACA685863BC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

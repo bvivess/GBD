@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6A158F4-0B47-388F-28CB-8D5378289604" name="PEOPLE">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 19:56:30 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PEO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="AF05F184-7CC0-19A4-3DF7-D8D4026C601F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 19:58:03 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="DE5936DA-43DC-CD23-16BD-1CE17279403F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 19:58:11 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname1" id="F11BAF38-46DD-0700-A2F5-B2336C348D78">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 19:58:17 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname2" id="EE1F043D-022E-E28F-37DB-6623A2CF3B60">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 19:58:31 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="5BB462E9-5B11-769B-6B97-84DDFAF4CACC">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:12:41 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="A76BB4FC-AFEC-2F73-D816-3C6781EC79D6">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:12:53 UTC</createdTime>
+<generatorID>B1379FF6-8B71-DCA0-7F45-C10CFF5DF80E</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<referedAttribute>5A6FD715-4845-4EBF-F39E-6F69C009BFDF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B80B301B-47C8-2A49-B5D3-B445501ACB00" name="PEOPLE PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 19:58:25 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF05F184-7CC0-19A4-3DF7-D8D4026C601F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

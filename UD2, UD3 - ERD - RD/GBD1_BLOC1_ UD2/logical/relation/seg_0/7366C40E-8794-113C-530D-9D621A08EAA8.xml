@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="7366C40E-8794-113C-530D-9D621A08EAA8">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 06:58:40 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<sourcePk>63FCB507-757F-75CF-4901-06BBAFB32D98</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DA3D04D2-78E7-D468-32E9-8956CDD7C6DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A9FF3C6B-68D8-FB24-063B-5BC6CA12180C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Points_Local" id="F2308BB1-B77C-44BA-98A9-BAECD116B71A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:00:43 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

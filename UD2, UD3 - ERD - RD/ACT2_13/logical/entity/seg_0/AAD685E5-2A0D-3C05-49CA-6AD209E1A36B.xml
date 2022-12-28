@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAD685E5-2A0D-3C05-49CA-6AD209E1A36B" name="ELECTRIC COMPANIES">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-30 17:43:36 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ECO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="5FF46672-FAEE-3744-1B04-D176B4575A1B">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 08:29:16 UTC</createdTime>
+<generatorID>B20E265F-9CDA-3FAD-4EE4-545616C67B69</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<referedAttribute>56064710-6A1A-580B-DB87-F23740436D63</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A43AF232-0D62-5D5A-3000-7F0DF28B7BB5" name="ELECTRIC COMPANY PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-30 17:44:26 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FF46672-FAEE-3744-1B04-D176B4575A1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EFDAD89-51F9-AA5A-4963-93AB7FBE8370" name="ORDERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 09:01:29 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ORD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ORDER_ID" id="BA8F4182-08D5-E719-A04F-06B7801A4978">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 09:01:39 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_DATE" id="43824A53-59C8-529D-8710-4F71D1959C93">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 09:01:49 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS1" id="C711AF4C-5D20-BE1E-F76C-8928E8ECB990">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 09:03:32 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS2" id="76CCACF8-8FBB-CDCF-4B9D-5D95769EA42D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 09:03:57 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS3" id="0C8E55DA-5AD4-C705-A69A-70CBBADE9AFC">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 09:12:05 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS4" id="6DD14182-A25D-DD99-74A7-2C9B4E636A15">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 09:12:08 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER_ID" id="B8C8FB19-30A2-B0F3-CCA3-0AEC67527A12">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:34:09 UTC</createdTime>
+<generatorID>CA7F5507-30FD-A12D-0712-A0FE10F6609C</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<referedAttribute>4EC34DD7-8ED7-38A7-0DF4-F55ACAB1F75D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9D4F147-4DDB-3FB1-A7F2-A937CA7E8DA6" name="ORDER PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 09:01:47 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BA8F4182-08D5-E719-A04F-06B7801A4978</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

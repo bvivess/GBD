@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF8D1DDC-D0A0-69C1-774C-E277757245A5" name="PLAYERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>95120B7E-6D99-CDE1-07EC-41CAC3D98102</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<abbreviation>PLA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLA_PEO_ID" id="158E185B-357F-0752-DE0B-F42557A46669">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>49D811DD-1497-9A03-2A91-1D7F690B7216</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B0408AA-C2F9-8A31-D4BE-9024AB2038CA" referredColumn="39F652F5-3053-6C8A-9240-A8EC423ACB4D"/>
+</associations>
+</Column>
+<Column name="PLA_ALIAS" id="BA885436-D588-1915-EE6D-534785BB9629">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:28:03 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLA_TEA_ID" id="46EBDDB2-1B2B-0622-2C5F-8CB8208D1DED">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>C3ADD8D8-9321-4117-847A-4598A07EB96F</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="002A1CAA-1458-1CBB-3D56-1973AA620D01" referredColumn="8C15B165-EC63-D3EE-1A35-EEB21463038B"/>
+</associations>
+</Column>
+<Column name="PLA_DORSAL" id="9D76FF19-1365-CBAC-C40C-F968ABEA34B4">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 14:44:36 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="637CD7E9-9CB7-A5B0-1108-8736BC9CA7EF" name="PLA_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>5554A639-5696-CFC0-9588-2327C6003E71</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="158E185B-357F-0752-DE0B-F42557A46669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88B93904-E6D0-3A6A-FB4B-82F244FDEDF2" name="PLA_UK1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:28:22 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA885436-D588-1915-EE6D-534785BB9629"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC370514-4FA1-2E45-DC53-15662D5DBC11" name="PLA_UK2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 14:44:36 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46EBDDB2-1B2B-0622-2C5F-8CB8208D1DED"/>
+<colUsage columnID="9D76FF19-1365-CBAC-C40C-F968ABEA34B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C132736-06C0-18D1-7ED8-F1F4332D6CFF" name="PLA_TEA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>3BA19D76-6D0C-2B88-08BA-9EFD0E9EB5E0</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46EBDDB2-1B2B-0622-2C5F-8CB8208D1DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97E9CA10-64D2-71D0-A6F7-7283201E5D3F" name="PLA_PEO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>DDBFD23D-848E-7626-7E93-E4424533781A</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="158E185B-357F-0752-DE0B-F42557A46669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

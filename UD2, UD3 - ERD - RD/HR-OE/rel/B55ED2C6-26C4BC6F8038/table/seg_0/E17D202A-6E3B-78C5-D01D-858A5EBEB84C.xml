@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E17D202A-6E3B-78C5-D01D-858A5EBEB84C" name="ORDER_ITEMS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="66A8CD25-486F-3E65-E041-8023948DF13A">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1AE5342-7C7B-3097-F011-97E783E19AB9" referredColumn="04587BBB-13FB-1233-3A5B-63520461FD3E"/>
+</associations>
+</Column>
+<Column name="PRODUCT_ID" id="2D5A7BCC-4A31-923C-3C1E-116C22230A95">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E9D1126-783D-C4B4-7C4A-F75CD3E142A0" referredColumn="F6D53C16-5179-0928-5AC6-A061A87B559D"/>
+</associations>
+</Column>
+<Column name="LINE_ITEM_ID" id="F6F4A0F7-8FF0-47EC-9F6A-4FF895C9A205">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>1071ECEA-6101-A8F5-71CF-FC80A4EB1968</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="UNIT_PRICE" id="F27A5F52-D13B-CBAD-0053-C6B9F1CF8D67">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>DA893BC5-CADA-FBDE-33AB-DC7CD1C50269</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="QUANTITY" id="7B1A11F0-1712-D1C3-53DE-79C8EE57BEC7">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>16EA6D30-C369-CB05-95D8-557D9DBDF800</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04BD55B2-95C4-82D0-968A-03939AC8BA3E" name="ORDER_ITEMS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66A8CD25-486F-3E65-E041-8023948DF13A"/>
+<colUsage columnID="2D5A7BCC-4A31-923C-3C1E-116C22230A95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBC87525-D410-FC46-C75E-512232875C63" name="ORDER_ITEMS_ORDERS_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>8EBDD74C-7EB9-0FD3-5D30-0A5B42B1896A</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66A8CD25-486F-3E65-E041-8023948DF13A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45577030-5AB2-26D3-9362-523EB144B4A1" name="ORDER_ITEMS_PRODUCT_INFORMATION_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>8EBDD74C-7EB9-0FD3-5D30-0A5B42B1896A</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D5A7BCC-4A31-923C-3C1E-116C22230A95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

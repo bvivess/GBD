@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61AF1D18-1237-2BCF-F862-48F57467F911" name="CUSTOMERS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>48F90DF8-9E2D-607F-9AF4-88A8E5220570</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<abbreviation>CUS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUS_ID" id="04BCEBAA-4931-B80C-E923-4F9FBD58FFC2">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>4EC34DD7-8ED7-38A7-0DF4-F55ACAB1F75D</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUS_NAME" id="DF05FE64-6E62-36AE-F1D5-E52FCF49AF5F">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>1540B35E-E5FE-FBD7-7384-EAF734EF9C10</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUS_ADDRESS" id="C358C851-3C8A-0B4A-6CB4-30A9E7159A72">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>D4A6DEC5-338F-BCAF-C41D-729D65FAE43D</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CAE32EA-4B3C-586E-609E-522AD819D423" name="CUSTOMERS_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>13FBDB08-4F4B-6049-2827-74E99923F34E</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04BCEBAA-4931-B80C-E923-4F9FBD58FFC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

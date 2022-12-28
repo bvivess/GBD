@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92CD895F-4057-B515-AABF-B51B22EC4C41" name="REGXSTU">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:40:37 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>RXS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RXS_ID" id="186A81C3-9032-8B87-18C8-8DF9F79252B9">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:50:01 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RXS_YEA_CODE" id="9D9611ED-156C-AC94-0ABE-6006CA389E8C">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:47:53 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E07C7F2-A068-40D8-7FFB-24FE1539DAC1" referredColumn="88AB94D8-068E-7185-A12D-FFFA08A3B555"/>
+</associations>
+</Column>
+<Column name="RXS_SUB_ID" id="170DAA44-F825-6C88-F2E1-6EC4E1968336">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:47:53 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E07C7F2-A068-40D8-7FFB-24FE1539DAC1" referredColumn="6AB37A65-F06B-E1A3-A9C7-DCBE8AA43B39"/>
+</associations>
+</Column>
+<Column name="RXS_STU_PEO_ID" id="FCD922E8-50B4-B7E3-7613-5C5E8ACE1E2A">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:47:58 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF4779DC-8315-6EFB-2DC8-64CD0967DB06" referredColumn="F34BE4F6-CB5E-5CCE-D5CB-9B8C9D0DD1D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A68AFCCF-44D9-955F-48A1-38A55A50A7E6" name="RXS_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:50:40 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="186A81C3-9032-8B87-18C8-8DF9F79252B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66F30A0D-A2AE-B58F-885A-AE0302608EE5" name="RXS_UK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:50:40 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D9611ED-156C-AC94-0ABE-6006CA389E8C"/>
+<colUsage columnID="170DAA44-F825-6C88-F2E1-6EC4E1968336"/>
+<colUsage columnID="FCD922E8-50B4-B7E3-7613-5C5E8ACE1E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADBAE90E-3125-B3C6-6915-5034EC30C331" name="RXS_REG_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:47:53 UTC</createdTime>
+<generatorID>E698C23A-1E36-8516-6CB5-CD087C80DED1</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D9611ED-156C-AC94-0ABE-6006CA389E8C"/>
+<colUsage columnID="170DAA44-F825-6C88-F2E1-6EC4E1968336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D53E277-5771-74BD-F784-8C847242CA4B" name="RXS_STU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:47:58 UTC</createdTime>
+<generatorID>7497E99F-AEED-6693-ABB1-FA48EFC8AE2A</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD922E8-50B4-B7E3-7613-5C5E8ACE1E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="20F66C4D-F1A7-DD98-2DAC-CAB67416E053" containerWithKeyObject="126B12D4-3A16-5657-4D33-CA129FF12989" localFKIndex="9A7560DD-EC7F-66D8-B635-2AED83C8319F" name="SER_FEX_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>C9A69F96-DFAF-113C-6E16-F26B6862D613</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<referredTableLongName>FEXPENSES</referredTableLongName>
+<arc>2E9895CB-820C-A96D-5A98-25C443E019C1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02EEA1E9-9C7F-BF25-FDD3-47DE9C48749C</referredTableID>
+<keyObject>5F9E9A2A-9D76-1422-81BE-14076B8756F0</keyObject>
+<referredKeyID>5F9E9A2A-9D76-1422-81BE-14076B8756F0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FEX_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

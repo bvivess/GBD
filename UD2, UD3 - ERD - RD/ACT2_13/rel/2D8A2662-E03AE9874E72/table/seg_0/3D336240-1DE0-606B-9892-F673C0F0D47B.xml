@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D336240-1DE0-606B-9892-F673C0F0D47B" name="PSTATIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>EA23DC40-CAF5-BACC-0F8A-3BCC122A2D6E</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<abbreviation>PST</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PST_ID" id="3BF89C29-1CC3-8D96-9F4D-F8B69DEE63AB">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>8F045AD1-0A0F-83EE-23C5-02A227665E6D</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PST_NAME" id="88CBC020-CA0C-7003-560A-2FE3D44B7829">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>46E2AEFA-A06B-C975-5D01-5707084503B1</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PST_GPSPOSITION" id="45DA3559-792C-AB6E-C37A-5910874FF169">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>EE1CC082-791E-0C33-81D6-665440E6913B</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07BFE204-AEF5-15C4-81CF-C9B9E95A2D42" name="PST_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>C9EA8BCB-3B90-AFEB-8BA0-0F95833E9DE4</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BF89C29-1CC3-8D96-9F4D-F8B69DEE63AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

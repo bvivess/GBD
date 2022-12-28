@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76DC24FA-3273-A680-993B-1BFBF5A8B413" name="PLAYERS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>BB46A54E-F3E4-90AE-2EF5-4848B2716344</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<abbreviation>PLA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLA_PEO_ID" id="10A30EE4-498E-2651-B5D8-A92A161E8402">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>A82EF728-F0A3-0033-CF89-46F2DACF6F24</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF128D0B-309D-3B4E-601B-4467DA3196A9" referredColumn="1C9FDC52-3371-DFAC-5BBE-D366B781F824"/>
+</associations>
+</Column>
+<Column name="PLA_TEA_ID" id="9A12002F-9446-9A6B-FD37-039E7DDD9A21">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>FB048DB8-001C-63BD-2BDF-3DEAB29394B7</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A533620-8EA6-BBD5-B838-9CB3FBCD89A5" referredColumn="24DDFF1C-9AFA-8DFD-1377-A7CD860FE7F5"/>
+</associations>
+</Column>
+<Column name="PLA_COU_ID" id="6A7F0021-D031-B068-2402-36F1E8DF3295">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>74B0379A-3604-ED27-D489-2E5A384BC4BF</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E5A45B2-2675-2996-6D52-73388A1F7E95" referredColumn="58F656AC-3183-89F8-75D2-546E8479A0F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE5480F8-05D9-B907-730B-C442ACE60A5A" name="PLA_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>B67DD1F5-DD07-E07E-2601-102684EDCA0C</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10A30EE4-498E-2651-B5D8-A92A161E8402"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2C9D01B-9D00-1603-ADF3-318AAF4040D8" name="PLA_PEO_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>0B5E9FFA-5D50-A684-4807-96B5E0BF065A</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10A30EE4-498E-2651-B5D8-A92A161E8402"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C7ADB56-AE79-0F3F-B23C-CBD9CE622BDD" name="PLA_TEA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>91B9E6F3-8395-ED31-0B93-3446478F9A22</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A12002F-9446-9A6B-FD37-039E7DDD9A21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0354D9CB-D75B-0DA1-9691-CB16E963D0FD" name="PLA_COU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>3E194D4B-7132-51DF-09E2-D6B34301113E</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A7F0021-D031-B068-2402-36F1E8DF3295"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

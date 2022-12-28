@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1217924C-963A-66CA-9833-1A2DE2B5DACC" name="MOVIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:29:30 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>MOVIES</preferredAbbreviation>
+<shortName>MOV</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="5B0B23D7-48FB-ED82-4E90-A2B468CFD61D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:29:37 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tittle" id="B4CD3F25-A17F-DA6F-FE2B-1E8DA46FF7CA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:29:48 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year" id="CA325AA1-0C09-3F42-546F-7986026B0B56">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:29:54 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="FF14A01A-5441-9C9A-5BC9-1400201987BE">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-23 16:16:22 UTC</createdTime>
+<generatorID>1E0AAAB0-3ACB-E178-DDC1-6A6D0512C6B5</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<referedAttribute>D27C2106-73E2-D86D-30C6-67399C371EB3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2DAAC1CF-CD6D-05C6-BB09-4BB835A2CE43" name="MOVIES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:30:22 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B0B23D7-48FB-ED82-4E90-A2B468CFD61D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C75DEAE-3D6A-7A8C-552A-06D5ABDE8F2E" name="PRODUCERS">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>B9E29360-4F62-923A-BA2D-B35F1FF3EE69</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<abbreviation>PRO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRO_ID" id="65049A1C-3C49-C952-5B93-93EF63254C6E">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>7D7AC609-0472-E982-801F-DABD37CF7FA2</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_NAME" id="8D2A91D0-95D3-024B-89C9-35F165B0C732">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>79AC6DAD-182D-E61D-3DF3-2138FB5E33EF</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_MAXIMUM_CAPACITY" id="242370FF-EDDF-F8B2-21B7-969393CE4702">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>206F8584-83C1-ADD3-F7D2-3E05EE8760D9</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_INITIAL_DATE" id="C40E8D80-3CEA-BE42-AFF7-A558BDECCF56">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>347563CE-D503-C088-F1B7-2E1C827F5D91</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_ADDRESS" id="5F9F2714-DADE-6443-406D-D671E26C7DED">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>9D3180B8-FEB8-483D-FE81-E047AE32D6A0</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_ECO_ENT_ID" id="3728E705-B336-264D-84D7-A94DAF276A06">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>934EBEF6-E1BB-164E-A16D-EFD870D4C128</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A262D31D-546B-9B47-8F0B-50DAFF0585F0" referredColumn="43D8BC44-38D9-EBEB-052D-A65C10C38DA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D03D7CFE-3817-12B3-260B-E0ABF7FA2E77" name="PRO_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>0668D611-A408-E5C8-20B7-17267FDA9D21</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65049A1C-3C49-C952-5B93-93EF63254C6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6FD9267-3E9F-C915-F60C-D514FCBFC1B5" name="PRO_ECO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>A9DAF577-8116-EBB7-DC5A-C8B075E84F14</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3728E705-B336-264D-84D7-A94DAF276A06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

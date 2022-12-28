@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0365357C-F465-E55E-F6E7-8FC2F50CC087" name="REFEREES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:45:03 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>REF</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="08C80E08-BAFD-C2FD-7452-954219841083">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:46:05 UTC</createdTime>
+<generatorID>0E7843B0-113C-314D-9611-B58BA6829C9D</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<referedAttribute>CFBEF59D-3535-BD7C-BEFF-18AE7FFA7386</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4DA5AE4-F2A3-B0F9-421C-69ED94E9728C" name="REFEREE PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:46:07 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08C80E08-BAFD-C2FD-7452-954219841083</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

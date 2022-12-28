@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F40A418A-0DE1-7AEB-298A-6395D29A6C73" name="PELICULES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>332C5658-B527-9EB0-4C9A-6778510B6666</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<abbreviation>PEL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEL_TITULO" id="FB0145D0-D99B-B882-B114-337D31CCE2D6">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>FE55A455-113D-3C48-7821-8706EED929FA</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEL_EDA_CODIGO" id="DA892BF3-84FC-A897-E47A-ECACB931EA52">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>642B5644-F581-40EA-4AC5-167064935216</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53FA6F32-6C00-ABD7-A4EB-F5184CAA971E" referredColumn="24066B4B-C1C8-2D0F-18ED-870A4CEE17BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1748E2CC-2994-FD27-C6B9-1E5481A8892F" name="PELICULES_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>4366E9D1-FE84-186E-7106-8314DB690DF9</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB0145D0-D99B-B882-B114-337D31CCE2D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01EBA24C-F30F-F4E8-748A-43416FD41845" name="PELICULES_EDAD_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>85791D37-214E-1BA8-8D69-BD0F1C3FBBD4</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA892BF3-84FC-A897-E47A-ECACB931EA52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

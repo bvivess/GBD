@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAA85798-FBCD-638F-8A3E-BDD1167CB973" containerWithKeyObject="8748CF78-CF20-E305-9A70-2BF5FCCFD4A3" localFKIndex="DB2F5339-0D6C-5987-F6A0-DF44EAC8F9E8" name="AXP_ACT_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>3103A362-C185-F5C7-7457-6CBE564359CF</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<referredTableLongName>ACTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55442582-A0CA-C164-D4B2-8BE22EE38B34</referredTableID>
+<keyObject>51AB30F6-D9E7-86A4-E3D7-CD584BACA359</keyObject>
+<referredKeyID>51AB30F6-D9E7-86A4-E3D7-CD584BACA359</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ACT_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0143DA17-2C08-0BAA-436C-1C2014A57A87" name="CATEGORIES_TAB">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:38:56 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CATEGORY_ID" id="67C97CA8-D3D3-0100-5029-FDF108102F5A">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:40:35 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY_NAME" id="1D0FC557-1B43-DD57-7787-41E4CEE8558F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:39:12 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY_DESCRIPTION" id="FF6039BD-502C-9696-9A52-08ADFDC9A520">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:39:59 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY_ID1" id="4564BC79-3D25-372E-43EB-84BF2EDF47E8">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:41:10 UTC</createdTime>
+<generatorID>AE794699-83B6-2823-6026-2EB9176FDFFC</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>67C97CA8-D3D3-0100-5029-FDF108102F5A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EB65271-9A61-4FCA-F3F2-19D316E48E1B" name="CATEGORIES_TAB PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:40:52 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67C97CA8-D3D3-0100-5029-FDF108102F5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

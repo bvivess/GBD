@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9E29360-4F62-923A-BA2D-B35F1FF3EE69" name="PRODUCERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-26 05:50:11 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="7D7AC609-0472-E982-801F-DABD37CF7FA2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-26 05:50:37 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="79AC6DAD-182D-E61D-3DF3-2138FB5E33EF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-26 05:50:44 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Maximum capacity" id="206F8584-83C1-ADD3-F7D2-3E05EE8760D9">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-30 17:20:57 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Initial date" id="347563CE-D503-C088-F1B7-2E1C827F5D91">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-30 17:21:28 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="9D3180B8-FEB8-483D-FE81-E047AE32D6A0">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-30 17:24:35 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="934EBEF6-E1BB-164E-A16D-EFD870D4C128">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 08:30:18 UTC</createdTime>
+<generatorID>A9DAF577-8116-EBB7-DC5A-C8B075E84F14</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<referedAttribute>5FF46672-FAEE-3744-1B04-D176B4575A1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0668D611-A408-E5C8-20B7-17267FDA9D21" name="PRODUCERS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-26 05:50:50 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="2D8A2662-9C78-9AF2-2E67-E03AE9874E72" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D7AC609-0472-E982-801F-DABD37CF7FA2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

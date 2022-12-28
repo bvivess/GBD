@@ -1,0 +1,13 @@
+-- SOTA L'USUARI 'SYSTEM'
+
+CREATE USER hr_sales IDENTIFIED BY hr_sales; 
+GRANT connect, resource TO hr_sales;
+--
+CREATE USER hr_nosales IDENTIFIED BY hr_nosales; 
+GRANT connect, resource TO hr_nosales;
+--
+GRANT SELECT, INSERT, UPDATE, DELETE ON hr.departments TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON hr.employees TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON hr.jobs TO PUBLIC;
+GRANT SELECT, INSERT, UPDATE, DELETE ON hr.job_history TO PUBLIC;
+

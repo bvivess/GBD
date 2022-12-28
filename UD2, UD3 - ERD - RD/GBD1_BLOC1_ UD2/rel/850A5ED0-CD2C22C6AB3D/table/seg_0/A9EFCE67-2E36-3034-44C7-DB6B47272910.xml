@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9EFCE67-2E36-3034-44C7-DB6B47272910" name="SSYSTEM">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>F1C2FBC4-93DB-2F0C-CAB5-3609A52234FA</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<ordsAlias>psystem</ordsAlias>
+<abbreviation>SSY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SSY_TOU_ID" id="243019AA-D0BD-8F82-D1F1-67483EB21CC2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:45:39 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F08B4F8D-1D6A-CB62-BD18-E2CDA711838F" referredColumn="D0040791-F744-33EF-8559-2205D04F89AE"/>
+</associations>
+</Column>
+<Column name="SSY_WIN" id="454180E7-78B5-D454-4183-73D14E377D0B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>45524463-84FE-8819-99CF-3F71EF162065</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSY_DRAW" id="AA9C2604-0C0A-A2AF-E195-023EF16E8D75">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>4108AEFA-5F78-237F-365D-32B9B9F79BF5</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSY_LOSE" id="30EF6FF6-B7AE-DCA8-E7EF-87A1B7CF0A6A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>887ABE86-D9D4-4D6C-BFA5-C0C770D081D4</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="613BA805-71C4-1B73-3643-DD75ED44063B" name="PSYSTEM_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:02:36 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="243019AA-D0BD-8F82-D1F1-67483EB21CC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4D0DE58-E1C7-AAEB-DB1D-219B152FF241" name="PSY_TOU_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:45:39 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="243019AA-D0BD-8F82-D1F1-67483EB21CC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

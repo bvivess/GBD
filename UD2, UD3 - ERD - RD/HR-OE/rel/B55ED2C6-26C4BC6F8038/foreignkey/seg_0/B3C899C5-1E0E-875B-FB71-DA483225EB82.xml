@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3C899C5-1E0E-875B-FB71-DA483225EB82" containerWithKeyObject="82DBBA7C-1065-F169-29A6-FE67645CD039" localFKIndex="A301EFBA-D4E7-6C61-6CD8-D616CFCF8955" name="COUNTRY_REGION_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>41F2D13D-30D0-5123-3CE0-4F32591B3620</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<referredTableLongName>REGIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A60D58AC-5735-16E3-9C5A-5CDC8265DF10</referredTableID>
+<keyObject>922B666F-1608-AF0A-FCBE-1BBF11D35D30</keyObject>
+<referredKeyID>922B666F-1608-AF0A-FCBE-1BBF11D35D30</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>REGION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

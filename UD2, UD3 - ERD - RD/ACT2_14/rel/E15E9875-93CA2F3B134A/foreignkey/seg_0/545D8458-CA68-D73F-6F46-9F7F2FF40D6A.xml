@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="545D8458-CA68-D73F-6F46-9F7F2FF40D6A" containerWithKeyObject="181F3967-3A1C-A324-99F9-391B08C1757D" localFKIndex="0C99A7E1-04F6-55D2-479E-367FDE248084" name="RXM_MAT_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>CFDFAD8D-48BA-3C77-DCA6-A0C8C8CD31E8</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<referredTableLongName>MATCHES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>848445F5-466C-3FB6-3F9D-47CB7B85B12B</referredTableID>
+<keyObject>6F524BD0-7A45-FCD6-4726-147155E6049A</keyObject>
+<referredKeyID>6F524BD0-7A45-FCD6-4726-147155E6049A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MAT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

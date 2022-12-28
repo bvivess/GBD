@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E7ABE38-E4DE-93C4-2658-CDDA4414C1B9" containerWithKeyObject="8D86B2A7-090C-6869-2D10-63C32E119C1A" localFKIndex="9A501C78-62B1-3C6B-E93A-488B34DB0704" name="REG_TEA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>B115AB6C-B16D-DE65-D74B-82A19B42D214</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<referredTableLongName>TEACHERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E33CB36-7033-5465-030C-C29FF546E19F</referredTableID>
+<keyObject>FB690C4D-54E8-6274-4F71-3FA326D1EE9D</keyObject>
+<referredKeyID>FB690C4D-54E8-6274-4F71-3FA326D1EE9D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TEA_PEOPLE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

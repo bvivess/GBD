@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="593AD865-463A-FDD2-5EFE-80A92C914142" name="COURSES">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>5E65C122-C043-57D2-42FF-47D8CAA7468B</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<abbreviation>COU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COU_DEG_CODE" id="DD7025BE-88E0-A08F-3406-980CAC72899C">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>FB281AB5-53CE-F7FC-42FB-95AF9BBA48E5</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88F9F896-65C6-311A-ECD1-9F3F9E1432F5" referredColumn="6A87AA80-D0EF-B8A6-8694-B509FA32E14D"/>
+</associations>
+</Column>
+<Column name="COU_CODE" id="A4F45781-CBA5-98C0-E200-7BC13F98B037">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>0CC115CF-3530-3389-EF15-56A7DD94ACC5</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COU_NAME" id="99DB5D32-3120-376B-1712-646308191FF7">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>C6B2C6AF-6773-38F8-19BA-C7AAA1EFEA76</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADF05171-017E-556D-C031-0424A9738CDF" name="COU_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>5D7D8E6F-52A4-29AE-9495-B0AB16A0B23F</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4F45781-CBA5-98C0-E200-7BC13F98B037"/>
+<colUsage columnID="DD7025BE-88E0-A08F-3406-980CAC72899C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DDCF383-5AC8-767D-C4A4-BC835A4A8D51" name="COU_DEG_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>D0DFE174-6777-64D2-1262-8AF97C9718B1</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD7025BE-88E0-A08F-3406-980CAC72899C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

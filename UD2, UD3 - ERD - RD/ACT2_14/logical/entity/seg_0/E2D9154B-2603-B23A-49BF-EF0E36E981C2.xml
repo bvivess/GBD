@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2D9154B-2603-B23A-49BF-EF0E36E981C2" name="STADIUMS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:04:05 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>STA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="BC4A6CC5-4B6A-CCD4-D81F-2C82526F4581">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:04:12 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="E28BAEF6-C4E0-2617-37C8-E1166AEAF475">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:04:24 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="FEBF2554-10D0-02FB-C0D0-8BCD1BD828D1">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:04:34 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="DF54850D-96C2-73E1-E2A6-169D998C14EC">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:12:31 UTC</createdTime>
+<generatorID>759C017F-CFD5-CBA6-DBF5-87AF1732599E</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<referedAttribute>5A6FD715-4845-4EBF-F39E-6F69C009BFDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="306E39B8-BB4E-C6C2-FCBA-BA5EDA4ED1BD" name="STADIUMS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:04:21 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC4A6CC5-4B6A-CCD4-D81F-2C82526F4581</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

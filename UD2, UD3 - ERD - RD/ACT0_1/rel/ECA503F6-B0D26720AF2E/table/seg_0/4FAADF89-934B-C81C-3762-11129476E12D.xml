@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FAADF89-934B-C81C-3762-11129476E12D" name="LOCATIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:39:19 UTC</createdTime>
+<generatorID>5CE25AC8-9EEE-DC31-A006-FD92F61B5E9B</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<ordsAlias>loc</ordsAlias>
+<abbreviation>LOC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOC_CODE" id="3F8EB726-427F-40C7-2CED-5E3415EAB83E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:39:19 UTC</createdTime>
+<generatorID>1A6E306D-598A-6183-A81E-D0FDBFAB1C36</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC_NAME" id="F8571CAC-FA85-2188-0D7C-8B85571B9391">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:39:19 UTC</createdTime>
+<generatorID>1315AFBB-66CD-293C-B855-23CA66B35B90</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC_PRV_CODE" id="CD2601A1-A38A-61ED-D229-74D3127DC24E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:39:19 UTC</createdTime>
+<generatorID>835C4B5F-7741-B84D-5FCB-AAE49E8B62E3</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13183ACE-CF1C-5877-EA75-C1164CF84FD6" referredColumn="27A51148-3D86-C2A2-4F01-811C39089FDF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0416270D-0180-4C02-3140-1A3DDEAA202C" name="LOC_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:39:19 UTC</createdTime>
+<generatorID>AFAC5E52-6872-9888-DEE3-9206F54F8DC0</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F8EB726-427F-40C7-2CED-5E3415EAB83E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A439D1D6-72C2-FCB0-36DE-E95190FFDDDA" name="LOC_PRV_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:39:19 UTC</createdTime>
+<generatorID>582492DB-676C-7520-C1BD-3D8DDB753967</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD2601A1-A38A-61ED-D229-74D3127DC24E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

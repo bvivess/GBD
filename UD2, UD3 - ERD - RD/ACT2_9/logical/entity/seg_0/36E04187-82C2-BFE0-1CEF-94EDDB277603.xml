@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36E04187-82C2-BFE0-1CEF-94EDDB277603" name="FESTIVALS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:47:50 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>FESTIVALS</preferredAbbreviation>
+<shortName>FES</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="13B4B543-E119-4403-76C8-828D90310C8B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:47:59 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FestName" id="E81DCADC-B06D-DAA8-9916-1B6FD2A1112D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:48:07 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PriceName" id="E5B6D3E9-E5EB-3B55-A041-95FDE880B50C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:57:45 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7E8FBBB-8214-601F-1CD5-A2B0CE56C360" name="FESTIVALS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:48:19 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13B4B543-E119-4403-76C8-828D90310C8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

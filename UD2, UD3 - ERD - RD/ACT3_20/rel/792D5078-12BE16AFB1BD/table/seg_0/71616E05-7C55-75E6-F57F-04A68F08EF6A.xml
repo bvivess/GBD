@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71616E05-7C55-75E6-F57F-04A68F08EF6A" name="CLUBS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>C868C90E-A58A-8A1D-10D7-E23E2238492F</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<ordsAlias>clubes</ordsAlias>
+<abbreviation>CLU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLU_CODIGO" id="40AA3126-C6F8-B6A9-DD60-AA1F22741BEC">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>2757DE3F-EABD-A06E-6F92-556F98DA0965</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLU_NOMBRE" id="2725AB14-664E-A2E5-AC4B-655E8F31E1EB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>1074D2EC-567C-6A7F-5EE7-EFC8BA27E51C</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLU_DIRECCION" id="B29E3F07-FAD9-07C6-D4CF-A3F78A890833">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>7E9E62BC-2DBA-0A2D-4080-CB997F085B09</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLU_CALLE" id="F9048090-9DD1-C059-DB02-FE95F6CCCDB9">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>41130C02-618A-0277-F8FD-D46AC4949D96</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLU_NUMERO" id="25CD775D-5729-436B-D8AC-3C6ADE060478">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>C9D596F0-BAD2-697F-08EA-D7BCB5F995BC</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26601AA7-1EC6-C61D-5E19-CD8A9D580078" name="CLUBES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>AB6AD1A0-58A2-AE18-3988-C7CA1EE16818</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40AA3126-C6F8-B6A9-DD60-AA1F22741BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

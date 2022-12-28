@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8B9DA5B-474F-008D-97B6-009C728843C0" name="BUDGETS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:01:06 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>BUD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="8CBF375A-BCA2-9EA9-1092-E156F3FA7C8F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:01:22 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service Date" id="587D2A5A-AEBC-7DF0-C5BC-63D0C5C947FD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:01:27 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amount" id="F1B29989-0BB5-BBED-07D8-FF300F755237">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:01:44 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6909954-5DDA-2842-C5AE-4A6B67DADD19" name="BUDGETS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:02:03 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CBF375A-BCA2-9EA9-1092-E156F3FA7C8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

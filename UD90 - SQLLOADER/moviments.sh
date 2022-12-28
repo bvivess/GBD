@@ -1,0 +1,1 @@
+sqlldr gestio/gestio control=moviments.ctl data=moviments.csv

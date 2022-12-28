@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="148F30B0-539A-584C-35E0-3E90AB10684A" containerWithKeyObject="086BD99E-3DBB-4A43-C466-B66BD45C38E8" localFKIndex="DA95E083-E269-7E1F-5E46-5D24C6BE971C" name="LOC_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>14179274-27DE-0A56-1EA2-844EF72F3876</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<referredTableLongName>PROVINCES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07EFE5F5-F43B-4C3A-C490-C686E00D285D</referredTableID>
+<keyObject>CB0E4A87-D2CB-A5CA-A20B-AB9C5FC3503E</keyObject>
+<referredKeyID>CB0E4A87-D2CB-A5CA-A20B-AB9C5FC3503E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

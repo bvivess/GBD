@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B9D4888A-324A-8C12-4656-7C38C66D5AA1" containerWithKeyObject="4CB7DCA5-82EF-3CAA-787F-C7A76CDD453E" localFKIndex="4D00B6BD-AD48-12B3-324A-55B79EADB7C6" name="PTI_PUB_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>72FEB2D9-552C-9B9E-DCAF-B26A81FDA654</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>PUBLISHERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F538278-B2A3-6015-9066-E86315AB1D72</referredTableID>
+<keyObject>B0413B17-541A-34C7-5F5E-5F237CA52E35</keyObject>
+<referredKeyID>B0413B17-541A-34C7-5F5E-5F237CA52E35</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PUB_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

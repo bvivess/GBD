@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_19" directorySegmentName="seg_0" id="ADEE06B9-7BDE-87F5-7C4E-FDB43BD6A43D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 09:58:14 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="D1931929-876B-2278-BB55-A33AE2E80DAD" value="true"/>
+</engineerTo>
+<sourcePk>3420F736-8412-F23B-36C2-DC31DBE820EA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BC44A66F-59B6-614E-9F2B-50FF22630EEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8CC89462-CB05-1BBE-E006-61C135F489E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Points" id="DD36DBEA-7E36-9A12-E3C4-4AEF06CEA081">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-29 17:13:10 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="D1931929-876B-2278-BB55-A33AE2E80DAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

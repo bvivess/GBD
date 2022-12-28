@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BAD77F2-6759-E3B0-CA1E-F5CFCE8B7318" name="METGES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:47:29 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MET</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codi" id="49C3A423-C31A-F38D-4674-E6D9BBAACEC7">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:47:38 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nom" id="015F4B5D-7D15-64B8-D6CE-26017DAC1F6D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:47:43 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Llinatge1" id="50C736DF-9DB4-1004-4449-DA200783090E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:47:50 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Llinatge2" id="41FFC2AD-8D4D-C82F-134E-A55861709D59">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:48:00 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="53EF2887-761F-5CDE-076A-CB7F0F852619">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:48:04 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codi1" id="6A745927-680A-E94D-A948-AEBB5FD98D5A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:48:29 UTC</createdTime>
+<generatorID>ED1E943F-B80B-720D-6742-3CBDFA8E2873</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>CE13F67F-05DD-F407-6056-50986A8A202C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codi2" id="358DA49B-5546-323D-5D1D-CB8EEE34F1AB">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-25 05:27:51 UTC</createdTime>
+<generatorID>6D7C8395-B262-F53A-A341-F89AF6DF7781</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>CE13F67F-05DD-F407-6056-50986A8A202C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BB7DB7C-7C32-2E10-55EE-B6AE074DC45F" name="METGES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:47:55 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49C3A423-C31A-F38D-4674-E6D9BBAACEC7</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4011BAC7-848B-D970-6B76-3A44A214283B" name="Key_2">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-25 05:28:20 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<newElementsIDs>53EF2887-761F-5CDE-076A-CB7F0F852619</newElementsIDs>
+<usedAttributes>
+<attributeRef>53EF2887-761F-5CDE-076A-CB7F0F852619</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

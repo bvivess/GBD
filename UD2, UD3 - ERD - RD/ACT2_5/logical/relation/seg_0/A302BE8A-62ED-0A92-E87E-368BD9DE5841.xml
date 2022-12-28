@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SPARTSXRHEADERS" directorySegmentName="seg_0" id="A302BE8A-62ED-0A92-E87E-368BD9DE5841">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-11 05:53:39 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EB944933-900E-6791-E919-2628F17A161E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>59264543-B301-36B2-09F9-4B163D5FD132</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_28" directorySegmentName="seg_0" id="B5C2304B-E339-464E-4746-34E31F8ADA40">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:35:30 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C56CC18A-AE09-DEBF-0B8B-985C77239222</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DA3D04D2-78E7-D468-32E9-8956CDD7C6DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Alias" id="752AA264-BC11-1576-B1C8-3E517EC1A392">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:12:34 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FE37358-2558-0D38-E11F-0B2B4F8EFCB8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

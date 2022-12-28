@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E489E4C9-2C1A-640D-F549-27937B39D955" name="TRANSPORTES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>D23B09FE-619E-4508-40CC-D02213B67231</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<abbreviation>TRA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRA_RUTAS_CODIGO" id="B013CBD6-D048-786E-D0F9-B0AFD51D2F64">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>DA6457C9-C0ED-BA68-3712-082CDAFEE982</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AEA9049-07D2-A9F7-7E30-44A5F6B2B3DE" referredColumn="F25166AF-EEA4-A212-342C-51A36B2786BB"/>
+</associations>
+</Column>
+<Column name="TRA_CON_CODIGO" id="FBC7C29D-8531-4AF5-9130-C74BF9750B0B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>A2D71D87-D838-4EF9-E63B-A4FB39943E76</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E06B4D70-BD16-7680-3E9C-0BE8364ABB1D" referredColumn="B7F0F96D-FCB2-D72D-6C92-15B7BD66F675"/>
+</associations>
+</Column>
+<Column name="TRA_CAM_MATRICULA" id="8B767EE8-1542-F4E1-618B-9F4D5222F2D5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>D0CFF4D0-0031-56B4-1D3B-5825D9015851</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F4BEBDE-1A5F-11C4-B899-4A0350326A14" referredColumn="E8993D3F-B253-2D71-36BD-1CEB0B62F9A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64C8383A-8D64-1A97-F1CB-1EE8BFF4BAB1" name="TRANSPORTES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>EE1FA842-557A-9FB0-31BC-A652E35B7B7F</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B013CBD6-D048-786E-D0F9-B0AFD51D2F64"/>
+<colUsage columnID="FBC7C29D-8531-4AF5-9130-C74BF9750B0B"/>
+<colUsage columnID="8B767EE8-1542-F4E1-618B-9F4D5222F2D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3EC56DB-4690-43B8-53F6-56012324CBC2" name="TRANSPORTES_RUTAS_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>6FDF5AE3-291C-8C47-AC86-BC0BFC3D6880</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B013CBD6-D048-786E-D0F9-B0AFD51D2F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="741C1BEF-1BE2-5AD2-BEBF-302B9E96DA7F" name="TRANSPORTES_CONDUCTORES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>06FC23E5-9424-AC7C-1D63-A72F08A1AFA8</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBC7C29D-8531-4AF5-9130-C74BF9750B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40EED00B-5162-A0E8-644C-BE6BA76EE51D" name="TRANSPORTES_CAMIONES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>B6447F05-0455-E355-DAC7-938BC2FDAFAB</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B767EE8-1542-F4E1-618B-9F4D5222F2D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

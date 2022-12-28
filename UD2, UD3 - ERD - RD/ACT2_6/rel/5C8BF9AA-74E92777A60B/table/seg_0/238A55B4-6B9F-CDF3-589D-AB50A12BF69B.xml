@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="238A55B4-6B9F-CDF3-589D-AB50A12BF69B" name="RHEXCOP">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:30:13 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<abbreviation>RXC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RXC_RSE_ID" id="FA6923B1-B090-FB65-6B4B-91C4AA7FFAF3">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:30:44 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3416C4BB-6BB9-3625-0CFE-E6CA08D253A8" referredColumn="EB7623E1-8278-0645-A211-77D5E5C28E1A"/>
+</associations>
+</Column>
+<Column name="RXC_COP_ID" id="28C5C30C-C9C2-4449-5404-8BDB9BFF17B0">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:32:03 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC30EFD4-3ECA-1F05-4173-8393D2BC4B92" referredColumn="69071480-8FF8-E339-68F7-2BC1535C5C14"/>
+</associations>
+</Column>
+<Column name="RXC_COP_PTI_ISBN" id="21556F7A-8920-83A4-A82C-21041662A352">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 07:20:11 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0523AFF2-CA5D-B54D-D11A-A4963323B458" name="RXC_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:33:04 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA6923B1-B090-FB65-6B4B-91C4AA7FFAF3"/>
+<colUsage columnID="28C5C30C-C9C2-4449-5404-8BDB9BFF17B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5391DCA4-A61F-62DF-23F7-B7DE1DE85D07" name="RXC_RSE_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:30:44 UTC</createdTime>
+<generatorID>91389D9A-DAEE-31ED-001B-74D389C7D19F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA6923B1-B090-FB65-6B4B-91C4AA7FFAF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="745B5558-CE96-D5CC-8755-CE0B193E95E3" name="RXC_COP_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:32:03 UTC</createdTime>
+<generatorID>CABD9A56-E577-45C8-C164-B402B9CA441D</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28C5C30C-C9C2-4449-5404-8BDB9BFF17B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

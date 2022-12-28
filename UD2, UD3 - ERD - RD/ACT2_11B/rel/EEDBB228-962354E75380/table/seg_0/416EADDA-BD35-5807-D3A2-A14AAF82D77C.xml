@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="416EADDA-BD35-5807-D3A2-A14AAF82D77C" name="SUPXNCOM">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<ordsAlias>relation_17</ordsAlias>
+<abbreviation>SXC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SXC_NCO_ID" id="CA8DD921-2E0E-98A6-2578-EEBAA7004C0E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAC08A95-E35C-0DF9-6D14-E9B6A76403C5" referredColumn="E455D96A-AEF7-AE1D-EAD8-65682552BE2A"/>
+</associations>
+</Column>
+<Column name="SXC_SUP_ID" id="89A82095-4A64-0FE9-3E26-D811A465784D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4045EB72-141C-7973-B88B-48CF1460C12C" referredColumn="E8867962-10AA-52D0-35AE-7F74AFA3D549"/>
+</associations>
+</Column>
+<Column name="SXC_FROM" id="D5337711-3071-39CE-BB28-24793966551F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>547E20DE-2588-396D-A4BE-8ECA6F47046C</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="SXC_TO" id="B095586E-207C-84DE-D429-1C53B529AB5B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>343626FF-8715-1789-6C65-976D7C1CC76E</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1420F8E-E8B5-CB87-E93D-FF46F833F397" name="SXC_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA8DD921-2E0E-98A6-2578-EEBAA7004C0E"/>
+<colUsage columnID="89A82095-4A64-0FE9-3E26-D811A465784D"/>
+<colUsage columnID="D5337711-3071-39CE-BB28-24793966551F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55534279-5D79-7535-EEEF-24758CD7AE1E" name="SXC_NCO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>A6F7A60B-128C-A377-ED65-9FE3CEDC2F54</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA8DD921-2E0E-98A6-2578-EEBAA7004C0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="788A6071-930E-D039-492B-02EF14190A2D" name="SXC_SUP_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>A6F7A60B-128C-A377-ED65-9FE3CEDC2F54</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89A82095-4A64-0FE9-3E26-D811A465784D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

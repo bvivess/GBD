@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FFF2792-1BAE-B806-C634-574B5B9B875F" name="ENTERPRISES">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>0E1FE551-22F1-72CD-E465-85587AFDADA3</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<abbreviation>ENT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ENT_ID" id="6FF51A53-9C3D-ADDF-8F63-EB31E7857628">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>56064710-6A1A-580B-DB87-F23740436D63</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENT_NAME" id="28960DDA-F5A3-8892-0843-E282AF206C3E">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>CD37AAA6-4304-DD8C-6BFD-CDA9ADA69F58</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENT_ADDRESS" id="B4D51E9E-A677-46D7-EDE9-941EE1D58FA0">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>A140627C-10D8-E5E0-1218-88916424BE2A</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENT_CIF" id="C65FB95B-0AC1-E8CE-FCAF-4D88DD46385B">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>462AE187-D176-D52C-7B35-617A787E61AA</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENT_TELEPHONE" id="D0ADC6E8-B023-E14F-46B9-8EF5DCE219E8">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>49EFAD45-38E6-C774-F091-3A2A0408124E</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EC98CFC-5544-1B20-16BD-EFAA1795726A" name="ENT_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>CCE81133-7590-6996-B294-ACF0063A59BC</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FF51A53-9C3D-ADDF-8F63-EB31E7857628"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

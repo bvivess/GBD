@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E8A12D9-43DA-048F-8429-77A3E293C344" name="SPARTSXRHEADERS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SXH_RHE_ID" id="FDAF6C9A-116E-71B0-425B-F29CEE8180EE">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89B3896F-DC85-AFD4-F1A9-71C410BCD7CA" referredColumn="E163B4B7-51AC-3A26-3C17-A246247A9BE2"/>
+</associations>
+</Column>
+<Column name="SXH_SPA_ID" id="77C7A23F-C2EF-18B1-89E2-2AD330DB57AB">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0048CF7-43A5-719A-DBE0-CE6C270420F6" referredColumn="DC3B72DD-23C1-B233-C12F-F6F6B4F86714"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBBC8006-754D-B0B9-067D-F67F20569F9A" name="SXH_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDAF6C9A-116E-71B0-425B-F29CEE8180EE"/>
+<colUsage columnID="77C7A23F-C2EF-18B1-89E2-2AD330DB57AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21B1BDCE-FA9A-ACED-EB2C-F6B346E576DE" name="SXH_RHE_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>A302BE8A-62ED-0A92-E87E-368BD9DE5841</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDAF6C9A-116E-71B0-425B-F29CEE8180EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="121C7198-C275-4002-4420-0FE3C3C8BD0D" name="SXH_SPA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>A302BE8A-62ED-0A92-E87E-368BD9DE5841</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77C7A23F-C2EF-18B1-89E2-2AD330DB57AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF5F6928-652A-66D5-C260-AC2BC96E3AF4" name="CIUDADES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:52:26 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CIU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="8F5C6937-B382-5E87-B95D-5FF7A7C24A9F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:52:36 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CE48445-38BE-0690-8AED-3BD3E3455831" name="TRABAJADORES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:52:42 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8F5C6937-B382-5E87-B95D-5FF7A7C24A9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

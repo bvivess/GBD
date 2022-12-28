@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BC97E0A-7D92-7808-EDBF-710C64F7A46F" name="STATES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 13:57:31 UTC</createdTime>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="ECA503F6-34A9-C635-4F4D-B0D26720AF2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>STT</preferredAbbreviation>
+<shortName>STT</shortName>
+<synonym>STATES</synonym>
+<synonymToDisplay>STATES</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODE" id="FAB8995A-C007-1401-AE36-169C74EC332D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 13:57:44 UTC</createdTime>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="ECA503F6-34A9-C635-4F4D-B0D26720AF2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="8D8DAFC4-9B61-FD17-49BB-7D09D5415C71">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 13:58:10 UTC</createdTime>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="ECA503F6-34A9-C635-4F4D-B0D26720AF2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5783BAFA-E907-4035-F680-2B1946DF7880" name="AUTONOMIAS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 13:57:55 UTC</createdTime>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="ECA503F6-34A9-C635-4F4D-B0D26720AF2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FAB8995A-C007-1401-AE36-169C74EC332D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

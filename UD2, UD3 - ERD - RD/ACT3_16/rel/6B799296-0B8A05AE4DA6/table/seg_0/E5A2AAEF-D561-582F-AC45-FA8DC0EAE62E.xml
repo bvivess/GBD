@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5A2AAEF-D561-582F-AC45-FA8DC0EAE62E" name="DESPACHOS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:42:26 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DES_CODIGO" id="5D2A0958-8C97-335C-DD1B-DB4ACF0BB944">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:43:07 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DES_DESCRIPCION" id="F2D91A10-D548-0AF5-1558-C586FA05C226">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:43:07 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="595066DC-2199-BBF6-F23D-9CEED437141F" name="DESPACHOS_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:43:07 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D2A0958-8C97-335C-DD1B-DB4ACF0BB944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

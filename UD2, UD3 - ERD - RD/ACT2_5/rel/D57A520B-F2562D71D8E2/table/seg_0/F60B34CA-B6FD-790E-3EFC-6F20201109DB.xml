@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F60B34CA-B6FD-790E-3EFC-6F20201109DB" name="BRANDS">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>1A27FC03-60B5-72A4-5AC9-B80A02D9EFC8</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<abbreviation>BRA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BRA_ID" id="1FACA13C-0E2A-A63D-36F7-3E553E7B4A62">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>8717BAC9-B61A-9730-018D-84C202A49E04</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRA_DESCRIPTION" id="AF22E277-BAD4-19C0-D8DD-E09AC29FBEEF">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>0A0006CE-A05C-07CC-AD1B-51DB9FD6D32D</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="260B78AE-F0C7-3659-9E3D-389FAE595003" name="BRA_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>6229BD2C-E8B2-B296-361B-AB20EFFE5FF1</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FACA13C-0E2A-A63D-36F7-3E553E7B4A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

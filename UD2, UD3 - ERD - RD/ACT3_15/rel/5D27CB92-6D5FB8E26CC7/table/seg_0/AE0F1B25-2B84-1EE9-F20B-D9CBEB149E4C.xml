@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE0F1B25-2B84-1EE9-F20B-D9CBEB149E4C" name="TELTYPE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-16 16:50:08 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<abbreviation>TTE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TTY_ID" id="A1EE521D-E673-8621-6753-83AD3B76FC15">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-16 16:50:40 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TTY_NAME" id="8B665FB5-D147-123B-C018-E540A54FAF60">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-16 16:50:40 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D93CEDC-4A7C-A074-476E-2D44AC74D7E1" name="TTYPE_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-16 16:50:40 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1EE521D-E673-8621-6753-83AD3B76FC15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

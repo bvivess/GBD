@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66A79CBE-553C-9DAE-3C86-F29925FDDE93" name="ACCOMODATIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:57:27 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ACC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="D498A7B7-0FC3-B861-AC78-4A031E78ACDE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:57:34 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="FBBADFD0-D6A8-349E-24AC-53B0FE1DD5A1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:57:50 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7F23180-664E-32A0-0F71-4E6C3F3D98B4" name="ACCOMODATIONS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:58:00 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D498A7B7-0FC3-B861-AC78-4A031E78ACDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

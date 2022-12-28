@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A27FC03-60B5-72A4-5AC9-B80A02D9EFC8" name="BRANDS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 08:51:34 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>BRA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="8717BAC9-B61A-9730-018D-84C202A49E04">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 08:51:42 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="0A0006CE-A05C-07CC-AD1B-51DB9FD6D32D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 08:51:51 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6229BD2C-E8B2-B296-361B-AB20EFFE5FF1" name="BRANDS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 08:51:48 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8717BAC9-B61A-9730-018D-84C202A49E04</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

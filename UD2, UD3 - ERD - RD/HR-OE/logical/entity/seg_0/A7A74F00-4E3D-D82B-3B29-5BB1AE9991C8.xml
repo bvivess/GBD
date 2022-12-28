@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7A74F00-4E3D-D82B-3B29-5BB1AE9991C8" name="PROMOTION">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:16:26 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROMOTION_ID" id="8A6DC468-455C-E13C-1B9C-6A915B270848">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:16:32 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROMO_NAME" id="C552B439-55E0-8025-D7C1-D8D73646651C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:16:50 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CEC7AE0-9F20-1440-4D54-EFDD3C62EB85" name="PROMOTION PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:16:49 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A6DC468-455C-E13C-1B9C-6A915B270848</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

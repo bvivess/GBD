@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="803FC31E-B7EC-4799-C86C-05035956B6FD">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:47:08 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D76C41CB-5043-B3F6-D15B-FDFC4F594657</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24F42A09-F164-1553-4250-3651325D67C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="QUANTITY_ON_HAND" id="8A6BD22D-DB2F-3CA1-B378-0FF32D37B1EC">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:49:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

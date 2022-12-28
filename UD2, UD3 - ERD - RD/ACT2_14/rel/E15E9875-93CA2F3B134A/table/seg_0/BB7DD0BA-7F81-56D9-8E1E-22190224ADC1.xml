@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB7DD0BA-7F81-56D9-8E1E-22190224ADC1" name="TEAMS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>15DF8251-16DE-62C7-BB04-223855A0CD1B</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<abbreviation>TEA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEA_ID" id="24DDFF1C-9AFA-8DFD-1377-A7CD860FE7F5">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>95B4E633-32DF-0C40-56D9-1DCC01D3ECDA</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEA_NAME" id="850FA7E9-27F0-FEC8-DADC-30D0CF1FE7E7">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>89141A3F-6D81-6245-D815-C18533832A8B</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEA_STA_ID" id="4543C586-01F3-980B-4C04-37E4C4724AD2">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>23C0F8B8-48AD-73AF-2D96-3E594CA875FD</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64A5897E-87EE-50CE-FEFA-F4F5EDD3C1C9" referredColumn="C1089B1F-88EE-BA82-D21A-E665BEC1B856"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC51F4BA-FCE4-E1B1-09D4-59E03D7BD066" name="TEA_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>1EA0949B-0926-AB2C-9A5F-CAEA69D834F0</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24DDFF1C-9AFA-8DFD-1377-A7CD860FE7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4399E9E8-0EEF-2BFB-AF49-7A78FF376592" name="TEA_STA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>3AB31215-3D51-33AC-EA91-0498E77F0B5D</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4543C586-01F3-980B-4C04-37E4C4724AD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

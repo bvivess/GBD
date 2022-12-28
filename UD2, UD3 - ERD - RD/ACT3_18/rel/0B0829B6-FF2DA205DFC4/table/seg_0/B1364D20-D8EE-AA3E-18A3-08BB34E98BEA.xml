@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1364D20-D8EE-AA3E-18A3-08BB34E98BEA" name="CIUDADES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>CF5F6928-652A-66D5-C260-AC2BC96E3AF4</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<abbreviation>CIU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CIU_CODIGO" id="5FD6D6EB-8195-A3FE-54C5-F41A6B9B94F9">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>8F5C6937-B382-5E87-B95D-5FF7A7C24A9F</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31966C86-665C-3932-B1F7-3CCEA21A0829" name="CIU_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>0CE48445-38BE-0690-8AED-3BD3E3455831</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FD6D6EB-8195-A3FE-54C5-F41A6B9B94F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

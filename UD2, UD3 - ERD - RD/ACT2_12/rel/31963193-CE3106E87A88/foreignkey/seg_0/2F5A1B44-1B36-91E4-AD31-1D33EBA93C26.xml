@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F5A1B44-1B36-91E4-AD31-1D33EBA93C26" containerWithKeyObject="ABA67573-F560-5E12-4DAA-B284CED45436" localFKIndex="05A248D0-368F-8BB5-EBB0-C4C05CC44780" name="GAM_ROU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>D419121F-02C9-2333-AFE5-A9EE4F2CF624</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<referredTableLongName>ROUNDS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD77E3DF-2787-0B55-F1A4-2DA934878FA1</referredTableID>
+<keyObject>80A596A3-19B7-3688-F212-77FEA53E3422</keyObject>
+<referredKeyID>80A596A3-19B7-3688-F212-77FEA53E3422</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ROU_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

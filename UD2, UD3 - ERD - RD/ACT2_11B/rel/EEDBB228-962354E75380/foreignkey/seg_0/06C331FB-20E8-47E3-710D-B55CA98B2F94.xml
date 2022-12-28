@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06C331FB-20E8-47E3-710D-B55CA98B2F94" containerWithKeyObject="64BE2E15-DC7C-7FD2-92E1-5DA50B0DA6FD" localFKIndex="816FFD0E-7F5C-FA57-C76A-5ECE329ADDA8" name="LOC_STA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>AEECBD08-5922-A99D-212A-39D79429064B</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<referredTableLongName>STATES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B02F665A-01CE-F2C6-1805-EAA79273D655</referredTableID>
+<keyObject>B7863F06-1F4C-6A2E-BA8C-8186B184777E</keyObject>
+<referredKeyID>B7863F06-1F4C-6A2E-BA8C-8186B184777E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

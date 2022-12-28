@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36F531CF-6FF5-99B0-F538-337CC9260A93" name="CONDUCTORES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>C9819FDA-7AFB-81EC-70C3-2DE7C7866523</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<abbreviation>CON</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CON_CODIGO" id="08F73318-1742-5380-AFBC-0B30604630FF">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>8D05BF76-97FF-EE95-48DA-A3C197898072</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CON_NOMBRE" id="8164F3FE-288F-1502-A543-B3825DA1E607">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>75D42E41-4B5D-1E96-88D5-A86CC3FEAC76</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CON_APELLIDO1" id="7744C9AB-D617-D465-C002-B975093851A0">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>0F0E16DE-AA83-F9CF-EF67-7D6DAFB247D0</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CON_APELLIDO2" id="F9C968FE-B2B6-2CD5-35BD-F9E1FF2D0622">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>A0DCFA24-6C26-6580-AE7C-A782FFBC7798</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F395B697-6E4A-F71E-B523-BA25B01B3AEE" name="CON_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>0F4C1A28-14F5-A036-9D14-7D820F87D874</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08F73318-1742-5380-AFBC-0B30604630FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

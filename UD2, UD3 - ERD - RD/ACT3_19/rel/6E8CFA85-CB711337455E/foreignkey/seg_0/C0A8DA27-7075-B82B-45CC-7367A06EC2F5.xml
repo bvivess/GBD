@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0A8DA27-7075-B82B-45CC-7367A06EC2F5" containerWithKeyObject="DF191536-A208-2074-FF6F-1C5222330A17" localFKIndex="337D2C05-FCDD-9E4C-3EFB-C144D2EE5B91" name="CXP_CAT_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>99D96454-D184-6A60-305A-FB5B2765E413</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<referredTableLongName>CATEGORIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>788E48F8-E20D-38C9-3439-14A0EE6F66CB</referredTableID>
+<keyObject>B4AD7553-17E6-F41A-1CC9-01264C3EEB60</keyObject>
+<referredKeyID>B4AD7553-17E6-F41A-1CC9-01264C3EEB60</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CAT_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

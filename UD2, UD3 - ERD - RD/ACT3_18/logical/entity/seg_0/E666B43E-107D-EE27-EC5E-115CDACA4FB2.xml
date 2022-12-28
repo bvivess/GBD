@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E666B43E-107D-EE27-EC5E-115CDACA4FB2" name="CAMIONES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:57:47 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CAM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MATRICULA" id="A4E40AB2-3B8C-407E-6BBD-2892CA00B88F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:57:53 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="07B7CE3A-EC59-1D10-E2D1-26BD50E198E5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:57:56 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="052505E2-9E0E-A9EC-820F-3C616C24349F" name="CAMIONES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:58:02 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4E40AB2-3B8C-407E-6BBD-2892CA00B88F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

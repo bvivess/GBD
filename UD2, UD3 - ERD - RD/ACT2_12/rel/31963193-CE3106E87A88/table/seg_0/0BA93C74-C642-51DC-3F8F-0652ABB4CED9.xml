@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0BA93C74-C642-51DC-3F8F-0652ABB4CED9" name="REFEREES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>0365357C-F465-E55E-F6E7-8FC2F50CC087</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<abbreviation>REF</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REF_PEO_ID" id="AF643194-971E-BAA0-7C2E-38E0E8DE33CE">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>08C80E08-BAFD-C2FD-7452-954219841083</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA2EBF01-0D0B-A645-443E-55782B320941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88BE96D8-D2BE-6D51-559E-AAC9C253F614" referredColumn="CAFFBE4C-E3C2-ABEF-5D46-1DF61009DD60"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63D3E2E3-8FDA-5078-790E-EB587200A356" name="REF_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>E4DA5AE4-F2A3-B0F9-421C-69ED94E9728C</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF643194-971E-BAA0-7C2E-38E0E8DE33CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="691B2E5B-91D9-E47B-F8CB-5DCCAFB631DE" name="REF_PEO_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>0E7843B0-113C-314D-9611-B58BA6829C9D</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF643194-971E-BAA0-7C2E-38E0E8DE33CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

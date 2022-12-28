@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="126B12D4-3A16-5657-4D33-CA129FF12989" name="SERVICE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>3054757C-0F5B-DE03-C30D-13213BFB4555</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<abbreviation>SER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SER_ID" id="487FF995-B87F-F601-1B69-13DC8EFE8061">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>ADABFE79-818F-B676-72E7-B1E616D4E0C1</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SER_DATE" id="0D2E13EE-09D8-BE22-5169-408D8A41B1E4">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>CCC6E319-C266-E202-E540-4A874B0DE4A7</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SER_BUD_ID" id="6629E15B-FF1A-E6C7-A3D3-9E17E649260B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>A186B5E6-C6B8-4470-C255-F85854813318</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FF22F6A-A84B-2C3F-6C02-C3C06D4185F6" referredColumn="15A00AC4-6FEA-E77C-F31F-A4B08BBCCB3A"/>
+</associations>
+</Column>
+<Column name="SER_FEX_ID" id="5B0019A8-4274-117C-D150-36B4806DB09B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>1CE9FCC1-66F4-539F-F23E-3855001A9EBD</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20F66C4D-F1A7-DD98-2DAC-CAB67416E053" referredColumn="2BE08D1A-3323-6E7B-6EA7-6A9265D3CD30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FF45101-8B09-F759-92EB-917F10944E4F" name="SER_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>42B33E7D-3F5F-83F2-ACB1-5F509E57C0D0</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="487FF995-B87F-F601-1B69-13DC8EFE8061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8530AED7-C7D9-CF5A-0A7B-CD49FD0E1C8A" name="SER_BUD_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>B9E2AC16-5538-8B00-2923-4895BDDE693D</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6629E15B-FF1A-E6C7-A3D3-9E17E649260B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A7560DD-EC7F-66D8-B635-2AED83C8319F" name="SER_FEX_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>C9A69F96-DFAF-113C-6E16-F26B6862D613</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B0019A8-4274-117C-D150-36B4806DB09B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

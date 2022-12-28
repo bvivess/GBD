@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEPT_LOCATION_FK" directorySegmentName="seg_0" id="9C7E3B53-EE7D-A3A0-6AEC-B8D304C7F84D">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:48:45 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="241D580E-9138-1535-C0B0-7901A75ECB9B" value="true"/>
+</engineerTo>
+<sourcePk>58681A3D-2A08-1B8C-A945-B37D6F95D4AF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>243DC053-C4C8-B010-D53C-4068E0561CEA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>022DA846-812E-3BAB-1158-34AD6D5F18BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

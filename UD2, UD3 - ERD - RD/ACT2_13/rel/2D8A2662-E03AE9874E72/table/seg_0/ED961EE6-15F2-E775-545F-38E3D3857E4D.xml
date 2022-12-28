@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED961EE6-15F2-E775-545F-38E3D3857E4D" name="SCOMPANIES">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>C07D5A36-EAF8-1E4B-72B2-814B2B047D48</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<abbreviation>SCO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SCO_ENT_ID" id="5B39D924-EA5F-8CB3-62B2-A7957C2DCF82">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>9224C7F8-BD70-D370-F1F9-40C9A17B388D</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C960211-EA5C-3457-0F7D-33153DEA6343" referredColumn="6FF51A53-9C3D-ADDF-8F63-EB31E7857628"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65C5CCA3-1EC0-6663-8E7E-1B906B868946" name="SCO_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>38753396-4663-61F6-D464-680DB86E0D50</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B39D924-EA5F-8CB3-62B2-A7957C2DCF82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3825558-6F8D-61DE-2F53-362A2BF5D7DA" name="SCO_ENT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>7CEE011E-6B41-7196-7A37-5A961AEFD42B</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B39D924-EA5F-8CB3-62B2-A7957C2DCF82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

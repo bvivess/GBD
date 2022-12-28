@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="F283DD41-DF0A-6C15-B08F-C46711E33F17">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:58:26 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<sourcePk>F7E8FBBB-8214-601F-1CD5-A2B0CE56C360</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>36E04187-82C2-BFE0-1CEF-94EDDB277603</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>68BE793F-6D33-9A88-4BEC-B4537F383C6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Year" id="53FD61CA-4ECE-AFE5-C6C9-4F245477DE3C">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-25 06:01:14 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

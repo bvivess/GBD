@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5247F25A-F3F2-C813-17EC-AA4F168DEA40" name="PROFESORES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-08 08:14:13 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>PRO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRO_DNI" id="54CE9A91-5AEC-CBAE-9502-B95F790B12E1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-08 08:15:07 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_NOMBRE" id="E429D954-D5C9-BDA7-36ED-2DF42264765B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-08 08:15:07 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_APELLIDO" id="A4F4269B-DE35-363E-22FF-B5CB52B5EEEB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-08 08:15:07 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_DES_CODIGO" id="684B1C71-9823-FE37-AE17-630C4D847C5A">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:43:32 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5188D1CB-9B9E-479D-D035-FE9D9A3E9E39" referredColumn="5D2A0958-8C97-335C-DD1B-DB4ACF0BB944"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F14BBD0-42EB-D139-BEE9-F5B5AF3BCA9E" name="PROFESORES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-08 08:15:07 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54CE9A91-5AEC-CBAE-9502-B95F790B12E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7E1D3EE-E2DC-76FF-EC6F-46C70E1E58C5" name="PROFESORES_DESPACHOS_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:43:32 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="684B1C71-9823-FE37-AE17-630C4D847C5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

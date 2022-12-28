@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D5EB3CFA-E31A-7A43-591D-55B6D50A8BA3" containerWithKeyObject="39550F16-13FF-88A7-680A-48E418B83F8E" localFKIndex="372D5C89-FDDB-5D52-91FB-E62B9D9FC126" name="PAY_SIN_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>2584671F-8B47-4373-7936-F9B7EF8CD28D</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<referredTableLongName>SINVOICES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CAEC01BC-E32C-8F03-FB9C-E8FDCDFD6A04</referredTableID>
+<keyObject>25200F5B-7624-32B4-532B-2C752BF985BF</keyObject>
+<referredKeyID>25200F5B-7624-32B4-532B-2C752BF985BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SIN_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

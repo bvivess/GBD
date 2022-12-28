@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C841842B-F73F-B864-3015-FBA21E4EA943" name="YEARS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-19 18:46:28 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<abbreviation>YEA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="YEA_ID" id="23C2BBFC-AEF9-E2BA-4161-F8240B049F86">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-19 18:46:45 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DD9095D-DB40-23FA-FCDF-8DFBFB71D0C8" name="YEA_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-19 18:46:45 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23C2BBFC-AEF9-E2BA-4161-F8240B049F86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

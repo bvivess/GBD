@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59264543-B301-36B2-09F9-4B163D5FD132" name="SPAREPARTS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-11 05:51:16 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SPA</shortName>
+<synonymToDisplay>SPARE PARTS</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="62C40A93-2396-0201-D015-53C841944348">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-11 05:51:26 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="65BA5C28-68B7-7A70-7BED-F93B8000E0A2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-11 05:51:39 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="31213C1B-E788-8133-64CB-5AB27CD4A453">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-11 05:52:41 UTC</createdTime>
+<generatorID>9B4EE7C5-C4C8-09EB-09DB-118D885A3228</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<referedAttribute>8EBE1743-E9AA-9CA7-5CB2-C2353379777E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="465A06C6-3D24-FAE5-AC9E-8A371198DF05" name="SPARE PARTS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-11 05:51:37 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62C40A93-2396-0201-D015-53C841944348</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

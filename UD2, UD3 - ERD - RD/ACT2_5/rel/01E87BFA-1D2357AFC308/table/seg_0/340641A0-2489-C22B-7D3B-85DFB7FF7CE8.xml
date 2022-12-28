@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="340641A0-2489-C22B-7D3B-85DFB7FF7CE8" name="TSPAREPARTS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>897F1B64-09A8-ABC1-A727-101BC8A8810B</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<abbreviation>TSP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TSP_ID" id="827EC802-EF4F-8D6D-761E-08DD532589BE">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>8EBE1743-E9AA-9CA7-5CB2-C2353379777E</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TSP_DESCRIPTION" id="F657A655-A464-A355-310C-BD29A5A2C701">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>08345DF2-F784-92AE-EE86-2506581A80FF</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49FF52A0-2E4A-4BC0-FD90-A554C40499D6" name="TSP_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>8A2BD7DA-6426-C850-C401-A73E890B7353</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="827EC802-EF4F-8D6D-761E-08DD532589BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

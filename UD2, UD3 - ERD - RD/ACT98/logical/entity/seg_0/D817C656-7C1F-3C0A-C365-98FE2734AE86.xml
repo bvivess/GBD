@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D817C656-7C1F-3C0A-C365-98FE2734AE86" name="B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:19:33 UTC</createdTime>
+<ownerDesignName>ACT98</ownerDesignName>
+<engineerTo>
+<item key="FB14C565-1631-F9D2-5944-1D58C73D3AAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_B" id="567C5091-5F0B-0DEC-4151-DCB8441A4B78">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:19:36 UTC</createdTime>
+<ownerDesignName>ACT98</ownerDesignName>
+<engineerTo>
+<item key="FB14C565-1631-F9D2-5944-1D58C73D3AAE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F90AF02A-EC87-AE59-FEF7-5450B3DF32BE" name="A PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:19:47 UTC</createdTime>
+<ownerDesignName>ACT98</ownerDesignName>
+<engineerTo>
+<item key="FB14C565-1631-F9D2-5944-1D58C73D3AAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>567C5091-5F0B-0DEC-4151-DCB8441A4B78</attributeRef>
+<attributeRef>EC5EC129-927E-DE27-4A71-382F31366E3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

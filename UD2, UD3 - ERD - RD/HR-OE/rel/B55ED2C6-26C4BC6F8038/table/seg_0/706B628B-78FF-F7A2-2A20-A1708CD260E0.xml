@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="706B628B-78FF-F7A2-2A20-A1708CD260E0" name="EMPLOYEES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>AF655144-7BE0-EAB4-A975-D3F631819E65</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="93F24566-A9CE-27B6-ABF7-0282165E90F5">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>8359E579-E682-249F-BFCB-15B5556240A7</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="335B3460-E496-D97D-35BD-F67D4C7C7889">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>6D1A4BCC-D1FE-B88E-A7D5-65E8A14F3855</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="114EE8C2-A38C-6EE6-E553-393B2247D14B">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>19AF74EC-4747-C2CE-60FF-499861D32E35</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="4BBDE4AF-CBFB-2AB5-183E-D0DE79A4857F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>520ABA14-ED3D-BEEB-CA7F-5AA3C745E60D</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_NUMBER" id="461296BE-CF4A-0400-4015-E7E3D64BDD45">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>74508E31-9920-B2EE-15EA-A8FD48349AAE</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIRE_DATE" id="07D1F8F9-1754-EF01-106D-0A7D9E24B58D">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>9FDA52D2-5E99-35EA-1EAB-03B08AD02366</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_ID" id="7D6EA31C-24CD-9E0B-DFAE-5A7ABB29397D">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>C8EAB6E8-C6FB-035A-9B3D-F0F01B7B421B</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5027E2E4-DB63-F131-EF9C-9B830DD43F11" referredColumn="0DA9AC42-6CD6-3D63-51CD-0ABB90B7F45D"/>
+</associations>
+</Column>
+<Column name="SALARY" id="6917E914-0B26-E427-295C-BB69DFC308D6">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>60032E8F-69B6-3D34-A94A-989204022F50</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMISSION_PCT" id="C6F7542A-07BF-2730-5DBB-A22EB95516A7">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>37391516-4143-699A-29B9-A7E2F2B3E4B0</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="71B1BCA7-3E38-AD21-1829-5A60ACCDD8BB">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>A91AB193-7C96-3A4D-1E97-44E935C98A11</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F7B23B8-4FC3-D7B0-BD25-B0BFA42FD2B6" referredColumn="93F24566-A9CE-27B6-ABF7-0282165E90F5"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_ID" id="B13830B3-94A7-2AA3-CD55-70BAC11B9934">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>D00731E3-F4C3-FDA0-E08B-E259C3A94531</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D748E5E-F6A2-71F2-A2AD-60A80FCA5540" referredColumn="B5041747-4124-6066-D2D8-460B00029D03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CE5F14C-374F-8011-1C52-6F6479E45F8F" name="EMP_EMP_ID_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>F61F3026-161F-90B8-37A8-FE32E8BE6A42</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93F24566-A9CE-27B6-ABF7-0282165E90F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8676B038-E27A-C770-70B0-31CCB1778437" name="EMP_EMAIL_UK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>D555B969-3443-3C25-B99F-BFE27423BE84</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BBDE4AF-CBFB-2AB5-183E-D0DE79A4857F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6051DCBB-7748-7F06-C842-7BCE1FB5AAEA" name="EMP_DEPARTMENT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>8198EAF8-2629-F3D5-0EA8-CBFE2F8AFD32</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B13830B3-94A7-2AA3-CD55-70BAC11B9934"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B7EB46F-03FC-504C-2A55-B8C69F2CCDFB" name="EMP_JOB_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>CC8C4A81-B146-FC9D-D019-487598333F40</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D6EA31C-24CD-9E0B-DFAE-5A7ABB29397D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2494FCE-9F88-E358-4E66-0707806EEC4E" name="EMP_MANAGER_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>DB81CCCE-7F77-24E0-6C6C-5FAAE9B33981</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71B1BCA7-3E38-AD21-1829-5A60ACCDD8BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F80724E-9AA5-AA10-0EC0-C7D5E888E7FA" name="ACOMUNITIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:48:43 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ACO</shortName>
+<synonymToDisplay>AUTONOMOUS COMUNITIES</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_CA" id="A0AE92DE-D9AD-224D-8231-5D07045BD167">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:49:36 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="E06EA848-AADC-6EEB-3D8F-C2D3C6AEC296">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:49:48 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE26FC06-3FC4-B5FF-55DC-41E423B0E652" name="AUTONOMOUS COMUNITIES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:49:53 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0AE92DE-D9AD-224D-8231-5D07045BD167</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

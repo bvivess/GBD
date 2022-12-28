@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="621B2BF8-B2DD-8AAD-CFB8-C09582B57DA0" name="TPROPERTIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>E770324B-B668-0F16-A132-86577A581A33</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<ordsAlias>type_of_properties</ordsAlias>
+<abbreviation>TPR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TPR_ID" id="4704CF4C-863F-5D2A-6977-72A2CAB77962">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>28FAF72E-12B6-9D4A-0487-32FD732D9D49</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPR_DESCRIPTION" id="473988A4-161A-E2F8-18BF-35193E33B6D5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>6FEF45B6-1D27-DA33-D1D6-31E154004866</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EA97096-D91C-4CEC-2219-0DF73BF04920" name="TPR_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>E965B2D0-DC8A-8806-7FBB-A4050C182DF6</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4704CF4C-863F-5D2A-6977-72A2CAB77962"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

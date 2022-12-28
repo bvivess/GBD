@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB17FD94-C791-FAB4-9FB2-3F0D1F0F6744" name="AUTHORS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>200C90B7-23CE-FED5-B09C-FE787922DACE</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>AUT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AUT_ID" id="D4065F10-2B0B-7B6E-3B5A-F8D10D37B24E">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>FD4FA689-FF77-8C7C-9AFE-DFB9EC14EC4E</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUT_NAME" id="B8863191-49CE-6809-55C8-A0441761BAC7">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>A70C264F-1AAF-0DD8-DAB6-D1F7694C7A11</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUT_SURNAME1" id="F1265626-6D42-FDED-7A01-A5F36E9D9D38">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>165D8D44-5760-8A07-3264-E7C13A77662B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUT_SURNAME2" id="B0CE5180-6536-55D4-7B4C-5924AE0B279F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>EB7899AF-88ED-EF20-FF25-8E4D9C6E94D7</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C9FAF9C-2755-204D-47CA-F8EF5855DECD" name="AUT_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>D856C903-97FE-1D12-0DAB-1290049C8ADB</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4065F10-2B0B-7B6E-3B5A-F8D10D37B24E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

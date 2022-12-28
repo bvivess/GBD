@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB5C3467-FF3E-80B4-C674-8CDDABE94984" name="SKILLS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:04:38 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SKI</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="32D6FA24-8EC4-8701-265B-EADC28ECF483">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:04:48 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="9F99CACE-0ED0-8A31-6714-1B90672430D4">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:04:56 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7972524B-878E-94EB-F1E4-46DE454A4BBB" name="SKILLS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:04:56 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32D6FA24-8EC4-8701-265B-EADC28ECF483</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

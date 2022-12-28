@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="DB9C7EBF-35FC-C9EC-A71D-ECDCD385AFC1">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 08:30:51 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="30720515-BCCB-5647-86F6-4685C4E99B5E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EA23DC40-CAF5-BACC-0F8A-3BCC122A2D6E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9E29360-4F62-923A-BA2D-B35F1FF3EE69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="day" id="8AA41078-5105-FF6D-F20B-931D47795DBF">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 08:30:53 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="30720515-BCCB-5647-86F6-4685C4E99B5E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="amount" id="ACAAA666-7491-F348-9618-49657AB40164">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 08:31:03 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="30720515-BCCB-5647-86F6-4685C4E99B5E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

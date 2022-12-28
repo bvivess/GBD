@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="657E1DBC-3DB9-6F78-78A7-AAE26BF4E9D6" name="STADIUMS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>E2D9154B-2603-B23A-49BF-EF0E36E981C2</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<abbreviation>STA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STA_ID" id="C1089B1F-88EE-BA82-D21A-E665BEC1B856">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>BC4A6CC5-4B6A-CCD4-D81F-2C82526F4581</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STA_NAME" id="F84B9685-9EA6-CB74-2430-A386D34B8974">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>E28BAEF6-C4E0-2617-37C8-E1166AEAF475</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STA_ADDRESS" id="355E8075-742C-1D23-B7A2-A2C5519AAD28">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>FEBF2554-10D0-02FB-C0D0-8BCD1BD828D1</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STA_LOC_ID" id="CDFA271C-62F5-B022-FFC8-BE44AF206E20">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>DF54850D-96C2-73E1-E2A6-169D998C14EC</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00152D42-6457-9A63-BF66-7D1F6BD097DB" referredColumn="20392762-78E4-402A-46E7-5683264D69DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FE3D125-C7A1-6AFE-C7B6-6A3801191AD5" name="STA_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>306E39B8-BB4E-C6C2-FCBA-BA5EDA4ED1BD</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1089B1F-88EE-BA82-D21A-E665BEC1B856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="847D9DA5-9980-191A-6D31-C8FE6E88A39E" name="STA_LOC_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>759C017F-CFD5-CBA6-DBF5-87AF1732599E</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDFA271C-62F5-B022-FFC8-BE44AF206E20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

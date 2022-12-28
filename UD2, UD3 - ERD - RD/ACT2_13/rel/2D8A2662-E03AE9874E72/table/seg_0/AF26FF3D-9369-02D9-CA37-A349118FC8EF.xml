@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF26FF3D-9369-02D9-CA37-A349118FC8EF" name="SOLAR">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>1D9F6EDD-2429-D404-D95C-06044FE51C2D</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<abbreviation>SOL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SOL_PRO_ID" id="C9C4C09E-5011-05D9-61E6-2BCE14E06E6E">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>7246EAF6-3EF9-850C-E34E-692CF22FBF99</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AF73796-EC15-8132-02A8-2DE952064090" referredColumn="65049A1C-3C49-C952-5B93-93EF63254C6E"/>
+</associations>
+</Column>
+<Column name="SOL_NPANELS" id="93613667-8F13-AC96-E5AF-4D252F92824A">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>881D49E7-D86C-0B6B-B99F-B23E45E587BA</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOL_SURFACE" id="5D356AF2-7C8F-2DD4-58B6-70A1BF9B073B">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>345DC8E9-6DF0-79AE-F96A-9F89C1ECB23B</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOL_SUNYDAYS" id="24F16CF3-6BC0-B721-3C8D-CCB4D960365C">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>98782E56-4115-AFCA-165C-97689259EDB9</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C553AC77-4B55-B9D8-0EA2-98591369087B" name="SOL_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>0FE19554-54CF-5206-25C9-75DF29AB67DC</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9C4C09E-5011-05D9-61E6-2BCE14E06E6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B89A69F3-C16C-328B-AA05-7E6088F4E8B0" name="SOL_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>CB64AA2F-E504-5458-7C90-16E29EF2B2C2</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9C4C09E-5011-05D9-61E6-2BCE14E06E6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

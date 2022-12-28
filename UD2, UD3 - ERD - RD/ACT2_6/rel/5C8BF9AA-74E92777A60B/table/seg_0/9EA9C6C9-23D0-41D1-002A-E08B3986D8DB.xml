@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EA9C6C9-23D0-41D1-002A-E08B3986D8DB" name="PROVINCES">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>D694E422-6482-3C62-5473-1B017C8C9006</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>PRO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRO_ID" id="9F7172E1-9D8B-2D90-295C-2F1C864300BA">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>18D99DE1-0228-B92A-23EC-070D24DDF15E</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_NAME" id="1EC4C321-BA07-1C28-D836-FAD76C6EFC96">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>BD214277-2970-8DB9-24F8-4C74BDB866CE</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_COU_ID" id="8A498232-8301-9C4D-6499-E351A583E22A">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>CE3B8C91-C2B1-5C34-D5F2-552FBE7CBF7B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A91C1DDC-ED90-1A55-8D72-FB1DDC90BC7A" referredColumn="E5F43FCD-AA57-9594-D8F5-C11DB4DBA5F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64A7AD10-B983-784B-1BF5-D3D24D6C4966" name="PRO_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>8DFE85D2-F9AD-8E46-1F09-A6CDA089EFC2</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F7172E1-9D8B-2D90-295C-2F1C864300BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D237F214-37FE-8D39-6283-5AF66FA921AE" name="PRO_COU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>9C2BF74F-0476-FF43-0A30-5F2642709831</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A498232-8301-9C4D-6499-E351A583E22A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

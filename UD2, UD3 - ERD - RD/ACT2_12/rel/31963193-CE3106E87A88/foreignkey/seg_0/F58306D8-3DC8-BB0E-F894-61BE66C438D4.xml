@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F58306D8-3DC8-BB0E-F894-61BE66C438D4" containerWithKeyObject="ABA67573-F560-5E12-4DAA-B284CED45436" localFKIndex="39C3CD26-8DEA-EFFC-0654-F25B3C07ECED" name="GAM_PLA_FK_BLACK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>ADEE06B9-7BDE-87F5-7C4E-FDB43BD6A43D</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<referredTableLongName>PLAYERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25CC8BAB-448D-F3CF-5099-8144C346D921</referredTableID>
+<keyObject>0F41CF3D-447A-5415-A8E4-F0251CF9219C</keyObject>
+<referredKeyID>0F41CF3D-447A-5415-A8E4-F0251CF9219C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PLA_PEO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

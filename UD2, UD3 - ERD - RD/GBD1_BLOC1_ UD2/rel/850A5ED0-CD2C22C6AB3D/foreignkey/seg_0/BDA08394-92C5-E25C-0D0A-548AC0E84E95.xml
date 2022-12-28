@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDA08394-92C5-E25C-0D0A-548AC0E84E95" containerWithKeyObject="45EFC9AB-A3F4-353C-8ECA-B6F784E6C182" localFKIndex="779596A0-1B5D-FDB7-CF02-F70E4480B74A" name="SXM_STA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 07:43:53 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<referredTableLongName>STAFF</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF282E3D-EF32-BB34-3C6C-6FD60EA9E804</referredTableID>
+<keyObject>C9A25E6A-4542-F641-7202-03F4C80D7FA9</keyObject>
+<referredKeyID>C9A25E6A-4542-F641-7202-03F4C80D7FA9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STA_PEO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A178E88-58D8-DD95-8564-BBA2935B61BD" name="PUBLISHERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:07:47 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PUB</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="E558B2E9-9543-156C-F5F7-53C1DD6DA619">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:07:54 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="45C637BA-1824-2DA5-74A5-21E87AC9984D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:08:02 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F85B173A-C441-26DA-7A20-F0EC4B8E6E82" name="EDITORIAL PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:08:07 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E558B2E9-9543-156C-F5F7-53C1DD6DA619</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

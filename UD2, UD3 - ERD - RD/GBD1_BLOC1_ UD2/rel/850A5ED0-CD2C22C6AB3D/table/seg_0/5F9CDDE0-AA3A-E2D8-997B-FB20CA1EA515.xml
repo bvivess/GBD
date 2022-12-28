@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F9CDDE0-AA3A-E2D8-997B-FB20CA1EA515" name="SKILLS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:31:54 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<abbreviation>SKI</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SKI_ID" id="858ABEA1-8B7F-443A-1F85-53BD5ED1EA70">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:32:17 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKI_NAME" id="6314C7B1-7337-E8A4-64D8-4E7A18CCAC26">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:32:17 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FE37358-2558-0D38-E11F-0B2B4F8EFCB8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97D50193-5D6A-DEFF-EBCF-D3C1763331CA" name="SKILLS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:32:17 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="858ABEA1-8B7F-443A-1F85-53BD5ED1EA70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

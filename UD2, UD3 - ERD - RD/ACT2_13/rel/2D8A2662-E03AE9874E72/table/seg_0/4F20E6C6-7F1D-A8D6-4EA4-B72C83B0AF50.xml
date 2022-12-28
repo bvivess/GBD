@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F20E6C6-7F1D-A8D6-4EA4-B72C83B0AF50" name="HYDROELECTRIC">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>DCD8A8AC-4708-9C47-A274-B4519B3A1BA8</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<abbreviation>HYD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HYD_PRO_ID" id="ECA604F4-CBE8-C3E6-A5A6-A9B40181C9A9">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>0A930306-0539-74FB-3CE1-1C18BBABDDFB</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E44B05F3-C226-1342-1014-5F9DFC392D77" referredColumn="65049A1C-3C49-C952-5B93-93EF63254C6E"/>
+</associations>
+</Column>
+<Column name="HYD_NTURBINES" id="56CF8670-53A7-30A6-293C-23A985386DAD">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>7F951B53-FCAA-E3D4-E9B8-3AA0B85F4311</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HYD_WATERFLOW" id="BE526322-D103-662F-9094-1E569BB9AA0B">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>1E82E278-01DB-B610-4AF0-E98E999FA1E6</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAEB2317-8901-60CB-100F-1B5A6F3684BD" name="HYD_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>A8AC349B-19B4-986E-4390-499287E79741</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA604F4-CBE8-C3E6-A5A6-A9B40181C9A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FF18835-330E-3B5B-4DA7-6DEA86327A26" name="HYD_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>DAEA6833-417C-14E1-03F1-15BF76F3F263</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA604F4-CBE8-C3E6-A5A6-A9B40181C9A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

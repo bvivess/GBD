@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8080B9F-B7D6-3AA0-5707-6673FBB5ECE5" name="INGRESSOS">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:09:43 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ING</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codi" id="AB058647-E880-97BF-008B-7FA9AC62ACFE">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:11:00 UTC</createdTime>
+<generatorID>959D419A-6B8B-F6CA-76A4-48E0D7EA18DA</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>156124ED-3768-596E-A5EA-AF17B066DA49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codi1" id="4DC8F3D8-8EE5-91EA-822B-740A5D99D625">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:12:04 UTC</createdTime>
+<generatorID>4A04BCAA-C5DB-CC77-48CA-5FD05E207F3B</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>49C3A423-C31A-F38D-4674-E6D9BBAACEC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num" id="061CD30F-347F-CE56-E440-B53E00451FE6">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:12:32 UTC</createdTime>
+<generatorID>8008D118-E5B5-E9F8-9BB1-E412C1D0B120</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>8046E6EE-E7AB-F7C7-E7D0-CBCC434B5CE3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codi11" id="7588D487-ACF2-17D3-23B1-D76D1206A4EE">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:12:32 UTC</createdTime>
+<generatorID>8008D118-E5B5-E9F8-9BB1-E412C1D0B120</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>C7C26DC0-9878-993D-B560-10FB02DCF375</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataIngres" id="4819FC9C-3F50-6EC0-3856-CB2E9835CE08">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:32:09 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataAlta" id="2D7352D3-55DA-DEE6-E93A-94A4C9E4ACB0">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:32:47 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B52A757-9296-405F-1B61-26C785FA3BE4" name="INGRESSOS PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:32:38 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4819FC9C-3F50-6EC0-3856-CB2E9835CE08</attributeRef>
+<attributeRef>AB058647-E880-97BF-008B-7FA9AC62ACFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

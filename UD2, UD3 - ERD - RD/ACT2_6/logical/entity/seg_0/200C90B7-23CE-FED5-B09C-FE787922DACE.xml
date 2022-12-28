@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="200C90B7-23CE-FED5-B09C-FE787922DACE" name="AUTHORS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:06:07 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="3866A1EA-A279-79AC-2CE3-CC39C6EC9974" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>AUT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="FD4FA689-FF77-8C7C-9AFE-DFB9EC14EC4E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:06:16 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="3866A1EA-A279-79AC-2CE3-CC39C6EC9974" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A70C264F-1AAF-0DD8-DAB6-D1F7694C7A11">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:06:46 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="3866A1EA-A279-79AC-2CE3-CC39C6EC9974" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname1" id="165D8D44-5760-8A07-3264-E7C13A77662B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 05:52:04 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="3866A1EA-A279-79AC-2CE3-CC39C6EC9974" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname2" id="EB7899AF-88ED-EF20-FF25-8E4D9C6E94D7">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 05:52:19 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="3866A1EA-A279-79AC-2CE3-CC39C6EC9974" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D856C903-97FE-1D12-0DAB-1290049C8ADB" name="AUTHORS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:06:25 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="3866A1EA-A279-79AC-2CE3-CC39C6EC9974" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD4FA689-FF77-8C7C-9AFE-DFB9EC14EC4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

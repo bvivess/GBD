@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A262D31D-546B-9B47-8F0B-50DAFF0585F0" containerWithKeyObject="6C75DEAE-3D6A-7A8C-552A-06D5ABDE8F2E" localFKIndex="B6FD9267-3E9F-C915-F60C-D514FCBFC1B5" name="PRO_ECO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>A9DAF577-8116-EBB7-DC5A-C8B075E84F14</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<referredTableLongName>ELECTRIC_COMPANIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0AFF6701-1623-31AA-694A-DD16C4F9604C</referredTableID>
+<keyObject>60700BA3-B8CE-F960-00AB-DD6375F48232</keyObject>
+<referredKeyID>60700BA3-B8CE-F960-00AB-DD6375F48232</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ECO_ENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

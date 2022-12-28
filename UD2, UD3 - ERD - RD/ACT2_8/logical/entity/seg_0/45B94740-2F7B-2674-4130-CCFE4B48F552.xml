@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45B94740-2F7B-2674-4130-CCFE4B48F552" name="YEARS">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:25:29 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>YEA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Code" id="41235261-DB68-43E4-CDEA-2D64DB40F472">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:25:39 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E15F1072-563F-81C1-BE49-BEB706FDF7DC" name="YEARS PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:25:45 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41235261-DB68-43E4-CDEA-2D64DB40F472</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

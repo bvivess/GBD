@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF0B9AD2-959A-2F49-0854-F1A64B1E02B2" name="AUTXTIT">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AXT_TIT_ID" id="64EAD561-7445-A56F-6253-D6DF017215C5">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52D81ACD-4B0A-67E1-FB4D-43B10542D49F" referredColumn="670B3231-1A41-5A3C-9FB8-E9CBC78FD306"/>
+</associations>
+</Column>
+<Column name="AXT_AUT_ID" id="9F6E3033-2FD1-838C-3EE8-F2F85263BC7C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9579C97-D668-D0E9-6C46-2BFD94E7880A" referredColumn="D4065F10-2B0B-7B6E-3B5A-F8D10D37B24E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF6A5A9A-568E-60A2-64AE-C76314808356" name="AXT_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64EAD561-7445-A56F-6253-D6DF017215C5"/>
+<colUsage columnID="9F6E3033-2FD1-838C-3EE8-F2F85263BC7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B43D28D1-1AF1-415B-4F0B-9DC6E272BD14" name="AXT_TIT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>728D2DDD-F812-D7DD-2EB2-CF27464FB72B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64EAD561-7445-A56F-6253-D6DF017215C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73B1BE84-8543-62AC-0C13-EBF179247F62" name="AXT_AUT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>728D2DDD-F812-D7DD-2EB2-CF27464FB72B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F6E3033-2FD1-838C-3EE8-F2F85263BC7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

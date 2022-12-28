@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="471AB811-8534-A9BC-F4F0-49BC7100CA1C" containerWithKeyObject="D436F53C-3548-3EAD-7FC0-6596821E3C01" localFKIndex="2E9A9A7B-EC34-7D91-7B08-DF761A5F9023" name="RXC_COP_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>E2A42C39-644F-8887-63ED-DF6D8CD36E4F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>COPIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1535ADDB-6FDD-7935-8FC5-988EDBBB787A</referredTableID>
+<keyObject>7812539E-958B-8110-9B98-F404945D916C</keyObject>
+<referredKeyID>7812539E-958B-8110-9B98-F404945D916C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COP_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

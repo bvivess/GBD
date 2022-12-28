@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79D6B42A-B381-E3BF-6796-A46AEBC334E9" name="CASTINGS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:32:27 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CASTINGS</preferredAbbreviation>
+<shortName>CAS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id1" id="FFB6B7F1-3CD8-4347-7E73-DFEA7B390C46">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:33:03 UTC</createdTime>
+<generatorID>5EA68E4A-8F69-F153-1E30-0F8A0A04C9B1</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<referedAttribute>5B0B23D7-48FB-ED82-4E90-A2B468CFD61D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="14417F0A-9F99-85C0-D124-CC7C95BC668D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:33:14 UTC</createdTime>
+<generatorID>040F4DD7-5945-B568-F745-53245DF1CC62</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<referedAttribute>669B7600-C10D-7112-1634-6FF1A5B84C91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="41D35A90-5344-2C6B-B350-E7D287DFCC71">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:34:36 UTC</createdTime>
+<generatorID>7F0549F0-79C4-8052-A047-8390E4205EDA</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<referedAttribute>F87DB759-3620-596F-AB96-8EBF8383A260</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D2007F0-963E-2223-2383-59A125CCF062" name="CASTS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-17 07:33:06 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<engineerTo>
+<item key="FB5723BB-3558-0D5E-0D82-ABC020331341" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FFB6B7F1-3CD8-4347-7E73-DFEA7B390C46</attributeRef>
+<attributeRef>14417F0A-9F99-85C0-D124-CC7C95BC668D</attributeRef>
+<attributeRef>41D35A90-5344-2C6B-B350-E7D287DFCC71</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

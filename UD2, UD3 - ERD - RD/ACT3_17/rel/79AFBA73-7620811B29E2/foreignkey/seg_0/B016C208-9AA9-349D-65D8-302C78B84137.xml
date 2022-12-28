@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B016C208-9AA9-349D-65D8-302C78B84137" containerWithKeyObject="06E20FF9-3A18-F1BD-5322-E11B2E3AB268" localFKIndex="E063B804-EE73-0965-7291-24BB1749EE64" name="TURNOS_TRABAJADORES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>B479E90E-F885-83B6-1868-6F5AF55BA3EE</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<referredTableLongName>TRABAJADORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8DB009D6-050C-42E4-34B3-63EE1DC379CA</referredTableID>
+<keyObject>81E998CA-FD58-046A-F819-112FB1BB50E8</keyObject>
+<referredKeyID>81E998CA-FD58-046A-F819-112FB1BB50E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TRA_DNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

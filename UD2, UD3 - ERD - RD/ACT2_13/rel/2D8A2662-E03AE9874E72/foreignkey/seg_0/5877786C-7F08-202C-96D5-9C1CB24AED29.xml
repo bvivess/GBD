@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5877786C-7F08-202C-96D5-9C1CB24AED29" containerWithKeyObject="0AFF6701-1623-31AA-694A-DD16C4F9604C" localFKIndex="F913810B-EB2A-AC50-BDDB-9D8D527228AD" name="ECO_ENT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>B20E265F-9CDA-3FAD-4EE4-545616C67B69</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<referredTableLongName>ENTERPRISES</referredTableLongName>
+<arc>2440E046-2969-9B23-03DA-4251A84C9793</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FFF2792-1BAE-B806-C634-574B5B9B875F</referredTableID>
+<keyObject>6EC98CFC-5544-1B20-16BD-EFAA1795726A</keyObject>
+<referredKeyID>6EC98CFC-5544-1B20-16BD-EFAA1795726A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

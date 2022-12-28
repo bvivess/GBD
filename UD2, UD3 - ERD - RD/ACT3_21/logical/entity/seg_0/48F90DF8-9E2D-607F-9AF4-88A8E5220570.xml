@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48F90DF8-9E2D-607F-9AF4-88A8E5220570" name="CUSTOMERS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:33:14 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CUS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUSTOMER_ID" id="4EC34DD7-8ED7-38A7-0DF4-F55ACAB1F75D">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:33:30 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="1540B35E-E5FE-FBD7-7384-EAF734EF9C10">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:33:41 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS1" id="D4A6DEC5-338F-BCAF-C41D-729D65FAE43D">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:38:18 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS2" id="E895B5A6-1414-84C0-A3B9-FC0A98D4FEBC">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:38:29 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS3" id="B494A18D-7E17-9601-34C6-4CFC5236CB21">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:38:34 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS4" id="FA9FFD10-C4A4-97A5-B6FF-4CF7486D9B9D">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:38:39 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13FBDB08-4F4B-6049-2827-74E99923F34E" name="CUSTOMERS PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:33:52 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<engineerTo>
+<item key="1CEFF971-FA9E-3E54-02CB-459261FC3A82" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EC34DD7-8ED7-38A7-0DF4-F55ACAB1F75D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

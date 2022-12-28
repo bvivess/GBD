@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B4EBAA9-8104-146F-0B24-3AC6DA45CC35" name="RUTAS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>4DA303C4-FBB7-32D7-A3BC-A6CFF50BD777</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<abbreviation>RUT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT_CODIGO" id="F25166AF-EEA4-A212-342C-51A36B2786BB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>1BE848E7-2FE5-F020-96CB-7270BE8B824D</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUT_IMPORTEDIETA" id="C450234E-D040-0E69-2D2A-474A52B1750A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>C8B01D60-8848-3111-5CB9-1A2548FADB01</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D98EBCE-26E1-7643-7A0D-7D6CF657675B" name="RUTAS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>0E8BB547-696E-AA19-E11A-D509C3A3E7C4</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F25166AF-EEA4-A212-342C-51A36B2786BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

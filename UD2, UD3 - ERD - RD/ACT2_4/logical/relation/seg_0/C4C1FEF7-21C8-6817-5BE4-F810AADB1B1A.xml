@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SON LOCALITATS DE" directorySegmentName="seg_0" id="C4C1FEF7-21C8-6817-5BE4-F810AADB1B1A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-04 09:20:54 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<sourcePk>ADE58F94-E787-2546-1C98-3ED2ED25AF2E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C265F86-E66C-66EE-D72E-D37F91CBC871</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0435A040-A60D-D426-AA39-41AB20E65290</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

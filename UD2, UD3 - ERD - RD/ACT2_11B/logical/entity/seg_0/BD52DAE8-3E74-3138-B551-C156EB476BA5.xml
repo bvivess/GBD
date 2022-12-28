@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD52DAE8-3E74-3138-B551-C156EB476BA5" name="NCOMMUNITIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 06:35:25 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NCO</shortName>
+<synonymToDisplay>NEIGHBORHOOD COMMUNITIES</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id  " id="7AD2F80F-F547-59EA-F63E-1839F7F32874">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 06:35:38 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="682C85FF-8001-8FED-6EC8-1F0D6F4B0AFF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 06:36:07 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="EA8A7ECC-FE22-859B-32CF-161659084BB4">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 06:36:12 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="EA372DAB-92F0-1CC0-943E-28A3513E26BF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:25:42 UTC</createdTime>
+<generatorID>72B96D1D-ADBE-7373-D7BA-B74C2885167B</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<referedAttribute>C2EC5DE5-4575-2AF1-E08F-E6969FDF2187</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="0FBB6412-D527-3904-4AE6-CE68A3F5B30B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:25:47 UTC</createdTime>
+<generatorID>6BA5F0C3-ADC4-104B-0F5A-B21E8DA9D270</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<referedAttribute>5220619D-FE5E-5B21-A405-6881822737FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id " id="B6B0A70B-3CDC-B701-A441-157A1F3349BB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:26:07 UTC</createdTime>
+<generatorID>6BA5F0C3-ADC4-104B-0F5A-B21E8DA9D270</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<referedAttribute>DC0626B0-BB85-990B-2DFF-17D193BF43DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93218CBB-BF3F-B5A4-C9B6-A75E3D9AD8C6" name="NEIGHBORHOOD COMMUNITIES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 06:36:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7AD2F80F-F547-59EA-F63E-1839F7F32874</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OWNXPRO" directorySegmentName="seg_0" id="410DA7FE-8CE7-AC85-E8BD-35E0404CDC71">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:35:56 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CACC3AA3-DB6C-E4FE-CD99-8560A689477B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CBF7F602-5BBE-5338-0588-19684FBA680D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Ownership" id="5C105F20-1C96-7582-80A4-E2363CA129D5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 13:55:38 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

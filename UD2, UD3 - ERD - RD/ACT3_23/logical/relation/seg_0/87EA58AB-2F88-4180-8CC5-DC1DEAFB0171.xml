@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="87EA58AB-2F88-4180-8CC5-DC1DEAFB0171">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:53:38 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>22E185BA-4096-4B10-DC0C-605A2B63800B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>886DB4E1-6806-354E-063D-2C26E4019DE1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="TELEFON" id="22E75433-B166-36C5-881B-3BFE4D2469CD">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:53:57 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

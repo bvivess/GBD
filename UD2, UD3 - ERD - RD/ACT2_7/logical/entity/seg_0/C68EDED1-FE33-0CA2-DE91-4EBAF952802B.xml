@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C68EDED1-FE33-0CA2-DE91-4EBAF952802B" name="HORARIS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-19 06:46:31 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>HOR</shortName>
+<synonymToDisplay>HORARIS PER DIA</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codi" id="40ADC669-5513-85CC-CC8E-6B71872AE5CC">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:38:43 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcio" id="DC189070-FAA9-BFDD-113D-3DE3DB7A8C04">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-10-11 06:41:40 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora-inici" id="CC3A735B-630A-CA1C-2904-A8123E33A2AA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-19 06:46:38 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora-fi" id="703F9059-CDA9-DFBB-8A00-F802A1516295">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-19 06:47:05 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A98F6E4-455F-3BBA-2532-A8351C1D93A0" name="HORARI PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-19 06:47:14 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40ADC669-5513-85CC-CC8E-6B71872AE5CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

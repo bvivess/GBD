@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="251B3DE7-18F8-4700-42C3-F9B7CA117E7E" name="MANXNCOM">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<ordsAlias>relation_3</ordsAlias>
+<abbreviation>MXC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MXC_MAN_ID" id="9C30D763-13B8-09A1-A441-63E9A878EDA2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A10DB5E-40FB-E603-B3EB-DA8869DBB98F" referredColumn="705E59CF-662E-BFAF-1514-34329A02230C"/>
+</associations>
+</Column>
+<Column name="MXC_NCO_ID" id="CAE4B210-DBD2-47CC-0B77-F3374CE3B99E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D92E892B-999B-081E-44EC-5C8BAD290DDA" referredColumn="E455D96A-AEF7-AE1D-EAD8-65682552BE2A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B45C9D1-6F00-EE21-5CCF-869DA520D33A" name="MXC_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C30D763-13B8-09A1-A441-63E9A878EDA2"/>
+<colUsage columnID="CAE4B210-DBD2-47CC-0B77-F3374CE3B99E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="726C3975-C8FB-A765-2195-FEF8BAE6D54A" name="MXC_MAN_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>8C6420CA-F072-37EE-398C-A106A794ACEC</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C30D763-13B8-09A1-A441-63E9A878EDA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D308389-8352-DAE8-043D-6AC2C1423AE1" name="MXC_NCO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>8C6420CA-F072-37EE-398C-A106A794ACEC</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAE4B210-DBD2-47CC-0B77-F3374CE3B99E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

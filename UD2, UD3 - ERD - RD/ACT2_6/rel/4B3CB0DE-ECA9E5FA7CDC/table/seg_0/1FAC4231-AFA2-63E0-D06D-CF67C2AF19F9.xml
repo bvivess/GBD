@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FAC4231-AFA2-63E0-D06D-CF67C2AF19F9" name="COUNTRIES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>46128A7C-8EBB-7D75-3506-CEE629FA0A5B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<ordsAlias>countres</ordsAlias>
+<abbreviation>COU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COU_ID" id="841D9CD8-494C-3AD7-732D-AD5C5F05809E">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>2073EEFE-EE9E-0F43-0BE9-F0794DE5A24E</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COU_NAME" id="75680819-056F-74A1-3B64-2635D525E96F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>8B237E01-F8C7-C23B-A74B-3F9EFCE6110C</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8677A90-A315-5D8B-3631-EF94CFCB51EC" name="COU_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>F9590F38-C6AA-9A24-AF0E-BBFB5DA999E2</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="841D9CD8-494C-3AD7-732D-AD5C5F05809E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5373AB8A-63C2-97C6-61DF-CC4C4E0BA96B" containerWithKeyObject="017AA4B4-EE1D-7316-BABC-05AB9B518189" localFKIndex="46E7ABFF-0CB6-17D9-205D-E3FCC3E335A4" name="AWA_MOV_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>983AD0E9-C984-4DB1-D88B-329E14CDC689</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<referredTableLongName>MOVIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61A89DA2-743B-7CDE-B082-3F226E1C465A</referredTableID>
+<keyObject>49483EDB-25BD-4634-0E61-D4EA90B27F13</keyObject>
+<referredKeyID>49483EDB-25BD-4634-0E61-D4EA90B27F13</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MOV_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

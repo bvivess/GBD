@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E13D2A61-C509-BA3F-D065-D3BAA5F1999B" name="PEOXACC">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<abbreviation>PXA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PXA_PEO_ID" id="E665C952-90FE-D304-557B-5625A20CA543">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA2EBF01-0D0B-A645-443E-55782B320941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41D0E482-A127-6D40-D87D-82EA71597573" referredColumn="CAFFBE4C-E3C2-ABEF-5D46-1DF61009DD60"/>
+</associations>
+</Column>
+<Column name="PXA_ACC_ID" id="C5B305AD-9ACA-A37C-EFF0-8063EBA64473">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA2EBF01-0D0B-A645-443E-55782B320941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7D653FB-8342-F1A3-3B2D-BAA98F37677A" referredColumn="AF614FD8-2B1B-16EE-5202-2978DBAD4DAD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E0BA0D0-E4A5-D5A7-E7F4-E23AB9AFDDE3" name="PXA_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E665C952-90FE-D304-557B-5625A20CA543"/>
+<colUsage columnID="C5B305AD-9ACA-A37C-EFF0-8063EBA64473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A395768-C164-CCC7-8152-17A7F2B79FC8" name="PXA_PEO_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>161CF77D-5A8B-8638-B8D8-C1391F9CFF1D</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E665C952-90FE-D304-557B-5625A20CA543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="741C82FF-820F-E96A-40F1-0D1C514B6FA8" name="PXA_ACC_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>161CF77D-5A8B-8638-B8D8-C1391F9CFF1D</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5B305AD-9ACA-A37C-EFF0-8063EBA64473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

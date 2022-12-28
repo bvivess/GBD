@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="788E48F8-E20D-38C9-3439-14A0EE6F66CB" name="CATEGORIAS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>AEF88BFC-C9B7-7BB9-C87F-DE78E0C66423</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<abbreviation>CAT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAT_CODIGO" id="5D1CF03B-EB00-D2FA-F412-0D6AD620B86A">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>177DA238-3ACF-8A30-5DF4-07CA4A82C74A</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAT_CATEGORIA" id="5999DB78-2201-989B-E5ED-7C7110A2E321">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>5EE1BB68-647F-3094-73B3-CD2FB5FFEDD2</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4AD7553-17E6-F41A-1CC9-01264C3EEB60" name="CATEGORIAS_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>C5829C25-CA24-F796-0868-64510C6D086D</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D1CF03B-EB00-D2FA-F412-0D6AD620B86A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

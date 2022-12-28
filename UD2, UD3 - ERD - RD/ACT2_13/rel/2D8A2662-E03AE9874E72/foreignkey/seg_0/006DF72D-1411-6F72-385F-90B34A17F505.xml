@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="006DF72D-1411-6F72-385F-90B34A17F505" containerWithKeyObject="7DC33B66-7CCF-0713-5E74-467891274592" localFKIndex="7959BE2C-B851-5309-5EE3-620FE4BA3228" name="PXP_PST_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>DB9C7EBF-35FC-C9EC-A71D-ECDCD385AFC1</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<referredTableLongName>PSTATIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3D336240-1DE0-606B-9892-F673C0F0D47B</referredTableID>
+<keyObject>07BFE204-AEF5-15C4-81CF-C9B9E95A2D42</keyObject>
+<referredKeyID>07BFE204-AEF5-15C4-81CF-C9B9E95A2D42</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PST_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

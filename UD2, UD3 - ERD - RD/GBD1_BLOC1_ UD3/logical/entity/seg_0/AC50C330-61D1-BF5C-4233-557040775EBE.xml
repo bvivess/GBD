@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC50C330-61D1-BF5C-4233-557040775EBE" name="ARBITROS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:38:38 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="495114AF-6D77-B245-70B3-E6479A8EA1C9">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:38:55 UTC</createdTime>
+<generatorID>1BFCDBFD-CC5E-9599-4372-72773F15A058</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<referedAttribute>B3CF1FBF-9CC8-ACDA-FFE9-DD1AB1972AD2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69764938-D678-2550-80E3-ED3A85780DCF" name="ARBITROS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:39:01 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>495114AF-6D77-B245-70B3-E6479A8EA1C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

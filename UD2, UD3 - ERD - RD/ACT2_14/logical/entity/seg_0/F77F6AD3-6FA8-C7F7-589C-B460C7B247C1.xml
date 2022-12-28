@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F77F6AD3-6FA8-C7F7-589C-B460C7B247C1" name="MATCHES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:06:04 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MAT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="BBECBBC9-F49C-E641-BCBA-BC28F98562A0">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:06:29 UTC</createdTime>
+<generatorID>4EAE0FD8-4236-D3CA-B241-2DB495E944C9</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<referedAttribute>95B4E633-32DF-0C40-56D9-1DCC01D3ECDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="24597D73-1605-F95A-1B36-96D7F354C29F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:06:53 UTC</createdTime>
+<generatorID>1444F913-9EDC-8A89-315C-97A41C6B9853</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<referedAttribute>95B4E633-32DF-0C40-56D9-1DCC01D3ECDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="A1C2C5CC-1259-2CF6-A666-4F14730E1BDA">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:15:28 UTC</createdTime>
+<generatorID>E90BB0F2-D4A3-847D-1F7C-AA949EA2B098</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<referedAttribute>A16E7A6B-9F27-4E0D-E7AC-5FBAD84CCDD1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date of match" id="45F7E722-BF60-6B8F-E3B4-D2B0F48B872A">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:40:25 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hour" id="11EA6728-8C9D-A996-CD50-C39F4222194F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:40:44 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5AB91976-7440-9B9B-1B7C-3F04AFF832E8" name="MATCHDAYS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-29 20:06:48 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<engineerTo>
+<item key="E15E9875-ECA3-CB93-CF03-93CA2F3B134A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBECBBC9-F49C-E641-BCBA-BC28F98562A0</attributeRef>
+<attributeRef>24597D73-1605-F95A-1B36-96D7F354C29F</attributeRef>
+<attributeRef>A1C2C5CC-1259-2CF6-A666-4F14730E1BDA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

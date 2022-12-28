@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC25E669-7D42-715A-CFB7-FF4831760D85" name="ROLES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>7333C944-92A1-54F4-5CA5-4F7FE3C1A7E3</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<abbreviation>ROL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROL_ID" id="CDC13EDB-C75D-BFFC-2F7F-D19E6B49FDB0">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>F87DB759-3620-596F-AB96-8EBF8383A260</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROL_NAME" id="EBCA0816-5F01-96A2-8C25-B858FF677EDD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>C6C9CFF6-ECD6-CAE1-FEBE-D595FE8BA99B</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE160118-17F3-6715-64D5-873E1B92BC5D" name="ROL_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>F22ECDE1-8EC0-98AD-8C91-16A6C36A56D6</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDC13EDB-C75D-BFFC-2F7F-D19E6B49FDB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

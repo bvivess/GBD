@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88FEEFCF-6C4C-F035-5E1F-945EFFB813FE" name="TERMIC">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>EC247994-3ADA-0A6A-AEDB-7D8D1B12F109</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<abbreviation>TER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TER_PRO_ID" id="DE86D6C8-38E4-11B1-92BB-7767150E5DDB">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>7C4EBA7D-57CA-C4B9-6958-FE6FC5424782</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD07603F-FE8E-B84F-FB02-891090E438A7" referredColumn="65049A1C-3C49-C952-5B93-93EF63254C6E"/>
+</associations>
+</Column>
+<Column name="TER_NOWENS" id="ACA38FA5-DACE-7793-D0B6-0660B9A090D5">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>E69B8512-062A-D7B0-0249-81531AF808E1</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TER_ENERGYUSE" id="B8197857-A232-827C-6035-C150F0D63F2A">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>45C28EE3-E539-B790-4DC4-C128E2B8E8B4</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50318E6A-8A07-706F-FC9F-3E712FBB2267" name="TER_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>CAA00C8E-3065-7539-3276-BC0224FC26C4</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE86D6C8-38E4-11B1-92BB-7767150E5DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="127C47D7-0AFD-8739-0CA3-22B0B4CCB843" name="TER_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>77863CC2-1409-FFEE-2DB8-A67D1D1E8EEE</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE86D6C8-38E4-11B1-92BB-7767150E5DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

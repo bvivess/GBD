@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="478EF64E-E731-00B4-C640-74530AE72BFD" name="NUCLEAR">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>40E4897C-208C-EA17-9A4C-E332FBDF49DC</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<abbreviation>NUC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUC_PRO_ID" id="B1FB3076-3FCD-1EEA-F027-8F9EEE0C1881">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>227C9246-9BED-969E-83CA-BC37F39484CA</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53598B9F-22EB-BDE3-526F-A4E4B8880AC1" referredColumn="65049A1C-3C49-C952-5B93-93EF63254C6E"/>
+</associations>
+</Column>
+<Column name="NUC_NREACTORS" id="FD555184-634C-F6BD-9434-1030B32DAFE1">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>629C04CE-B17F-7B60-5939-1C03DD9B5D8A</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUC_ENERGYUSE" id="0DC33264-F641-710C-8118-61A7F1DC320E">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>E601CAF2-9BAE-9B4B-5B45-37C33E35D267</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12236704-D879-900D-4DE2-687FB5D2DB4B" name="NUC_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>1CE73788-A444-CB3E-C8B6-77F211D319A1</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1FB3076-3FCD-1EEA-F027-8F9EEE0C1881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34D50B3B-9E21-7506-AA2C-C112790652E7" name="NUC_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>CD22C864-D633-CDAF-30BF-BDA4815FEAE1</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1FB3076-3FCD-1EEA-F027-8F9EEE0C1881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43DE4F62-BB33-4EFA-F7C9-5FB3F3F7793F" name="JOB_HISTORY">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>2F1442FA-D2D8-5320-B7C7-4546F5FBE83D</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="D9DB1CA2-E798-D2F8-A706-AD289D64B272">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>6CB5085C-724B-B860-0059-70FD5BD64D2F</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="933449D2-6679-634D-C3C0-DA18EAA32F0A" referredColumn="93F24566-A9CE-27B6-ABF7-0282165E90F5"/>
+</associations>
+</Column>
+<Column name="START_DATE" id="D60B81EE-3AF4-B5C2-588F-B2BF484502E4">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>BEF4040D-12A0-8D78-8C27-8CFA02C4B477</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="C0CD199C-24D0-E0EF-3B6A-67393431B008">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>0377DCAF-351E-7142-EB68-84F1A469BEBD</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_ID" id="3918852A-2A7F-D930-DD13-45032FC95795">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>408F5C63-7896-596B-37A5-F83E6A46FDB6</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17267CF1-DA21-88E0-D968-ACE70718D26E" referredColumn="0DA9AC42-6CD6-3D63-51CD-0ABB90B7F45D"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_ID" id="E13A026E-DD4E-89CB-051A-E930E9B989FF">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>734B4961-7C5F-BB65-0D79-D8CC977F5495</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EDBDC3B-CA1B-806A-565F-31DC9E41A400" referredColumn="B5041747-4124-6066-D2D8-460B00029D03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D172B0A6-5706-EDBB-469D-96CE83DD1834" name="JHIST_EMP_ID_ST_DATE_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>9EE501F6-C622-4B4B-0077-B5F9F6815B3E</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DB1CA2-E798-D2F8-A706-AD289D64B272"/>
+<colUsage columnID="D60B81EE-3AF4-B5C2-588F-B2BF484502E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F61FFF9-0710-FB72-532D-422EE08A15CD" name="JHIST_DEPARTMENT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>6351CFA1-2961-E2C6-51A0-2C72718CF0BE</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E13A026E-DD4E-89CB-051A-E930E9B989FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="663D1DB5-1492-35B4-C738-41A97B5AF6C6" name="JHIST_EMPLOYEE_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>D36BC628-2BCD-7B71-4258-16CC6DE7BBA0</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DB1CA2-E798-D2F8-A706-AD289D64B272"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="682793C1-23CB-C61B-3DCB-015CA501F98C" name="JHIST_JOB_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>3861BC2F-C68D-01A4-CF5B-2FFA4B271CA7</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3918852A-2A7F-D930-DD13-45032FC95795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDFFB6F3-CEE8-7DB9-A8F2-F111A779F64E" name="CASTINGS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>79D6B42A-B381-E3BF-6796-A46AEBC334E9</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<abbreviation>CAS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAS_ID" id="C0A38622-0B5B-B914-D4F6-E4D554D36F3B">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 06:13:19 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAS_MOV_ID" id="B993CB4D-7EDB-4450-B78D-A0D745E5F90D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>FFB6B7F1-3CD8-4347-7E73-DFEA7B390C46</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04E523AA-E6E1-1954-CFB9-C1CCF9462E2E" referredColumn="B09EF204-78EC-CA49-291B-D6CBB1F230C0"/>
+</associations>
+</Column>
+<Column name="CAS_ART_ID" id="D3196421-09A6-39F1-C078-3DD84C7C2B70">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>14417F0A-9F99-85C0-D124-CC7C95BC668D</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="036CAC49-263C-2BE7-AB1B-27D4A7DC5BB7" referredColumn="910FC599-AF4B-4A68-AA1A-5476BF70E09F"/>
+</associations>
+</Column>
+<Column name="CAS_ROL_ID" id="A0A18D96-5092-9521-BBF7-62F8B9A8494E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>41D35A90-5344-2C6B-B350-E7D287DFCC71</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FEBE466-5A09-CC0E-D9DA-84C21322F9AC" referredColumn="CDC13EDB-C75D-BFFC-2F7F-D19E6B49FDB0"/>
+</associations>
+</Column>
+<Column name="CAS_COU_ID" id="B4C8F6E6-1330-D32F-6B22-1796F4E79496">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-20 12:10:14 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AC569FE-945E-8AB0-4927-6F8BCFCAF7B5" referredColumn="B9C287D0-E5B4-7E53-6C7D-A8302CC11AB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEC84AD5-D6A4-4057-E2FF-C12BE64A49C9" name="CAS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>5D2007F0-963E-2223-2383-59A125CCF062</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0A38622-0B5B-B914-D4F6-E4D554D36F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48EDC02E-D6FF-2EB7-EE5E-7DB4072B74A2" name="CAS_UK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 06:15:23 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B993CB4D-7EDB-4450-B78D-A0D745E5F90D"/>
+<colUsage columnID="D3196421-09A6-39F1-C078-3DD84C7C2B70"/>
+<colUsage columnID="A0A18D96-5092-9521-BBF7-62F8B9A8494E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F8AE4C7-1FC4-0485-8D87-503A30D3625C" name="CAS_MOV_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>5EA68E4A-8F69-F153-1E30-0F8A0A04C9B1</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B993CB4D-7EDB-4450-B78D-A0D745E5F90D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1741FF3-69B7-F8B9-A770-5CA42B9FE2FC" name="CAS_ART_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>040F4DD7-5945-B568-F745-53245DF1CC62</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3196421-09A6-39F1-C078-3DD84C7C2B70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C23E9084-5BFE-3A94-0442-A541EFAF3FE9" name="CAS_ROL_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>7F0549F0-79C4-8052-A047-8390E4205EDA</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A18D96-5092-9521-BBF7-62F8B9A8494E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2594AEB0-1812-816C-F1D9-BC2AC577FE3D" name="CAS_COU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-20 12:10:14 UTC</createdTime>
+<generatorID>57B09270-03E8-89AC-52FA-67AE8DC224FE</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4C8F6E6-1330-D32F-6B22-1796F4E79496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

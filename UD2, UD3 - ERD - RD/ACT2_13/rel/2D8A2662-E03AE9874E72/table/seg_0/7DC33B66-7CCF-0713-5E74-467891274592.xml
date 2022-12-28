@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DC33B66-7CCF-0713-5E74-467891274592" name="PSAXPRO">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<ordsAlias>relation_25</ordsAlias>
+<abbreviation>PXP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PXP_PST_ID" id="2931D158-3170-DED7-7A10-1C45C092CC87">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="006DF72D-1411-6F72-385F-90B34A17F505" referredColumn="3BF89C29-1CC3-8D96-9F4D-F8B69DEE63AB"/>
+</associations>
+</Column>
+<Column name="PXP_PRO_ID" id="5B913C11-94BC-3A2F-9AB3-A25B7EB50B35">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A57384D7-DC1D-7057-7B66-59DD2CD0D90E" referredColumn="65049A1C-3C49-C952-5B93-93EF63254C6E"/>
+</associations>
+</Column>
+<Column name="PXP_DAY" id="8836C1E7-868A-39D7-2DD2-3CAE0C8262F1">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>8AA41078-5105-FF6D-F20B-931D47795DBF</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="PXP_AMOUNT" id="BF1D2B0D-C41A-0533-B86E-89269F5E04F9">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>ACAAA666-7491-F348-9618-49657AB40164</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC4919B8-A6EA-8B1F-12FB-BD17519D12B0" name="PXP_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2931D158-3170-DED7-7A10-1C45C092CC87"/>
+<colUsage columnID="5B913C11-94BC-3A2F-9AB3-A25B7EB50B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7959BE2C-B851-5309-5EE3-620FE4BA3228" name="PXP_PST_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>DB9C7EBF-35FC-C9EC-A71D-ECDCD385AFC1</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2931D158-3170-DED7-7A10-1C45C092CC87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C75EA74-712A-BC7B-61B8-471DD482415C" name="PXP_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>DB9C7EBF-35FC-C9EC-A71D-ECDCD385AFC1</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B913C11-94BC-3A2F-9AB3-A25B7EB50B35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9579C97-D668-D0E9-6C46-2BFD94E7880A" containerWithKeyObject="EF0B9AD2-959A-2F49-0854-F1A64B1E02B2" localFKIndex="73B1BE84-8543-62AC-0C13-EBF179247F62" name="AXT_AUT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>728D2DDD-F812-D7DD-2EB2-CF27464FB72B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>AUTHORS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB17FD94-C791-FAB4-9FB2-3F0D1F0F6744</referredTableID>
+<keyObject>5C9FAF9C-2755-204D-47CA-F8EF5855DECD</keyObject>
+<referredKeyID>5C9FAF9C-2755-204D-47CA-F8EF5855DECD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>AUT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2D2D6BB-9AB4-CBDD-B4BB-1241AB6973A0" containerWithKeyObject="017AA4B4-EE1D-7316-BABC-05AB9B518189" localFKIndex="02749275-2178-CB74-6803-7EE605FAD129" name="AWA_CAW_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>2759CF58-15D6-D413-9236-8E1EA7656B2A</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<referredTableLongName>CAWARDS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B9476FA-8D22-561D-6BD5-9687F609D4A0</referredTableID>
+<keyObject>B40762BF-D9CF-5F66-BF13-0D341DFA8AD2</keyObject>
+<referredKeyID>B40762BF-D9CF-5F66-BF13-0D341DFA8AD2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CAW_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

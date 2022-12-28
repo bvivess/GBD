@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="622D52F0-DB77-612D-849D-749F10D294A5" containerWithKeyObject="520E4194-0F6A-4C46-CC5E-C7588987AE0C" localFKIndex="F9EC6D57-2479-D19D-FA58-B32F18A9A72D" name="ROO_ACC_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>089EFED3-E0E5-9591-2972-6681ECBB1686</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<referredTableLongName>ACCOMODATIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F7286D9-C0DA-D62C-7287-6F85E10A800D</referredTableID>
+<keyObject>C79DF5D2-55F6-CD15-6EED-1E25E8586653</keyObject>
+<referredKeyID>C79DF5D2-55F6-CD15-6EED-1E25E8586653</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ACC_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

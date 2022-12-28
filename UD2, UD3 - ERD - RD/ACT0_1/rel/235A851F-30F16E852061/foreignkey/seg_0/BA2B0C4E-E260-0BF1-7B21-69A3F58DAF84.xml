@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BA2B0C4E-E260-0BF1-7B21-69A3F58DAF84" containerWithKeyObject="3C99406F-674A-A455-B658-66A4F24D8E32" localFKIndex="5739EC58-24A6-C011-C4EB-88A818A88A8D" name="PRV_STT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>37E58CE9-311A-6047-09FF-B16955C8C78D</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<referredTableLongName>STATE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9BB92601-F85B-7FA1-1D7F-12D002160034</referredTableID>
+<keyObject>F849C9FF-F6D9-0B1D-EFF9-B4F6E4687E0E</keyObject>
+<referredKeyID>F849C9FF-F6D9-0B1D-EFF9-B4F6E4687E0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STT_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

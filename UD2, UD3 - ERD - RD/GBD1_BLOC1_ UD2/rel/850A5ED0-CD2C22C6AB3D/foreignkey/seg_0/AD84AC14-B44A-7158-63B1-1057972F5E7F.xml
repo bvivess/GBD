@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD84AC14-B44A-7158-63B1-1057972F5E7F" containerWithKeyObject="BA892AA1-77C8-F022-F767-C666C1C9AC48" localFKIndex="475641FB-510E-9D68-6842-BCF3C8F35ADE" name="REF_PEO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>2E16659E-2F8B-AB92-D636-86105E7C96AD</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<referredTableLongName>PEOPLE</referredTableLongName>
+<arc>3B60AD4A-1AB4-D78F-B5C9-0C6BD6F29D24</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9242DEFF-5079-A75F-83D6-4E0F8F46E80E</referredTableID>
+<keyObject>E3C8904B-53E5-5202-0B13-D691A4E6C2B8</keyObject>
+<referredKeyID>E3C8904B-53E5-5202-0B13-D691A4E6C2B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PEO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

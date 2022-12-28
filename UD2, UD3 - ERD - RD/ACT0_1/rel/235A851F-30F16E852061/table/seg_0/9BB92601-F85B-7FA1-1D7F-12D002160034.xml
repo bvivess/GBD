@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BB92601-F85B-7FA1-1D7F-12D002160034" name="STATE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>3BC97E0A-7D92-7808-EDBF-710C64F7A46F</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<ordsAlias>stt</ordsAlias>
+<abbreviation>STT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STT_CODE" id="C3B84B62-B356-C6D4-0CDB-87776C374DA5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>FAB8995A-C007-1401-AE36-169C74EC332D</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STT_NAME" id="0E3D997F-4DE5-F6D0-EC24-D2B6A268CD84">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>8D8DAFC4-9B61-FD17-49BB-7D09D5415C71</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F849C9FF-F6D9-0B1D-EFF9-B4F6E4687E0E" name="STT_STT_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>5783BAFA-E907-4035-F680-2B1946DF7880</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B84B62-B356-C6D4-0CDB-87776C374DA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

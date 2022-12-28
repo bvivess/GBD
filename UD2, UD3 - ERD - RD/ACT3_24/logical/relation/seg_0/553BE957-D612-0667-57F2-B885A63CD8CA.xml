@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="553BE957-D612-0667-57F2-B885A63CD8CA">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-15 06:46:59 UTC</createdTime>
+<ownerDesignName>ACT3_24</ownerDesignName>
+<engineerTo>
+<item key="6A3B4343-AEF8-B99A-9E9D-487725831826" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7EA87E50-DC6C-34B2-B37A-4AE3AC93BDE2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85B2D7C7-F96E-C639-F607-10F556403695</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="precio_unitario" id="45B48647-67D7-3DE2-904C-67D624DD5A7A">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-15 06:47:04 UTC</createdTime>
+<ownerDesignName>ACT3_24</ownerDesignName>
+<engineerTo>
+<item key="6A3B4343-AEF8-B99A-9E9D-487725831826" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="cantidad" id="467F8D07-4E6B-CFC7-C50B-5441F77D9F58">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-15 06:47:19 UTC</createdTime>
+<ownerDesignName>ACT3_24</ownerDesignName>
+<engineerTo>
+<item key="6A3B4343-AEF8-B99A-9E9D-487725831826" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

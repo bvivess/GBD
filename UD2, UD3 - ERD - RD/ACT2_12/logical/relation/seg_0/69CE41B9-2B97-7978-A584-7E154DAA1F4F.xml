@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="69CE41B9-2B97-7978-A584-7E154DAA1F4F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 15:01:14 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<sourcePk>BBD6FB0D-E930-AD77-ABF4-32EF2B77DF3A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F79B4934-9340-78E7-04E0-E77CEC2C23F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8CC89462-CB05-1BBE-E006-61C135F489E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Date" id="BB7D7C8C-A425-F1C7-7F45-252FEEFD18F7">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 15:01:16 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Time" id="843A1461-177B-D147-DF21-9BC244217C3E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 15:01:27 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

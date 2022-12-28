@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="584C599E-2692-DB2B-36E2-9CEFE326037A" containerWithKeyObject="7ECE32BF-7383-33A4-5A6C-A7662DBED925" localFKIndex="9D054BDF-CE8D-66D8-D93F-8B6F59F4FC3F" name="PRO_NCO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>3DDEB32B-E327-C028-E9B5-9F41AE16392C</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<referredTableLongName>NCOMMUNITIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>133E5E0F-E520-C0C0-BEAD-C423CC0F5230</referredTableID>
+<keyObject>2D6710D1-FF77-8BB2-BF96-7740801EC264</keyObject>
+<referredKeyID>2D6710D1-FF77-8BB2-BF96-7740801EC264</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NCO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

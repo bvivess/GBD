@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5D8FBFD-3955-2CFF-5D0B-880808F6FF7E" name="MANAGEMENTS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>99504829-2A13-9523-7BE7-041DE11E24AF</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<abbreviation>MAN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAN_ID" id="705E59CF-662E-BFAF-1514-34329A02230C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>D63B5D6C-6416-869B-B35C-1A9987F3DEC3</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAN_DESCRIPTION" id="E1FBEE92-FE27-8450-3EC1-4A3C5922DD6C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>A58BCCA7-C18A-3291-3402-DBE1ED3B0DAC</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAN_TMA_ID" id="F7FC51E2-E29E-52B8-2202-BFAB57CE2944">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>82806463-0F65-AB8A-7067-220B8C3FA957</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="495F5F29-41D5-8C37-9910-9439159DCC2C" referredColumn="6842F215-58EF-DE24-0365-C769B3B35939"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCDF9E08-279C-E6B6-4415-60F172629C89" name="MAN_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>77DA9A05-447C-551E-8D08-601F353A5B0B</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="705E59CF-662E-BFAF-1514-34329A02230C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E84AD1D-0DDE-1843-D5A1-2AE37642F457" name="MAN_TMA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>E842A05A-2950-B6BD-1A93-BA1761CED2D9</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7FC51E2-E29E-52B8-2202-BFAB57CE2944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

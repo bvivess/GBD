@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9534E7D0-3FE8-7B2F-9AE2-6B6B4C95D8CF" name="ADMINISTRATIVE DETAILS">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:27:35 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ADE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date_of_Birthdate" id="11BB59A3-DDBB-05E9-BDF4-90A29FB48D77">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:27:48 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="C113537C-6C17-74E9-1704-24E082326912">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:28:12 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NSS" id="6A0298A5-A2E0-E3F4-0CAB-6B6BE903ACDC">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:28:35 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Civil_Status" id="FBFA7293-CFD7-CBA3-A55B-08DF99D9BD0C">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:28:54 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="20ADFF97-EF2C-B3C6-051A-5FEEDC64B58A">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:29:32 UTC</createdTime>
+<generatorID>BEB3472C-D6B7-BD2A-AF92-1BE8A707CA7F</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<referedAttribute>65E4E482-CFD9-8069-F601-739ACBB2B92C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E40293B-F84D-2179-032D-0B2990207462" name="Key_1">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:28:25 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BEB3472C-D6B7-BD2A-AF92-1BE8A707CA7F</newElementsIDs>
+<usedAttributes>
+<attributeRef>20ADFF97-EF2C-B3C6-051A-5FEEDC64B58A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="8C939FFE-0530-17F5-FDE5-85455B1D8F86" name="Key_2">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:28:42 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<newElementsIDs>6A0298A5-A2E0-E3F4-0CAB-6B6BE903ACDC</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

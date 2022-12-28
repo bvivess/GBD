@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8191EDBA-9E03-211B-182F-A328659F2AE2" name="COPIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:10:44 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>COP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="1ECC6986-3773-3BC9-12DD-EDD2922BB176">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:11:27 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="E0608FF0-8AB0-437A-D536-FC0C67F040EA">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:28:52 UTC</createdTime>
+<generatorID>90AF1E04-1CA3-064C-E645-9869B7C8EFA9</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<referedAttribute>786F833E-0F32-1049-B834-7E78895FB2A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id11" id="1FC75237-0364-995A-DA58-1768CC455BA4">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:28:52 UTC</createdTime>
+<generatorID>90AF1E04-1CA3-064C-E645-9869B7C8EFA9</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<referedAttribute>848316F5-B5D4-A445-40C4-D4CAC45FCEC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CABD9A56-E577-45C8-C164-B402B9CA441D" name="COPIES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:11:32 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1ECC6986-3773-3BC9-12DD-EDD2922BB176</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

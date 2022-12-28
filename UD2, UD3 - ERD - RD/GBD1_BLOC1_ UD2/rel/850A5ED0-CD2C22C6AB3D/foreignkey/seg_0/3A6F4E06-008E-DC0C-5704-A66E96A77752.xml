@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A6F4E06-008E-DC0C-5704-A66E96A77752" containerWithKeyObject="1BE01005-B295-2614-F25F-CBD2B685607D" localFKIndex="3A856783-02BF-ABF2-7CCC-0BF6F0341AE4" name="MAT_TEA_FK_AWAY">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>7366C40E-8794-113C-530D-9D621A08EAA8</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<referredTableLongName>TEAMS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A1B553D9-429C-0EC5-FF1B-6C1CE17C336D</referredTableID>
+<keyObject>DAE69E15-4606-A607-81B6-191736A28FAB</keyObject>
+<referredKeyID>DAE69E15-4606-A607-81B6-191736A28FAB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TEA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

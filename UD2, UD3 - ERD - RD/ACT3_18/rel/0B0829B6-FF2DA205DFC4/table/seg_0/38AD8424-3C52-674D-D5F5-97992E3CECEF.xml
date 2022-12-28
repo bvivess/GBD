@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38AD8424-3C52-674D-D5F5-97992E3CECEF" name="TRANSPORTES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>4DA303C4-FBB7-32D7-A3BC-A6CFF50BD777</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<abbreviation>TRA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRA_MATRICULA" id="8DC0C25D-E3D5-098D-4C95-EC1803662973">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>0C87C3AA-AA89-3F85-D5C8-2F7BA40EFE2D</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB264389-3FBC-6719-8E81-1E08C9AD77D8" referredColumn="481FC1F7-1548-D8C5-9383-F692178BE310"/>
+</associations>
+</Column>
+<Column name="TRA_DIA" id="28B0D773-61A7-11B5-2E8F-10D03AF54584">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>50E74806-2261-B2B9-65E9-83B9F5043AB3</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>AB264389-3FBC-6719-8E81-1E08C9AD77D8</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11DBE214-E93F-AE08-34AA-AEDEE25851A9" name="TRA_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>0E8BB547-696E-AA19-E11A-D509C3A3E7C4</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DC0C25D-E3D5-098D-4C95-EC1803662973"/>
+<colUsage columnID="28B0D773-61A7-11B5-2E8F-10D03AF54584"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B644D49A-EB53-7295-4131-13A736FEBA85" name="TRA_CAM_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>7C338418-CF70-0486-29C3-FE9A466BA000</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DC0C25D-E3D5-098D-4C95-EC1803662973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

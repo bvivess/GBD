@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E019FE7-94CC-4FF4-0137-7BB8DB94379B" containerWithKeyObject="03D336C3-BAC9-FA4C-3F0A-010D0003C3B6" localFKIndex="7A21CF34-7431-D5F4-F3C0-05A1E2676C70" name="PRO_LOC_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-13 09:07:28 UTC</createdTime>
+<generatorID>63740C56-63DC-0075-5562-612DA0A529E8</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<referredTableLongName>LOCATIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5BA7095-2252-8B7C-D9DD-6099EB7C2CDE</referredTableID>
+<keyObject>641BD253-1EC3-F2FE-BDC9-56C48759195C</keyObject>
+<referredKeyID>641BD253-1EC3-F2FE-BDC9-56C48759195C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOC_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5CC91DF-DFDA-F0DF-21DD-BD7DB6DF3796" name="SUPPLIERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>9D21AE8F-3E40-D42D-50BF-4D9AD790CE29</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<abbreviation>SUP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUP_ID" id="E8867962-10AA-52D0-35AE-7F74AFA3D549">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>9E970225-D306-6E54-A887-1850F44B604E</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUP_NAME" id="C21800B6-95E3-8E00-F7F9-9420F2357971">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>0057B66D-74DE-EC75-F91C-279EDF49075D</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUP_ADDRESS" id="A22DF8CE-649F-BE7F-E95A-39A897D5DF18">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>A0947CEE-4200-D956-6B24-0888B8E18EB0</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUP_TELEPHONE" id="DD0459FC-9003-B389-FA1B-AF65073EA938">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>8C4500E9-9281-387B-C911-D204C6EA1C2E</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUP_CONTACT" id="6C197ED3-63F7-8C8F-516E-64B305D86BDE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>56A6CBB2-C40C-E5E4-0E8E-8AF040B8E8E4</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUP_TSU_ID" id="94274437-AB5E-FBBE-35A3-821C643D17B5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>3E0E57A3-7F08-E346-626E-0E7E3676203D</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EFC2337-7110-5105-E95D-68C73A9FEE5D" referredColumn="A0EBF35E-C163-64D1-0960-531978F74557"/>
+</associations>
+</Column>
+<Column name="SUP_STA_ID" id="66911B13-C065-D2BB-9541-1C7218490C3B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>D2AF55EC-55E1-733D-59D2-1D842063C83E</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D35D008-EB79-CA31-653D-983D8DE87779" referredColumn="1BC8E2AA-CAB2-A80B-7563-250813E40B52"/>
+</associations>
+</Column>
+<Column name="SUP_LOC_ID" id="A850138A-4937-8C89-8406-C9F6640AB9C3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>AED0B73D-A362-9CAC-F3A3-C557E8CE857F</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D35D008-EB79-CA31-653D-983D8DE87779" referredColumn="DF41A83C-A947-763C-1A71-CEF336D3B334"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EDB5F5F-6F7D-0411-1628-BC7364582B52" name="SUP_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>286EEED1-E2A9-75A6-7503-91793258528A</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8867962-10AA-52D0-35AE-7F74AFA3D549"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="842D9424-A2D1-298D-8F15-32446B449671" name="SUP_LOC_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>8675E0B7-AFC9-83E3-0A5B-8DBAC38B3159</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A850138A-4937-8C89-8406-C9F6640AB9C3"/>
+<colUsage columnID="66911B13-C065-D2BB-9541-1C7218490C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6F43A8A-2FF6-0A15-E32E-FFEFF34BC735" name="SUP_TSU_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>9080F252-FC78-5026-B3FA-35DEE290DBE4</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94274437-AB5E-FBBE-35A3-821C643D17B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

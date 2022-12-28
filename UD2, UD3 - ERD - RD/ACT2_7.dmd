@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ACT2_7" id="C19EAC31-715B-8EFD-DD3D-8FC35D821804" version="3.5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:44:59 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C19EAC31-715B-8EFD-DD3D-8FC35D821804</designId>
+</OSDM_Design>

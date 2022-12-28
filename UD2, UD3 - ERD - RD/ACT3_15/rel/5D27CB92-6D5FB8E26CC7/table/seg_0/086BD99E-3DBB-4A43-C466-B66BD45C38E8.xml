@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="086BD99E-3DBB-4A43-C466-B66BD45C38E8" name="LOCATIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>E03D2B91-AFC0-B1B2-E35F-E5DB8F18627F</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<ordsAlias>provinces</ordsAlias>
+<abbreviation>LOC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOC_PRO_ID" id="A7DF64F3-60F1-1600-CE65-39725DA75877">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>3EA41F1B-C390-55B9-32AE-7F8699474E8B</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="148F30B0-539A-584C-35E0-3E90AB10684A" referredColumn="963D25B0-CA50-AC50-C710-749962098051"/>
+</associations>
+</Column>
+<Column name="LOC_ID" id="4AF641E0-E45E-52F7-3A0C-4ACAFC6564CB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>A6AD281A-CF34-F86F-F09D-9A6D3CCBAF10</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC_NAME" id="C00A7A3A-8BAD-640F-461E-AD29512CD75E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>6F4E3DD0-129A-C1A7-3D1A-4145B0BF100E</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E578686E-7CF1-ECBF-9F7F-4957D86A2E70" name="LOC_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>4E8829DC-FDAD-B0BF-7895-2834EFE7687B</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AF641E0-E45E-52F7-3A0C-4ACAFC6564CB"/>
+<colUsage columnID="A7DF64F3-60F1-1600-CE65-39725DA75877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA95E083-E269-7E1F-5E46-5D24C6BE971C" name="LOC_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>14179274-27DE-0A56-1EA2-844EF72F3876</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7DF64F3-60F1-1600-CE65-39725DA75877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36F1C014-BA86-26C6-4427-572B30F9A98F" containerWithKeyObject="C224A599-C5E2-59AA-6C18-24E94F2ABBB7" localFKIndex="D0C8D704-30DE-F2F1-657F-1CA577918B60" name="DEPORTISTAS_CIUDADES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>B883BD3D-83E4-9867-1662-E7F8C364DC85</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<referredTableLongName>CIUDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D5E601D0-D0DE-62A0-2D86-96519B55E74D</referredTableID>
+<keyObject>E2CA6F05-4B15-5E71-6FEF-B27A8EBCAA8E</keyObject>
+<referredKeyID>E2CA6F05-4B15-5E71-6FEF-B27A8EBCAA8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CIU_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

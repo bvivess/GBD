@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49879535-1CE5-A1FE-56EC-82949961F7F4" containerWithKeyObject="CAEC01BC-E32C-8F03-FB9C-E8FDCDFD6A04" localFKIndex="59126CDC-192F-0EF7-9C7B-126B5256BEFC" name="SIN_FEX_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>B2F1EC1F-7AE0-2B14-E084-FA92EFDF6C92</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<referredTableLongName>FEXPENSES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02EEA1E9-9C7F-BF25-FDD3-47DE9C48749C</referredTableID>
+<keyObject>5F9E9A2A-9D76-1422-81BE-14076B8756F0</keyObject>
+<referredKeyID>5F9E9A2A-9D76-1422-81BE-14076B8756F0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FEX_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

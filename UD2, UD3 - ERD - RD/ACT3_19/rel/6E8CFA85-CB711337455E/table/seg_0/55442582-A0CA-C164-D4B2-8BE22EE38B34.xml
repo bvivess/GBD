@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55442582-A0CA-C164-D4B2-8BE22EE38B34" name="ACTORES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>F07C17D3-4523-C30D-3DF3-E5BEB7A28D9A</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<abbreviation>ACT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACT_CODIGO" id="1FAB418E-2578-CD30-F1FD-E21E13BEAF4A">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>EE3A2145-F4F3-2B90-8BAF-160713680EE0</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACT_NOMBRE" id="E7C2F924-F52E-939B-07AF-E2DDAC483AEC">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>D50961F5-C800-648A-1D22-6A06E2A9AFCC</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACT_APELL1" id="484F3567-0025-F636-1BD1-F1800D40D200">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>959BA3E2-021D-384E-BBC4-DA8BC2FF04F6</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACT_APELL2" id="17855E86-EA8D-BD5D-E7A0-B2F6E04FC5C7">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>0C68306A-8271-1323-5BD9-240ED27138FC</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51AB30F6-D9E7-86A4-E3D7-CD584BACA359" name="ACT_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>FA1B2107-8337-4DA3-E986-7C974DD049DF</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FAB418E-2578-CD30-F1FD-E21E13BEAF4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

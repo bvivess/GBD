@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24F42A09-F164-1553-4250-3651325D67C7" name="WAREHOUSES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:45:39 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="WAREHOUSE_ID" id="FBF7A89D-70D0-CEAB-AC22-DE9BFE616745">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:49:43 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAREHOUSE_SPEC" id="B4C469B4-58B0-D3D2-49BC-23D31AE1245B">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:51:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT050</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAREHOUSE_NAME" id="5A89DB26-CCAF-0AB3-6828-A41B1C32C907">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:51:19 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WH_GEO_LOCATION" id="C9511180-EC0A-3312-281B-32CE5F623F7C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:51:42 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOCATION_ID" id="97F89449-3718-DF2F-F710-21BA943A87BF">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:53:12 UTC</createdTime>
+<generatorID>AE5CB584-600E-ED46-57E2-84A79B7D20BB</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>73E27236-F71A-530A-7E68-5F99949F9D25</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD01CE3D-1D68-CFF7-DF7C-A87EF44F7C78" name="WAREHOUSES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:50:17 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBF7A89D-70D0-CEAB-AC22-DE9BFE616745</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

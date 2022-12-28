@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLUBESXDEPORTISTAS" directorySegmentName="seg_0" id="7F6014A8-7AE6-4F2C-08CE-C4DDCC91C28B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:11:48 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>04A1A6A1-83B7-41A9-9D98-A3838C86E9AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C868C90E-A58A-8A1D-10D7-E23E2238492F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="FECHA_INI" id="DD786F3C-165A-6874-3C85-8C74CE08BB16">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:11:52 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="FECHA_FIN" id="96638F5C-6BA3-9EA8-621E-0E81F0E682CB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:12:01 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7D653FB-8342-F1A3-3B2D-BAA98F37677A" containerWithKeyObject="E13D2A61-C509-BA3F-D065-D3BAA5F1999B" localFKIndex="741C82FF-820F-E96A-40F1-0D1C514B6FA8" name="PXA_ACC_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>161CF77D-5A8B-8638-B8D8-C1391F9CFF1D</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<referredTableLongName>ACCOMODATIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F7286D9-C0DA-D62C-7287-6F85E10A800D</referredTableID>
+<keyObject>C79DF5D2-55F6-CD15-6EED-1E25E8586653</keyObject>
+<referredKeyID>C79DF5D2-55F6-CD15-6EED-1E25E8586653</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ACC_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

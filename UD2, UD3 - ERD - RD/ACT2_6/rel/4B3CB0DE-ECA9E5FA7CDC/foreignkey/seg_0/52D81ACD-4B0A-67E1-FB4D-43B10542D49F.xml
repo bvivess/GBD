@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52D81ACD-4B0A-67E1-FB4D-43B10542D49F" containerWithKeyObject="EF0B9AD2-959A-2F49-0854-F1A64B1E02B2" localFKIndex="B43D28D1-1AF1-415B-4F0B-9DC6E272BD14" name="AXT_TIT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>728D2DDD-F812-D7DD-2EB2-CF27464FB72B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>TITLES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>749DF47C-8E25-36D5-CFD6-C2AAF1736D6E</referredTableID>
+<keyObject>2215FD5D-28DD-CBD2-EA05-BF5F3E94C95E</keyObject>
+<referredKeyID>2215FD5D-28DD-CBD2-EA05-BF5F3E94C95E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TIT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEFADC5E-34C8-D7E3-C2E8-DBDC3CEF636F" name="JUGADORES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:38:30 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>JUG</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="949E50A4-05A6-70E3-FC73-1FCEFFF1E449">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:38:46 UTC</createdTime>
+<generatorID>08CD50D6-2303-C394-A1F5-4A4DD6F34BDA</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<referedAttribute>B3CF1FBF-9CC8-ACDA-FFE9-DD1AB1972AD2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34C002BC-BD4D-83CB-E92B-6311F65EC6D1" name="JUGADORES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:38:53 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>949E50A4-05A6-70E3-FC73-1FCEFFF1E449</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

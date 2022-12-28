@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD07603F-FE8E-B84F-FB02-891090E438A7" containerWithKeyObject="88FEEFCF-6C4C-F035-5E1F-945EFFB813FE" localFKIndex="127C47D7-0AFD-8739-0CA3-22B0B4CCB843" name="TER_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>77863CC2-1409-FFEE-2DB8-A67D1D1E8EEE</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<referredTableLongName>PRODUCERS</referredTableLongName>
+<arc>5A0ABDC6-9D93-B85F-DBA1-0D7EB9096C96</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C75DEAE-3D6A-7A8C-552A-06D5ABDE8F2E</referredTableID>
+<keyObject>D03D7CFE-3817-12B3-260B-E0ABF7FA2E77</keyObject>
+<referredKeyID>D03D7CFE-3817-12B3-260B-E0ABF7FA2E77</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

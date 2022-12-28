@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD4C740E-80D9-A3D6-AF6E-E10A1DD67386" name="SPARTSXRHEADERS">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SXH_RHE_ID" id="F8C15692-C946-BB46-032C-E81581A3220E">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EB3D8A9-0B69-A440-570C-6CAB68641B9F" referredColumn="3ADFF3BD-4F14-7F38-2E0B-214ED7095760"/>
+</associations>
+</Column>
+<Column name="SXH_SPA_ID" id="99A7F382-C4DF-7C61-EB72-C73652A3C2B8">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E96CBB1F-CBE2-AFD1-1A02-4202D296094C" referredColumn="9B5FF661-4D6C-6B38-4E61-C8E516505704"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DA977E4-C70A-A020-60AC-525B2CF94CA1" name="SXH_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8C15692-C946-BB46-032C-E81581A3220E"/>
+<colUsage columnID="99A7F382-C4DF-7C61-EB72-C73652A3C2B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02409AE5-BC1D-57EF-4F1B-FFC53DD42E91" name="SXH_RHE_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>A302BE8A-62ED-0A92-E87E-368BD9DE5841</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8C15692-C946-BB46-032C-E81581A3220E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A99802B5-2195-89F5-3F97-8300D1DECB40" name="SXH_SPA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>A302BE8A-62ED-0A92-E87E-368BD9DE5841</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A7F382-C4DF-7C61-EB72-C73652A3C2B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

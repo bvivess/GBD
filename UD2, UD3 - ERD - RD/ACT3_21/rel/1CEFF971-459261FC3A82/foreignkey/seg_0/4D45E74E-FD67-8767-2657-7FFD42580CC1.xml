@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D45E74E-FD67-8767-2657-7FFD42580CC1" containerWithKeyObject="306E0FF7-551F-0110-A12C-22A720505E31" localFKIndex="1FA5258E-FF8C-0A77-5EFD-C7C64E1037C0" name="IXO_ITE_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>6BCF6AC4-9821-E0C9-4D9F-85F6B66813B5</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<referredTableLongName>ITEMS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B97D493-93E7-3022-4C7A-12EA78E52B45</referredTableID>
+<keyObject>181A9D86-E5D7-DF77-248A-DB24F076CBDB</keyObject>
+<referredKeyID>181A9D86-E5D7-DF77-248A-DB24F076CBDB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ITE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

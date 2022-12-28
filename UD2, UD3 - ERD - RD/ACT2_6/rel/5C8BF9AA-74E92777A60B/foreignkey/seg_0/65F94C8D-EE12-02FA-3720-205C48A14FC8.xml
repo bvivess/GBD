@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65F94C8D-EE12-02FA-3720-205C48A14FC8" containerWithKeyObject="ADE0064C-5D25-E9E5-FFFA-BF7A08214705" localFKIndex="9A4F4A53-A78B-6901-EE79-518A266BDB35" name="ADD_TAD_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>AA768BF7-B893-1605-D923-57B401ED55FC</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>TYPE_OF_ADDRESS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C379A538-0A96-5EC1-4D00-7E84999542A5</referredTableID>
+<keyObject>E274C645-A91C-A23B-B70C-1136C1112457</keyObject>
+<referredKeyID>E274C645-A91C-A23B-B70C-1136C1112457</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TAD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

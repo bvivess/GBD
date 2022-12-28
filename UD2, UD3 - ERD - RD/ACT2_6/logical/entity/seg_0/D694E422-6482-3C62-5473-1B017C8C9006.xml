@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D694E422-6482-3C62-5473-1B017C8C9006" name="PROVINCES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 05:47:31 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="18D99DE1-0228-B92A-23EC-070D24DDF15E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 05:47:39 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="BD214277-2970-8DB9-24F8-4C74BDB866CE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 05:47:43 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id " id="CE3B8C91-C2B1-5C34-D5F2-552FBE7CBF7B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 05:48:38 UTC</createdTime>
+<generatorID>9C2BF74F-0476-FF43-0A30-5F2642709831</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<referedAttribute>2073EEFE-EE9E-0F43-0BE9-F0794DE5A24E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8DFE85D2-F9AD-8E46-1F09-A6CDA089EFC2" name="PROVINCE PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 05:48:31 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>18D99DE1-0228-B92A-23EC-070D24DDF15E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

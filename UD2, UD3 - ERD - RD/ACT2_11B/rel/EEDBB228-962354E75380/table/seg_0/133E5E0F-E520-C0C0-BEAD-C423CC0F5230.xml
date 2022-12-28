@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="133E5E0F-E520-C0C0-BEAD-C423CC0F5230" name="NCOMMUNITIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>BD52DAE8-3E74-3138-B551-C156EB476BA5</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<abbreviation>NCO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NCO_ID" id="E455D96A-AEF7-AE1D-EAD8-65682552BE2A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>7AD2F80F-F547-59EA-F63E-1839F7F32874</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NCO_NAME" id="65420099-9242-A877-7CA5-BDE5ED2FB54F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>682C85FF-8001-8FED-6EC8-1F0D6F4B0AFF</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NCO_ADDRESS" id="3B3B189E-C217-CB09-6D3D-380B3246A2FE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>EA8A7ECC-FE22-859B-32CF-161659084BB4</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NCO_ADM_ID" id="424CBB90-8760-D800-312F-AED17A3522CE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>EA372DAB-92F0-1CC0-943E-28A3513E26BF</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8F4E387-D2E1-36BE-0910-32E7E19EC49F" referredColumn="778564FE-342E-65F6-8E5C-98A76C5560CC"/>
+</associations>
+</Column>
+<Column name="NCO_STA_ID" id="74BE097F-D2B9-5544-1C0A-3BF75598F215">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>B6B0A70B-3CDC-B701-A441-157A1F3349BB</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F94D276-BC8C-BB07-6DB8-CCF8A54451CC" referredColumn="1BC8E2AA-CAB2-A80B-7563-250813E40B52"/>
+</associations>
+</Column>
+<Column name="NCO_LOC_ID" id="A4214467-6BDA-ACE9-2013-2AB648D7094F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>0FBB6412-D527-3904-4AE6-CE68A3F5B30B</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F94D276-BC8C-BB07-6DB8-CCF8A54451CC" referredColumn="DF41A83C-A947-763C-1A71-CEF336D3B334"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D6710D1-FF77-8BB2-BF96-7740801EC264" name="NCO_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>93218CBB-BF3F-B5A4-C9B6-A75E3D9AD8C6</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E455D96A-AEF7-AE1D-EAD8-65682552BE2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="966DC12C-7214-50FA-EF6A-15B354867B07" name="NCO_ADM_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>72B96D1D-ADBE-7373-D7BA-B74C2885167B</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="424CBB90-8760-D800-312F-AED17A3522CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90882E89-741C-5D72-390E-3EBBDFB75A00" name="NCO_LOC_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>6BA5F0C3-ADC4-104B-0F5A-B21E8DA9D270</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4214467-6BDA-ACE9-2013-2AB648D7094F"/>
+<colUsage columnID="74BE097F-D2B9-5544-1C0A-3BF75598F215"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

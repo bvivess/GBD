@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="7C338418-CF70-0486-29C3-FE9A466BA000">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:43:46 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<sourcePk>052505E2-9E0E-A9EC-820F-3C616C24349F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E666B43E-107D-EE27-EC5E-115CDACA4FB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4DA303C4-FBB7-32D7-A3BC-A6CFF50BD777</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Dia" id="50E74806-2261-B2B9-65E9-83B9F5043AB3">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:52:09 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

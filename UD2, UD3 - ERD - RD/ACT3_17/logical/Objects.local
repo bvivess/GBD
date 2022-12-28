@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="3C4BF4CD-566F-FC6C-C9A9-0CDCA0A96EF4" name="LOCALIDADES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6374F91A-F80C-9FD3-B604-39B2DA303822" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8C2717C5-2154-053C-4463-5339CE26C03B" name="TIENDAS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6374F91A-F80C-9FD3-B604-39B2DA303822" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="CF5F6928-652A-66D5-C260-AC2BC96E3AF4" name="TRABAJADORES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6374F91A-F80C-9FD3-B604-39B2DA303822" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="B479E90E-F885-83B6-1868-6F5AF55BA3EE" name="ASIGNACIONES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="6374F91A-F80C-9FD3-B604-39B2DA303822" propertySourceId="CF5F6928-652A-66D5-C260-AC2BC96E3AF4" propertyTargetId="8C2717C5-2154-053C-4463-5339CE26C03B"/>
+   <object objectType="Relation" objectID="7CCCFE08-5887-E270-84A9-49CC509FCB96" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="6374F91A-F80C-9FD3-B604-39B2DA303822" propertySourceId="3C4BF4CD-566F-FC6C-C9A9-0CDCA0A96EF4" propertyTargetId="8C2717C5-2154-053C-4463-5339CE26C03B"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA892AA1-77C8-F022-F767-C666C1C9AC48" name="REFEREES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>B51F9208-4640-99CE-C482-174B2B535B68</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<abbreviation>REF</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REF_PEO_ID" id="8A4A8663-F1DB-F693-C9ED-B427CC8D4255">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>13D5104F-A0F5-62B8-8861-A03ADED84552</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD84AC14-B44A-7158-63B1-1057972F5E7F" referredColumn="39F652F5-3053-6C8A-9240-A8EC423ACB4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBA357C1-7A7B-D21C-80D0-976D1BBCA972" name="REF_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>C1FC7909-D8B5-E12C-AC40-1A7B7B9C1B13</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4A8663-F1DB-F693-C9ED-B427CC8D4255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="475641FB-510E-9D68-6842-BCF3C8F35ADE" name="REF_PEO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>2E16659E-2F8B-AB92-D636-86105E7C96AD</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4A8663-F1DB-F693-C9ED-B427CC8D4255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

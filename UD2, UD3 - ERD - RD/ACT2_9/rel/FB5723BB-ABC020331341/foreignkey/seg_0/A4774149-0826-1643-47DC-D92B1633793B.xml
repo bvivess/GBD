@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4774149-0826-1643-47DC-D92B1633793B" containerWithKeyObject="017AA4B4-EE1D-7316-BABC-05AB9B518189" localFKIndex="6B4DFE11-5BA5-021F-5D92-E31180C26028" name="AWA_YEA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-19 18:47:39 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<referredTableLongName>YEARS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C841842B-F73F-B864-3015-FBA21E4EA943</referredTableID>
+<keyObject>9DD9095D-DB40-23FA-FCDF-8DFBFB71D0C8</keyObject>
+<referredKeyID>9DD9095D-DB40-23FA-FCDF-8DFBFB71D0C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>YEA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

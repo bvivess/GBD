@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0983EE63-9923-26CD-77E5-39EF228EF892" name="PRODUCT_DESCRIPTIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>C6D5DFDE-E586-95D6-DB19-176CDB7DD47D</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="C292B57F-A0A4-D234-807D-9CADD3F337E2">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>203E9CD4-566C-5371-56CA-A09B17E5CE1F</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D06E1400-CC05-E8C4-211E-B1E37F9C39A6" referredColumn="F6D53C16-5179-0928-5AC6-A061A87B559D"/>
+</associations>
+</Column>
+<Column name="LANGUAGE_ID" id="76D54A4B-9560-233A-5614-AA70980A17D3">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>98A96817-FC2E-6B91-58F6-E4BB0C067434</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSLATED_NAME" id="C0EF0CAC-6A10-02D2-27F9-C4B62F0D1322">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>F3DBAE79-6B91-6286-FA23-3862D3155FFF</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSLATED_DESCRITION" id="257C7BD2-F604-548F-07F0-86EF599B865C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>BD2FF47E-81B8-7567-A657-D1FC7726E3A3</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F91B1A8-C676-1231-082E-F6BD12D2A610" name="PRODUCT_DESCRIPTIONS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>28F8D078-4811-2181-BD18-FD69FDEFDBEF</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C292B57F-A0A4-D234-807D-9CADD3F337E2"/>
+<colUsage columnID="76D54A4B-9560-233A-5614-AA70980A17D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9842DE4A-37AA-B8CD-6060-5E994A23ACE6" name="PRODUCT_DESCRIPTIONS_PRODUCT_INFORMATION_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>40BE40C1-B381-7300-72D6-9BA30E344C67</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C292B57F-A0A4-D234-807D-9CADD3F337E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE59F591-F43A-D43A-3FD4-6823727E8F9F" containerWithKeyObject="39550F16-13FF-88A7-680A-48E418B83F8E" localFKIndex="2FF30315-F0A9-CE31-5546-25FF327C4BA0" name="PAY_BMO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>2584671F-8B47-4373-7936-F9B7EF8CD28D</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<referredTableLongName>BMOVEMENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AD667B8F-497C-08BF-CCD4-9CF27791DEC6</referredTableID>
+<keyObject>D6BBDBBB-AC68-B107-146E-46B5E3A26C9B</keyObject>
+<referredKeyID>D6BBDBBB-AC68-B107-146E-46B5E3A26C9B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BMO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

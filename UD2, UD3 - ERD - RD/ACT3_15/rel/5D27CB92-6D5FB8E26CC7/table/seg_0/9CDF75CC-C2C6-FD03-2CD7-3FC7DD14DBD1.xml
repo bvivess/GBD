@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CDF75CC-C2C6-FD03-2CD7-3FC7DD14DBD1" name="BUDGETS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>D8B9DA5B-474F-008D-97B6-009C728843C0</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<abbreviation>BUD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BUD_ID" id="15A00AC4-6FEA-E77C-F31F-A4B08BBCCB3A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>8CBF375A-BCA2-9EA9-1092-E156F3FA7C8F</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUD_SERVDATE" id="6ADE244B-88C6-7C9E-2CF4-E9B4A1ABC01C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>587D2A5A-AEBC-7DF0-C5BC-63D0C5C947FD</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUD_AMOUNT" id="FF611EBA-97AD-71FF-CCD7-1045B3B23EE3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>F1B29989-0BB5-BBED-07D8-FF300F755237</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9A115F7-BA06-AE06-FB85-6DD7A55C949A" name="BUD_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>B6909954-5DDA-2842-C5AE-4A6B67DADD19</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15A00AC4-6FEA-E77C-F31F-A4B08BBCCB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

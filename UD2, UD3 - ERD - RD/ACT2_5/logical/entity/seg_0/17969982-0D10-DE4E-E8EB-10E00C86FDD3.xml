@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17969982-0D10-DE4E-E8EB-10E00C86FDD3" name="REPAIRLOG">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 09:04:22 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>RLG</shortName>
+<synonymToDisplay>REPAIR LOGS</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="65F72FA5-73AE-EF26-7BF3-53AE68AE0D9C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 09:04:32 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="B74034CD-76F0-1803-4025-627BE3A858FF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 09:04:42 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="D37C50E1-CFF4-BB1B-BD28-A8A80D9E74D5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 09:04:57 UTC</createdTime>
+<generatorID>71817FA4-9607-4FB1-D3CE-915BAB6A36C8</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<referedAttribute>3845AEE6-98C6-3747-8A78-3DAA7711A973</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF44B600-495B-F4C3-F80E-5D3B008209FF" name="REPAIR LOGS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 09:04:38 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65F72FA5-73AE-EF26-7BF3-53AE68AE0D9C</attributeRef>
+<attributeRef>D37C50E1-CFF4-BB1B-BD28-A8A80D9E74D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

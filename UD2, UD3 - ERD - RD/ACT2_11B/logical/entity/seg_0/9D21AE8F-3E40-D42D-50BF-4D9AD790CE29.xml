@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D21AE8F-3E40-D42D-50BF-4D9AD790CE29" name="SUPPLIERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:37:44 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SUP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="9E970225-D306-6E54-A887-1850F44B604E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:37:51 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="0057B66D-74DE-EC75-F91C-279EDF49075D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:37:57 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="3E0E57A3-7F08-E346-626E-0E7E3676203D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:40:54 UTC</createdTime>
+<generatorID>9080F252-FC78-5026-B3FA-35DEE290DBE4</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<referedAttribute>536D8BA6-59CF-0BC5-E246-DF3A4A260032</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="AED0B73D-A362-9CAC-F3A3-C557E8CE857F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 13:49:59 UTC</createdTime>
+<generatorID>8675E0B7-AFC9-83E3-0A5B-8DBAC38B3159</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<referedAttribute>5220619D-FE5E-5B21-A405-6881822737FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="A0947CEE-4200-D956-6B24-0888B8E18EB0">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 13:51:41 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telephone" id="8C4500E9-9281-387B-C911-D204C6EA1C2E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 13:54:33 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contact" id="56A6CBB2-C40C-E5E4-0E8E-8AF040B8E8E4">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 13:54:46 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id " id="D2AF55EC-55E1-733D-59D2-1D842063C83E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:26:07 UTC</createdTime>
+<generatorID>8675E0B7-AFC9-83E3-0A5B-8DBAC38B3159</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<referedAttribute>DC0626B0-BB85-990B-2DFF-17D193BF43DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="286EEED1-E2A9-75A6-7503-91793258528A" name="SUPPLIERS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:38:09 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E970225-D306-6E54-A887-1850F44B604E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

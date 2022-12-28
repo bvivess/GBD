@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="021A3420-F02E-4030-0058-651B6E3D5F80" name="BUILDINGS">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>6F32C696-C955-2E9D-7D1D-FD2DE9D2D031</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>BUI</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BUI_ADD_ID" id="85AF8937-8AA9-8CC1-E1CC-48FB2A1DCDA6">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>3DA2BB15-047A-9F7F-23D5-E2F95CF9B437</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95AF7D15-3B24-B172-3F6D-B47AA7C59EB4" referredColumn="09A3DE9C-E2E6-461E-B979-A5C663ECB464"/>
+</associations>
+</Column>
+<Column name="BUI_CODE" id="488C7BD3-D149-E026-7D5A-F90F922C045C">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>D12A423D-DBF4-7417-B835-378E9C228FCE</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUI_NAME" id="4A77828A-C84F-5B66-CF9A-D9206FAC342C">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>6FFA28B1-7306-216F-661E-2C0F9880E7F0</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7514FE16-7194-7AA5-9366-62113D97B724" name="BUI_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>59B0929D-88B3-0EF3-A1B5-0453E2722377</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="488C7BD3-D149-E026-7D5A-F90F922C045C"/>
+<colUsage columnID="85AF8937-8AA9-8CC1-E1CC-48FB2A1DCDA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3592D78-6B86-1E81-EAC7-955C2C272C2B" name="BUI_ADD_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>8C91A446-1AC4-7AF5-4C33-67350523BB71</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85AF8937-8AA9-8CC1-E1CC-48FB2A1DCDA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

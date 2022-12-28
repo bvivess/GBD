@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF3F1659-95ED-8CA4-2B48-BDF290810953" name="ARTISTS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>5C2B8D01-FE19-DD6B-2506-AD1491263ADC</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<ordsAlias>artits</ordsAlias>
+<abbreviation>ART</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ART_ID" id="910FC599-AF4B-4A68-AA1A-5476BF70E09F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>669B7600-C10D-7112-1634-6FF1A5B84C91</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ART_NAME" id="CC7F8EB4-78CA-29A1-BA24-2AD835C455BE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>739D38F6-262C-9694-D99F-39C8BB008D5F</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ART_SURNAME1" id="01796480-EF1B-47FB-92A6-5431682671F2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>6050FE95-CEDE-7528-9883-667EC9D28D5F</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ART_SURNAME2" id="8819C475-C156-584E-115C-7E425B111D92">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>AF008C04-E66C-16EE-AE5B-2D5BD7FC24D8</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ART_COU_ID" id="991CE03F-C196-27BF-8FE0-6AC81029A631">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>6AF65DB0-CC39-A2DD-2483-FE415266DEFB</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2FA8A4B-0027-7A1D-3085-6FF32049BE2F" referredColumn="B9C287D0-E5B4-7E53-6C7D-A8302CC11AB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9766A625-297E-C873-5912-630CA0D5C3CF" name="ART_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>52BC6962-9F14-6F35-BD33-35D2C8C824A3</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="910FC599-AF4B-4A68-AA1A-5476BF70E09F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8EF11BC-757F-86B3-3DC6-8911BDFE7136" name="ART_COU_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>79201B99-AD05-C571-73D8-994153C8D83C</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="991CE03F-C196-27BF-8FE0-6AC81029A631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

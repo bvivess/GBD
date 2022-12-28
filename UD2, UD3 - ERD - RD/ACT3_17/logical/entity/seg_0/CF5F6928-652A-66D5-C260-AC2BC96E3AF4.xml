@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF5F6928-652A-66D5-C260-AC2BC96E3AF4" name="TRABAJADORES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:52:26 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TRA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="8F5C6937-B382-5E87-B95D-5FF7A7C24A9F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:52:36 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="AA1C3A5E-7A4A-16D7-9BB3-03C8E80D55AD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:52:46 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO1" id="EE54755C-46AC-E7EA-D94A-125C8238531C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:52:52 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO2" id="A8F43EEE-FEE5-3670-BBC5-B2CDB9CA9B93">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:53:02 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CE48445-38BE-0690-8AED-3BD3E3455831" name="TRABAJADORES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:52:42 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8F5C6937-B382-5E87-B95D-5FF7A7C24A9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

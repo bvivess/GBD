@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E33CB36-7033-5465-030C-C29FF546E19F" name="TEACHERS">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>A9061722-6533-0419-D472-1EEAC7B94139</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<abbreviation>TEA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEA_PEO_ID" id="FF22DC93-49BD-19FA-8BF5-77635E0C29F8">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>9D55DC7A-69F8-F5CB-41E0-961E985F8083</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83CAE922-161B-05F3-BA1B-24C2E67C368A" referredColumn="AB0932E7-6B44-C6A3-6A2D-BC9FEFA89754"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB690C4D-54E8-6274-4F71-3FA326D1EE9D" name="TEA_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>05322A95-9B39-8350-9085-4680210641E1</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF22DC93-49BD-19FA-8BF5-77635E0C29F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F60775BB-AE26-A429-7F9C-37308ED74FA8" name="TEA_PEO_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>020E1654-6A4F-6618-D61A-8352730E3C07</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF22DC93-49BD-19FA-8BF5-77635E0C29F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4C1E9DE-B4AB-F971-5EB6-0A8C83F2DD8B" containerWithKeyObject="8274A6A7-BB3B-2F98-E867-234558D88A81" localFKIndex="6FD31A76-A342-37E7-AD02-BE8A92F98BA6" name="TXP_PUB_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>72FEB2D9-552C-9B9E-DCAF-B26A81FDA654</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>PUBLISHERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8D7AEF6-91AA-9930-F950-E1824DB95F8A</referredTableID>
+<keyObject>4F48BFE1-0E86-8010-B1A6-E5164BDF1A93</keyObject>
+<referredKeyID>4F48BFE1-0E86-8010-B1A6-E5164BDF1A93</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PUB_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

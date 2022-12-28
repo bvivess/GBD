@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4519F9DF-35C8-7A6F-86BC-2C6FDFBCB599" name="INVENTORIES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<ordsAlias>relation_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="4C204C8C-5737-9BEA-71E3-50538E1C7DC2">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F598963B-AF52-F961-5E3D-8AC1A8C9B59D" referredColumn="F6D53C16-5179-0928-5AC6-A061A87B559D"/>
+</associations>
+</Column>
+<Column name="WAREHOUSE_ID" id="0CA7F7F6-24E5-EE75-2C63-203ABC02F8F4">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="847D8EB0-B0A9-D914-BFAB-E9342E460DD5" referredColumn="BE8578E1-7489-BC50-1B39-DC7C70A54BFB"/>
+</associations>
+</Column>
+<Column name="QUANTITY_ON_HAND" id="2AC40907-D60F-A250-F396-54298D08D00A">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>8A6BD22D-DB2F-3CA1-B378-0FF32D37B1EC</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8F24EE5-1C66-FDD1-8DCB-368B61BC7B6B" name="INV_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C204C8C-5737-9BEA-71E3-50538E1C7DC2"/>
+<colUsage columnID="0CA7F7F6-24E5-EE75-2C63-203ABC02F8F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="499E9FFE-95BF-B768-B80A-7CA6D81AECAB" name="INV_PRODUCT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>803FC31E-B7EC-4799-C86C-05035956B6FD</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C204C8C-5737-9BEA-71E3-50538E1C7DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B48B441B-6236-361E-760C-A29707202347" name="INV_WAREHOUSES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:09:07 UTC</createdTime>
+<generatorID>803FC31E-B7EC-4799-C86C-05035956B6FD</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CA7F7F6-24E5-EE75-2C63-203ABC02F8F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

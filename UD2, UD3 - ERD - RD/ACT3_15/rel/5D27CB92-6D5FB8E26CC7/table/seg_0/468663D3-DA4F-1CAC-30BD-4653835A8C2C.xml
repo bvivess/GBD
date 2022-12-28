@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="468663D3-DA4F-1CAC-30BD-4653835A8C2C" name="COLLECTIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<abbreviation>COL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COL_CIN_ID" id="63B6A888-D507-DA55-9C24-6BFFB0CEBA45">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE158954-E79E-2F02-41A7-AC464F995331" referredColumn="02125EE7-E4A4-43EA-F467-F5387E230722"/>
+</associations>
+</Column>
+<Column name="COL_BMO_ID" id="776AF098-284F-CC1B-C4A8-15912218D40A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE391D6D-96BA-C991-94BB-4F13804D9475" referredColumn="64193545-D75F-2E44-BFBC-85C25FE31BC0"/>
+</associations>
+</Column>
+<Column name="COL_AMOUNT" id="CF4D8A57-7520-159C-03BB-A0CF3FF34213">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>A5C8AAD4-BC43-2CD1-D0BC-09A30B72C0AE</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AFFE912-DB03-7ADF-A22D-585ADC49C0E1" name="COL_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63B6A888-D507-DA55-9C24-6BFFB0CEBA45"/>
+<colUsage columnID="776AF098-284F-CC1B-C4A8-15912218D40A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61BCC303-D407-8D19-CBF8-E21AA2050C64" name="COL_CIN_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>32F19877-0A85-5CE9-0443-B068F807140A</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63B6A888-D507-DA55-9C24-6BFFB0CEBA45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE8C0D46-8C62-90BF-EE44-A61AAA44BDDE" name="COL_BMO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>32F19877-0A85-5CE9-0443-B068F807140A</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="776AF098-284F-CC1B-C4A8-15912218D40A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

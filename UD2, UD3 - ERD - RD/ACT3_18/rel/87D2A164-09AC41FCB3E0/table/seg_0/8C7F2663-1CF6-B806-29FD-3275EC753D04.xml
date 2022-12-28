@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C7F2663-1CF6-B806-29FD-3275EC753D04" name="CONDUCTORES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>C9819FDA-7AFB-81EC-70C3-2DE7C7866523</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<abbreviation>CON</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CON_CODIGO" id="B7F0F96D-FCB2-D72D-6C92-15B7BD66F675">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>8D05BF76-97FF-EE95-48DA-A3C197898072</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CON_NOMBRE" id="36FEBF54-E4A2-9C02-058C-C713A2373969">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>75D42E41-4B5D-1E96-88D5-A86CC3FEAC76</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FE37358-2558-0D38-E11F-0B2B4F8EFCB8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CON_APELLIDO1" id="F5FB95B8-BC10-FDD1-8926-60AA2CA99982">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>0F0E16DE-AA83-F9CF-EF67-7D6DAFB247D0</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FE37358-2558-0D38-E11F-0B2B4F8EFCB8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CON_APELLIDO2" id="9144476E-7553-B910-C784-6E2A41FD291E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>A0DCFA24-6C26-6580-AE7C-A782FFBC7798</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7274C8A-2E3D-5E9D-5480-9DCDAF81E137" name="CONDUCTORES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>0F4C1A28-14F5-A036-9D14-7D820F87D874</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7F0F96D-FCB2-D72D-6C92-15B7BD66F675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

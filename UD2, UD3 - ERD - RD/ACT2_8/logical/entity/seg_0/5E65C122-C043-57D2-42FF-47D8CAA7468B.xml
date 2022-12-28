@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E65C122-C043-57D2-42FF-47D8CAA7468B" name="COURSES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-09 06:46:21 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>COU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Code" id="0CC115CF-3530-3389-EF15-56A7DD94ACC5">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-09 06:46:34 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="C6B2C6AF-6773-38F8-19BA-C7AAA1EFEA76">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-27 06:21:15 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code1" id="FB281AB5-53CE-F7FC-42FB-95AF9BBA48E5">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:24:20 UTC</createdTime>
+<generatorID>D0DFE174-6777-64D2-1262-8AF97C9718B1</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<referedAttribute>08A9AD4F-81DB-8EAD-692C-1DD808FD6DD3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D7D8E6F-52A4-29AE-9495-B0AB16A0B23F" name="Academic Course PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-09 06:46:38 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CC115CF-3530-3389-EF15-56A7DD94ACC5</attributeRef>
+<attributeRef>FB281AB5-53CE-F7FC-42FB-95AF9BBA48E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

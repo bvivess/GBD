@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7243059F-3266-C068-6D69-0F83C7154E20" name="PROVINCES">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 12:47:57 UTC</createdTime>
+<generatorID>9C265F86-E66C-66EE-D72E-D37F91CBC871</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<abbreviation>PRO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRO_ID" id="6D57818C-0EFB-196B-BB72-6159CE43F714">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 12:47:57 UTC</createdTime>
+<generatorID>84FF32D4-EA05-3128-2E62-000B7562C945</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_NAME" id="1E480A36-8229-7664-6F89-DD51C09BABBB">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 12:47:57 UTC</createdTime>
+<generatorID>358801FE-DC4E-A0D9-C046-66EF5FA1C863</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_ACO_ID" id="21625562-B9BA-46A5-D9A7-579C16462117">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 12:47:57 UTC</createdTime>
+<generatorID>5F7A8719-6EA4-19C4-10A7-63A21168F877</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1135F11-02FB-5564-1685-0B20E2754359" referredColumn="78C8362C-74B1-E1F8-A459-9FB04292D8F5"/>
+</associations>
+</Column>
+<Column name="PRO_LOC_ID" id="7DE153CA-EDB6-A637-6EA1-F2E4A98C6080">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 12:47:57 UTC</createdTime>
+<generatorID>98BBD047-2873-D1D8-5810-A694A7FAC201</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2916BC35-C308-7C3D-AB00-2616A941551E" referredColumn="B85ECC37-72F6-C939-EC39-A382F030ACA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AFF50BB-BE11-8591-D0DF-C57AFAA9C27B" name="PRO_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 12:47:57 UTC</createdTime>
+<generatorID>ADE58F94-E787-2546-1C98-3ED2ED25AF2E</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D57818C-0EFB-196B-BB72-6159CE43F714"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A61370A0-C8DC-7587-F765-7131591F8788" name="PRO_LOC_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 12:47:57 UTC</createdTime>
+<generatorID>63740C56-63DC-0075-5562-612DA0A529E8</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DE153CA-EDB6-A637-6EA1-F2E4A98C6080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45F56D03-113A-984F-F423-2C0D66CE5C92" name="PRO_ACO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 12:47:57 UTC</createdTime>
+<generatorID>CBC8B10E-FF3C-65EC-9030-52200F26117B</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21625562-B9BA-46A5-D9A7-579C16462117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

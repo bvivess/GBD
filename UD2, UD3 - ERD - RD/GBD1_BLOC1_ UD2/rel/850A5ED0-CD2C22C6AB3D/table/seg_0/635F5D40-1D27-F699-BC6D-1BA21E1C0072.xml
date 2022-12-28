@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="635F5D40-1D27-F699-BC6D-1BA21E1C0072" name="TOURNMXTEAMS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:09:44 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<abbreviation>TXT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TXT_TOU_ID" id="E6D1838F-D160-0A39-0A2C-11A1E91CED03">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:10:11 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAAC5A60-5F86-82D3-D0D7-5804CC4AE3D4" referredColumn="D0040791-F744-33EF-8559-2205D04F89AE"/>
+</associations>
+</Column>
+<Column name="TXT_TEA_ID" id="B7E19295-E298-2A19-22EF-56DC93B6F75C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:10:16 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="293CB7D6-1D94-3F49-1C48-5FFA0F9834B4" referredColumn="8C15B165-EC63-D3EE-1A35-EEB21463038B"/>
+</associations>
+</Column>
+<Column name="TXT_ALIAS" id="623308F8-E6AD-4FE0-5197-AFC2E00A2C3A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:22:10 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FE37358-2558-0D38-E11F-0B2B4F8EFCB8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2788E6B3-74C3-8FB8-B83D-99E0CC0445E0" name="TXT_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:10:33 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E19295-E298-2A19-22EF-56DC93B6F75C"/>
+<colUsage columnID="E6D1838F-D160-0A39-0A2C-11A1E91CED03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28B05512-9335-C6CE-1FC3-41BF0229E0AA" name="TXT_UK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:22:46 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6D1838F-D160-0A39-0A2C-11A1E91CED03"/>
+<colUsage columnID="623308F8-E6AD-4FE0-5197-AFC2E00A2C3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBEE4F47-73FC-6C40-A428-1D05927D229A" name="TXT_TOU_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:10:11 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6D1838F-D160-0A39-0A2C-11A1E91CED03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8F2B9F7-6FAF-0359-945B-86BE7B8BEE56" name="TXT_TEA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:10:16 UTC</createdTime>
+<generatorID>63FCB507-757F-75CF-4901-06BBAFB32D98</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E19295-E298-2A19-22EF-56DC93B6F75C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

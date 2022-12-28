@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A5CAC2A-0F1D-D475-AC25-A8A2043310FB" containerWithKeyObject="017AA4B4-EE1D-7316-BABC-05AB9B518189" localFKIndex="C1BE396B-2F24-C1D2-C2BA-19D7F92616C4" name="AWA_FES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>F283DD41-DF0A-6C15-B08F-C46711E33F17</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<referredTableLongName>FESTIVALS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>745FE50C-2ED8-6F38-020B-4F0CD37035AB</referredTableID>
+<keyObject>2E66FF43-B6B6-3597-9EBB-FC3F45E12A69</keyObject>
+<referredKeyID>2E66FF43-B6B6-3597-9EBB-FC3F45E12A69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FES_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

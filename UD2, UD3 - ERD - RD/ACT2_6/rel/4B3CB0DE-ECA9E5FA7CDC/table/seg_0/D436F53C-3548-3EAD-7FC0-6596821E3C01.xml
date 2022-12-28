@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D436F53C-3548-3EAD-7FC0-6596821E3C01" name="RHEXCOP">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RXC_COP_ID" id="4485A3AD-E6E6-F5B1-85CF-1FF8A14769DE">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="471AB811-8534-A9BC-F4F0-49BC7100CA1C" referredColumn="4942B05B-BE16-C172-63BD-CEE65377CA2D"/>
+</associations>
+</Column>
+<Column name="RXC_RHE_ID" id="B5B55E5E-D5E2-69BA-F8EC-118AA805CC4C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88BA173D-D460-30D6-57B0-55C8AA2FAC6B" referredColumn="EE4F214D-8D13-6FD5-7D27-C4D124E783E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B2425E3-53C2-297B-0DB6-13DDF4404713" name="RXC_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4485A3AD-E6E6-F5B1-85CF-1FF8A14769DE"/>
+<colUsage columnID="B5B55E5E-D5E2-69BA-F8EC-118AA805CC4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E9A9A7B-EC34-7D91-7B08-DF761A5F9023" name="RXC_COP_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>E2A42C39-644F-8887-63ED-DF6D8CD36E4F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4485A3AD-E6E6-F5B1-85CF-1FF8A14769DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D932C1F4-71D0-5650-39DE-51D71CF4CB86" name="RXC_RHE_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>E2A42C39-644F-8887-63ED-DF6D8CD36E4F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5B55E5E-D5E2-69BA-F8EC-118AA805CC4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

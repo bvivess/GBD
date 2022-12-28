@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ECE32BF-7383-33A4-5A6C-A7662DBED925" name="PROPERTIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>CBF7F602-5BBE-5338-0588-19684FBA680D</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<abbreviation>PRO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRO_ID" id="5C12D8A7-E81A-D604-9C89-426343468BB2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 09:31:40 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_NCO_ID" id="239B8C78-2AE5-5209-4F14-63F2E3EA056D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>8AEEADF9-2F9A-6126-CD01-388533A56686</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="584C599E-2692-DB2B-36E2-9CEFE326037A" referredColumn="E455D96A-AEF7-AE1D-EAD8-65682552BE2A"/>
+</associations>
+</Column>
+<Column name="PRO_FLOOR" id="14E3C0B6-E292-D999-E6D0-87A8F1A26E1A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>A3758CBD-4978-2DA4-5B13-BC28454528B3</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_NUMBER" id="5FB01205-A0E9-E457-68A3-CCA94F39AD7E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>30630AF0-C4BE-DA94-6340-8FEE7527B7DA</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_DOOR" id="A74385FE-C3FB-2B48-E9B8-95699B5CD9AB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>8719B07A-15AE-5379-A75D-F4E79F635F9A</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRO_TPR_ID" id="B6D99957-2A9E-EE26-5621-556B9E1BEF76">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>03E2C7C3-D47D-D359-EF9B-C1E5DF5619D1</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F36B879-003B-6338-69C4-C6FB0F23EFED" referredColumn="4704CF4C-863F-5D2A-6977-72A2CAB77962"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93A068B2-F500-25BE-1073-1ADAC4E6A694" name="PRO_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>491456D9-268B-95FB-3BF9-3254C704A4B2</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C12D8A7-E81A-D604-9C89-426343468BB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E833EF-4F0F-F508-16F2-C5C8BD2F8B35" name="PRO_UK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 09:34:23 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="239B8C78-2AE5-5209-4F14-63F2E3EA056D"/>
+<colUsage columnID="14E3C0B6-E292-D999-E6D0-87A8F1A26E1A"/>
+<colUsage columnID="5FB01205-A0E9-E457-68A3-CCA94F39AD7E"/>
+<colUsage columnID="A74385FE-C3FB-2B48-E9B8-95699B5CD9AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF0CC1AC-1A53-EFCC-A5E2-F67122F90644" name="PRO_TPR_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>75ABDADA-9435-95F2-23B2-C9F2449ED9AE</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6D99957-2A9E-EE26-5621-556B9E1BEF76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D054BDF-CE8D-66D8-D93F-8B6F59F4FC3F" name="PRO_NCO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>3DDEB32B-E327-C028-E9B5-9F41AE16392C</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="239B8C78-2AE5-5209-4F14-63F2E3EA056D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75831CE1-9BFF-6185-0AFE-FBBC95AB0DDC" name="ORDERS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>4EFDAD89-51F9-AA5A-4963-93AB7FBE8370</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<abbreviation>ORD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORD_ID" id="B4EBBC01-699A-E99A-68F7-39190DA4F6CC">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>BA8F4182-08D5-E719-A04F-06B7801A4978</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORD_DATE" id="11E445AA-D7A7-E437-35D2-6D3726B4B00B">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>43824A53-59C8-529D-8710-4F71D1959C93</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORD_ADDRESS" id="C4F3ED9B-CE8D-C484-9757-0A1FD6A51AD8">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>C711AF4C-5D20-BE1E-F76C-8928E8ECB990</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORD_CUS_ID" id="818F5F83-C8FC-7452-688A-42481FF1DFAA">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>B8C8FB19-30A2-B0F3-CCA3-0AEC67527A12</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB210676-90B9-798E-BE38-10A34C2505EE" referredColumn="04BCEBAA-4931-B80C-E923-4F9FBD58FFC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="635C0237-1E1C-9E02-F91C-2D3D066DD191" name="ORD_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>C9D4F147-4DDB-3FB1-A7F2-A937CA7E8DA6</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EBBC01-699A-E99A-68F7-39190DA4F6CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F56C0408-896A-5AC0-F966-8C735920E37D" name="ORD_CUS_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>CA7F5507-30FD-A12D-0712-A0FE10F6609C</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="818F5F83-C8FC-7452-688A-42481FF1DFAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

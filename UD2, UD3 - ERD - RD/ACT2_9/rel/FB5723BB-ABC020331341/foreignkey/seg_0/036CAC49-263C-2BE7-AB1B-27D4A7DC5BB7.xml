@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="036CAC49-263C-2BE7-AB1B-27D4A7DC5BB7" containerWithKeyObject="FDFFB6F3-CEE8-7DB9-A8F2-F111A779F64E" localFKIndex="A1741FF3-69B7-F8B9-A770-5CA42B9FE2FC" name="CAS_ART_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>040F4DD7-5945-B568-F745-53245DF1CC62</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<referredTableLongName>ARTITS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF3F1659-95ED-8CA4-2B48-BDF290810953</referredTableID>
+<keyObject>9766A625-297E-C873-5912-630CA0D5C3CF</keyObject>
+<referredKeyID>9766A625-297E-C873-5912-630CA0D5C3CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ART_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

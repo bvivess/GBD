@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="306E0FF7-551F-0110-A12C-22A720505E31" name="ITEMS_X_ORDERS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<ordsAlias>relation_2</ordsAlias>
+<abbreviation>IXO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IXO_ORD_ID" id="D4B4C77A-F70C-A747-4B1B-8E3060D89601">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3339FC89-EBE1-FA54-0C2E-B2B8A8FD79C5" referredColumn="B4EBBC01-699A-E99A-68F7-39190DA4F6CC"/>
+</associations>
+</Column>
+<Column name="IXO_ITE_ID" id="7456B3F5-1C98-6D7F-58FA-9AED5D3BC3CA">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D45E74E-FD67-8767-2657-7FFD42580CC1" referredColumn="82DCD78C-8ABC-D77E-F7B5-24B4F4831458"/>
+</associations>
+</Column>
+<Column name="IXO_QUANTITY" id="5E008659-9F12-D584-0FAF-7945052A7A16">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>F48892F7-9537-E023-6631-BCE12474BA09</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>81ADF122-68EB-E364-F1AF-A2C0F7F64667</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B1DDFB2-E3B0-A202-174C-2019E302718F" name="IXO_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4B4C77A-F70C-A747-4B1B-8E3060D89601"/>
+<colUsage columnID="7456B3F5-1C98-6D7F-58FA-9AED5D3BC3CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77A2AAB6-32F7-B940-0B9D-DB19609951B6" name="IXO_ORD_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>6BCF6AC4-9821-E0C9-4D9F-85F6B66813B5</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4B4C77A-F70C-A747-4B1B-8E3060D89601"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FA5258E-FF8C-0A77-5EFD-C7C64E1037C0" name="IXO_ITE_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 21:43:53 UTC</createdTime>
+<generatorID>6BCF6AC4-9821-E0C9-4D9F-85F6B66813B5</generatorID>
+<ownerDesignName>ACT3_21</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7456B3F5-1C98-6D7F-58FA-9AED5D3BC3CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

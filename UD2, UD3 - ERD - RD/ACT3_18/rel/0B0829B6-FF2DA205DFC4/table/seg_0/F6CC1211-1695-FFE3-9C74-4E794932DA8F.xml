@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6CC1211-1695-FFE3-9C74-4E794932DA8F" name="TRAXCON">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<ordsAlias>relation_10</ordsAlias>
+<abbreviation>TXC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TXC_CON_CODIGO" id="3BB42423-C869-81AE-9450-D739D32F575F">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="493014A0-0BD3-D4FF-8F64-D204FE4A843A" referredColumn="08F73318-1742-5380-AFBC-0B30604630FF"/>
+</associations>
+</Column>
+<Column name="TXC_TRA_MATRICULA" id="4F02E375-848E-13CD-DA67-B73CD8123DF1">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="856F287B-A240-206E-F4FF-3495C3E44DF6" referredColumn="8DC0C25D-E3D5-098D-4C95-EC1803662973"/>
+</associations>
+</Column>
+<Column name="TXC_TRA_DIA" id="EBF7AF4F-5980-E771-D1CA-A35679F415AE">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:57:52 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="856F287B-A240-206E-F4FF-3495C3E44DF6" referredColumn="28B0D773-61A7-11B5-2E8F-10D03AF54584"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EAC8EEC-3216-3F37-3470-ADBC3093780F" name="TXC_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB42423-C869-81AE-9450-D739D32F575F"/>
+<colUsage columnID="4F02E375-848E-13CD-DA67-B73CD8123DF1"/>
+<colUsage columnID="EBF7AF4F-5980-E771-D1CA-A35679F415AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="830B59CD-FAFB-6123-00ED-8A4B3944B612" name="TXC_CON_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>9C11B6CA-9CED-8D3B-C90A-06473F1B8F79</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB42423-C869-81AE-9450-D739D32F575F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18DFC0E1-9362-5A43-4BF4-B396DE5DAB5A" name="TXC_TRA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>9C11B6CA-9CED-8D3B-C90A-06473F1B8F79</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F02E375-848E-13CD-DA67-B73CD8123DF1"/>
+<colUsage columnID="EBF7AF4F-5980-E771-D1CA-A35679F415AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

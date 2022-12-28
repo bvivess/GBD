@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCFF51F2-353B-A27E-45EC-61A11D6B40AB" containerWithKeyObject="1FF903C8-CA42-77A0-854E-35271405C24A" localFKIndex="DB4A51F8-C087-1917-24BD-247E722E8415" name="MXT_TTY_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>661DAEC0-C18A-6CEE-6709-60485D6C518D</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>TELEPHONE_TYPES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55F75C45-CDE6-CCBE-F8C2-3316E8D94498</referredTableID>
+<keyObject>7F5E5EC1-BFAD-E0F6-657D-2F767C0CEE1D</keyObject>
+<referredKeyID>7F5E5EC1-BFAD-E0F6-657D-2F767C0CEE1D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TTY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

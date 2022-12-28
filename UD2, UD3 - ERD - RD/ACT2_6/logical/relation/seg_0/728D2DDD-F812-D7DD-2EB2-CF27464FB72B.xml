@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AUTXTIT" directorySegmentName="seg_0" id="728D2DDD-F812-D7DD-2EB2-CF27464FB72B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:07:16 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5D4E5AD0-DC59-35BA-4C37-777957F22EE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>200C90B7-23CE-FED5-B09C-FE787922DACE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

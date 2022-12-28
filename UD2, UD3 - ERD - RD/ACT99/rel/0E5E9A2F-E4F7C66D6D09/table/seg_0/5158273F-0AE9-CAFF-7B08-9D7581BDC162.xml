@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5158273F-0AE9-CAFF-7B08-9D7581BDC162" name="C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:26:48 UTC</createdTime>
+<generatorID>5D33B6E4-743F-68FC-A099-8AD77293F5DC</generatorID>
+<ownerDesignName>ACT99</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_C" id="42BDB365-67B7-B3AC-FCE1-EC71969B7E04">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:26:48 UTC</createdTime>
+<generatorID>22B29579-DF46-6CD2-0D0C-7059B860383E</generatorID>
+<ownerDesignName>ACT99</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="A_Id_A" id="68241861-A18D-1272-D6F1-6A06D5639786">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:26:48 UTC</createdTime>
+<generatorID>1B4BA365-DA73-AC7C-9666-B5D442AD5E0C</generatorID>
+<ownerDesignName>ACT99</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63FA73AA-FCD5-0D12-3C50-24FBC7471F49" referredColumn="362AFEEC-AF96-FA26-E417-39DD5C094B62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B647F93D-1EDF-9B7C-D990-3ADD052EE448" name="C_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:26:48 UTC</createdTime>
+<generatorID>DF2934DC-0054-5714-EA73-EB0B07E57CB4</generatorID>
+<ownerDesignName>ACT99</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BDB365-67B7-B3AC-FCE1-EC71969B7E04"/>
+<colUsage columnID="68241861-A18D-1272-D6F1-6A06D5639786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9C0F03B-777A-F840-5445-D0C24C2525A8" name="C_A_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:26:48 UTC</createdTime>
+<generatorID>645DD249-D3BF-FF99-9D51-0CC37992DDD3</generatorID>
+<ownerDesignName>ACT99</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68241861-A18D-1272-D6F1-6A06D5639786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

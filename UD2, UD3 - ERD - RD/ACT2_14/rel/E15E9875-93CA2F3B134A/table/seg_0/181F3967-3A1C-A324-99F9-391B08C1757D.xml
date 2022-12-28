@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="181F3967-3A1C-A324-99F9-391B08C1757D" name="REF_X_MAT">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<abbreviation>RXM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RXM_MAT_ID" id="55AE0800-7A76-8EB0-ADD6-558F4A0D603F">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:26:12 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="545D8458-CA68-D73F-6F46-9F7F2FF40D6A" referredColumn="015D39A4-4A47-6CD1-0C9A-7A663810F5AE"/>
+</associations>
+</Column>
+<Column name="RXM_REF_ID" id="7A613C08-C9B4-F143-19B7-BC7B939E0786">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EF30E51-B3A4-FF80-7ED6-2B4B024FA0A8" referredColumn="2D999775-C362-ACC0-2FEA-18B9343305E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF05C81-367C-42EA-168C-545DF75B1CAA" name="RXM_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55AE0800-7A76-8EB0-ADD6-558F4A0D603F"/>
+<colUsage columnID="7A613C08-C9B4-F143-19B7-BC7B939E0786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E08CFAFD-75F2-8AEF-3815-6F9B2C675804" name="RXM_REF_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>CFDFAD8D-48BA-3C77-DCA6-A0C8C8CD31E8</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A613C08-C9B4-F143-19B7-BC7B939E0786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C99A7E1-04F6-55D2-479E-367FDE248084" name="RXM_MAT_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>CFDFAD8D-48BA-3C77-DCA6-A0C8C8CD31E8</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55AE0800-7A76-8EB0-ADD6-558F4A0D603F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

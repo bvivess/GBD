@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9FF3C6B-68D8-FB24-063B-5BC6CA12180C" name="MATCH">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 06:58:13 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MAT</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="C6E0D07F-B001-A11E-31C7-074977E08698">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 06:58:31 UTC</createdTime>
+<generatorID>3B25F16B-78C8-761E-78A3-72A99BEEE9B9</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<referedAttribute>BEF17A54-09CC-11F8-8383-51143CB9FCFB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="DAA1AAE2-BBFA-4672-63B8-B66A77B1E9CA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 06:58:40 UTC</createdTime>
+<generatorID>7366C40E-8794-113C-530D-9D621A08EAA8</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<referedAttribute>BEF17A54-09CC-11F8-8383-51143CB9FCFB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="6F8275A3-C07D-2F41-9B1F-AB397485A3EC">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:14:27 UTC</createdTime>
+<generatorID>3F49E120-1D56-DB25-5008-EB1780E223FD</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<referedAttribute>D09727A6-C399-16F5-BC19-40CC16DBD22C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="1C887391-4736-F56F-CCF7-DB045FAA385D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:22:32 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hour" id="BB15897B-8EAF-E2E4-4069-4BAA31526A3C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 08:06:08 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id11" id="7F42CEDC-16AA-933C-B3B0-232C86BB69DD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:42:51 UTC</createdTime>
+<generatorID>3F49E120-1D56-DB25-5008-EB1780E223FD</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<referedAttribute>CCEBF35F-EA12-9420-5490-9490907B31B8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33BD8D69-8864-D0CA-8411-38E23B6F3748" name="MATCHPLAYS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 06:58:34 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<engineerTo>
+<item key="850A5ED0-D215-6820-5CBE-CD2C22C6AB3D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6E0D07F-B001-A11E-31C7-074977E08698</attributeRef>
+<attributeRef>DAA1AAE2-BBFA-4672-63B8-B66A77B1E9CA</attributeRef>
+<attributeRef>6F8275A3-C07D-2F41-9B1F-AB397485A3EC</attributeRef>
+<attributeRef>7F42CEDC-16AA-933C-B3B0-232C86BB69DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

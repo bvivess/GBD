@@ -1,0 +1,1 @@
+sqlldr gestio/gestio control=restaurants.ctl data=restaurants.csv

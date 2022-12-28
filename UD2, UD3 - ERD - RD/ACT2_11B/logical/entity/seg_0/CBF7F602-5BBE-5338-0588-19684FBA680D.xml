@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBF7F602-5BBE-5338-0588-19684FBA680D" name="PROPERTIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:30:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Floor" id="A3758CBD-4978-2DA4-5B13-BC28454528B3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:31:31 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="30630AF0-C4BE-DA94-6340-8FEE7527B7DA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:30:07 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Door" id="8719B07A-15AE-5379-A75D-F4E79F635F9A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 13:53:20 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id " id="03E2C7C3-D47D-D359-EF9B-C1E5DF5619D1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:31:09 UTC</createdTime>
+<generatorID>75ABDADA-9435-95F2-23B2-C9F2449ED9AE</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<referedAttribute>28FAF72E-12B6-9D4A-0487-32FD732D9D49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id  " id="8AEEADF9-2F9A-6126-CD01-388533A56686">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:36:13 UTC</createdTime>
+<generatorID>3DDEB32B-E327-C028-E9B5-9F41AE16392C</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<referedAttribute>7AD2F80F-F547-59EA-F63E-1839F7F32874</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="491456D9-268B-95FB-3BF9-3254C704A4B2" name="PROPERTIES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:30:15 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30630AF0-C4BE-DA94-6340-8FEE7527B7DA</attributeRef>
+<attributeRef>A3758CBD-4978-2DA4-5B13-BC28454528B3</attributeRef>
+<attributeRef>8719B07A-15AE-5379-A75D-F4E79F635F9A</attributeRef>
+<attributeRef>8AEEADF9-2F9A-6126-CD01-388533A56686</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

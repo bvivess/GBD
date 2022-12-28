@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7639ECE1-B0A4-B523-7367-F2DE34CA2962" name="DESPACHOS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:40:58 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<engineerTo>
+<item key="6B799296-4697-22C7-54CD-0B8A05AE4DA6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DESPACHO_PROF" id="C82822CA-0FB8-2E0B-FAF3-936961F2EDF9">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:41:06 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<engineerTo>
+<item key="6B799296-4697-22C7-54CD-0B8A05AE4DA6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_DESPACHO" id="E7B3F278-9859-E9D5-D5C0-A984BF54306E">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:41:10 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<engineerTo>
+<item key="6B799296-4697-22C7-54CD-0B8A05AE4DA6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E03DE80B-9BF4-F23C-56A9-EBC1E8131DD9" name="DESPACHOS PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:41:23 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<engineerTo>
+<item key="6B799296-4697-22C7-54CD-0B8A05AE4DA6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C82822CA-0FB8-2E0B-FAF3-936961F2EDF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

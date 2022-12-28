@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89B3896F-DC85-AFD4-F1A9-71C410BCD7CA" containerWithKeyObject="5E8A12D9-43DA-048F-8429-77A3E293C344" localFKIndex="21B1BDCE-FA9A-ACED-EB2C-F6B346E576DE" name="SXH_RHE_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-14 06:56:51 UTC</createdTime>
+<generatorID>A302BE8A-62ED-0A92-E87E-368BD9DE5841</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<referredTableLongName>REPARATIONHEADERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4F31B914-6D88-58D0-B1D1-A6D93CD2EE29</referredTableID>
+<keyObject>17805B58-5D08-FA2D-FE99-7C4EC8DE496D</keyObject>
+<referredKeyID>17805B58-5D08-FA2D-FE99-7C4EC8DE496D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RHE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

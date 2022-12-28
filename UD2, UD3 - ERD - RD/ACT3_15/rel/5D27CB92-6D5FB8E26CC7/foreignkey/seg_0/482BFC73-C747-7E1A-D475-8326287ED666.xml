@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="482BFC73-C747-7E1A-D475-8326287ED666" containerWithKeyObject="34AEE2E7-CE52-D2BE-E516-0A222572A863" localFKIndex="352D1C0A-88C6-5C5F-CF17-3AFB4EB91398" name="ETL_TTY_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-16 16:51:58 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<referredTableLongName>TELTYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE0F1B25-2B84-1EE9-F20B-D9CBEB149E4C</referredTableID>
+<keyObject>7D93CEDC-4A7C-A074-476E-2D44AC74D7E1</keyObject>
+<referredKeyID>7D93CEDC-4A7C-A074-476E-2D44AC74D7E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TTY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D12F8E3F-1C19-1147-AD6D-7001E89F61B8" containerWithKeyObject="A2A3A8D0-E268-D135-DA4A-6D831E7A8735" localFKIndex="5A9607A5-02EC-576B-B8FB-7970288B7474" name="MEM_BUI_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>47BC8A34-2155-BB09-773C-4D28E4BDB67E</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>BUILDINGS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>021A3420-F02E-4030-0058-651B6E3D5F80</referredTableID>
+<keyObject>7514FE16-7194-7AA5-9366-62113D97B724</keyObject>
+<referredKeyID>7514FE16-7194-7AA5-9366-62113D97B724</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BUI_CODE,BUI_ADD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

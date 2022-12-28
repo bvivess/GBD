@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CC89462-CB05-1BBE-E006-61C135F489E3" name="GAMES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:54:08 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>GAM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="2E8FA611-A275-61C9-837A-3529A992A682">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:54:16 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id5" id="D7336CF6-DA5F-C4B7-3258-CB99BA6D798E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 15:01:14 UTC</createdTime>
+<generatorID>69CE41B9-2B97-7978-A584-7E154DAA1F4F</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<referedAttribute>3149E664-C848-7792-C9F7-EE6129EDF7DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id3" id="61E9DB2C-85B3-59D1-451E-13835ED25EB2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 15:17:46 UTC</createdTime>
+<generatorID>D419121F-02C9-2333-AFE5-A9EE4F2CF624</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<referedAttribute>192A7455-72D1-8AF6-9DD1-740DDED1A5FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="461534B9-2687-CAE6-134B-BE7C9DD8E83A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 09:58:10 UTC</createdTime>
+<generatorID>A7CDE191-857C-8CD3-6C20-B49672F58D72</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<referedAttribute>68DB9D6A-51A6-0E57-FDF0-A1233D19E290</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="99E1700E-A55B-0B49-099C-C1AFD4B7B5B5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 09:58:14 UTC</createdTime>
+<generatorID>ADEE06B9-7BDE-87F5-7C4E-FDB43BD6A43D</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<referedAttribute>68DB9D6A-51A6-0E57-FDF0-A1233D19E290</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id4" id="47AF605F-49E4-EE45-3BB8-1E029F5D5889">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 09:58:18 UTC</createdTime>
+<generatorID>37F27C6C-24E6-9EA3-78CB-3C41CAF64A4A</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<referedAttribute>08C80E08-BAFD-C2FD-7452-954219841083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE5B80B9-6A70-1021-1932-19E6AB7FC14E" name="GAMES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:54:28 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E8FA611-A275-61C9-837A-3529A992A682</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

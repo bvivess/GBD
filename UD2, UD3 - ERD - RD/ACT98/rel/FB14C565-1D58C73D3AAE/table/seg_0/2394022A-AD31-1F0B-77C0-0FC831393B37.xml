@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2394022A-AD31-1F0B-77C0-0FC831393B37" name="B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>D817C656-7C1F-3C0A-C365-98FE2734AE86</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_B" id="C5B40AF8-8B7E-AEAE-9B8B-0A2371E56DC5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>567C5091-5F0B-0DEC-4151-DCB8441A4B78</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2E32DAF-F2CA-276D-F826-CBA75C5071A0" name="B_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>F90AF02A-EC87-AE59-FEF7-5450B3DF32BE</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5B40AF8-8B7E-AEAE-9B8B-0A2371E56DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A7B8E72-E2D2-E30D-586E-F86FA5B5C8A2" containerWithKeyObject="EFF79DF7-2875-1059-9AE5-390C5D1A6893" localFKIndex="C043F3C5-37AF-5D1C-3382-C84D6B57B8BF" name="REF_PEO_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>DED654F3-649D-EEA9-BB64-E8666B3E1DD7</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<referredTableLongName>PEOPLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1D4D5FB-D0A4-BED8-D56F-DD1C3044F6AD</referredTableID>
+<keyObject>35797E35-5AEB-C57F-84E5-8FC1A3AEE811</keyObject>
+<referredKeyID>35797E35-5AEB-C57F-84E5-8FC1A3AEE811</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PEO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

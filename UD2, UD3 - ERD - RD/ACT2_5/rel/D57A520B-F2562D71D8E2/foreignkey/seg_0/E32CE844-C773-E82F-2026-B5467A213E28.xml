@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E32CE844-C773-E82F-2026-B5467A213E28" containerWithKeyObject="D7948ECD-9FAA-7DC6-E31F-08F58E149CB3" localFKIndex="D6DA072B-3901-2D18-B068-A8412011A591" name="MOD_BRA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>1B4392CE-9E8C-1E21-96A3-A175A1F1F6FE</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<referredTableLongName>BRANDS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F60B34CA-B6FD-790E-3EFC-6F20201109DB</referredTableID>
+<keyObject>260B78AE-F0C7-3659-9E3D-389FAE595003</keyObject>
+<referredKeyID>260B78AE-F0C7-3659-9E3D-389FAE595003</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BRA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

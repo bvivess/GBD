@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52CA8B86-A77F-1CE4-0DF0-5A4C41729620" containerWithKeyObject="5803E13F-7B5C-B083-0F92-E60E4955013A" localFKIndex="912130A8-33C3-45BE-7FD1-66F3543B260D" name="CXT_CIU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>8129A93A-2A00-FFFF-EF97-EE33D3F8924E</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<referredTableLongName>CIUDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B1364D20-D8EE-AA3E-18A3-08BB34E98BEA</referredTableID>
+<keyObject>31966C86-665C-3932-B1F7-3CCEA21A0829</keyObject>
+<referredKeyID>31966C86-665C-3932-B1F7-3CCEA21A0829</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CIU_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

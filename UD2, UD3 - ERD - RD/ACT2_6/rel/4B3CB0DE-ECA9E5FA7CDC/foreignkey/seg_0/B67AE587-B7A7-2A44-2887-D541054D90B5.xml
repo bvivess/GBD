@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B67AE587-B7A7-2A44-2887-D541054D90B5" containerWithKeyObject="92774E73-D2EA-AEC7-10D1-6AD4C990EE08" localFKIndex="F0DE9419-0847-E14F-A04E-E3FED4DE92C6" name="TEL_MEM_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>BE9FD3BC-6CED-C041-358C-DE835BD9893F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>MEMBERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59C5908A-D8E9-D642-A872-660C69F55373</referredTableID>
+<keyObject>D1CB2127-A4CB-5903-A141-F0F2E53A2501</keyObject>
+<referredKeyID>D1CB2127-A4CB-5903-A141-F0F2E53A2501</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MEM_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

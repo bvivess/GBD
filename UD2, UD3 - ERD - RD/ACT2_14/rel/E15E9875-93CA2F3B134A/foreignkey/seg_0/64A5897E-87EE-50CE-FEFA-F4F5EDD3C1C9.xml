@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="64A5897E-87EE-50CE-FEFA-F4F5EDD3C1C9" containerWithKeyObject="BB7DD0BA-7F81-56D9-8E1E-22190224ADC1" localFKIndex="4399E9E8-0EEF-2BFB-AF49-7A78FF376592" name="TEA_STA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>3AB31215-3D51-33AC-EA91-0498E77F0B5D</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<referredTableLongName>STADIUMS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>657E1DBC-3DB9-6F78-78A7-AAE26BF4E9D6</referredTableID>
+<keyObject>8FE3D125-C7A1-6AFE-C7B6-6A3801191AD5</keyObject>
+<referredKeyID>8FE3D125-C7A1-6AFE-C7B6-6A3801191AD5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

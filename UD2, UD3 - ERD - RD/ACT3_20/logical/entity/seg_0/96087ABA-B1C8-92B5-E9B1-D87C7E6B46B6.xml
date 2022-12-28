@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96087ABA-B1C8-92B5-E9B1-D87C7E6B46B6" name="CIUDADES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:38:12 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CIU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOMBRE" id="25957ABB-10D5-77FE-53E9-9AE9C601E6BC">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:38:30 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9524B145-6706-7022-8CE8-8F47D8B3CBD2" name="CIUDADES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:38:29 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>25957ABB-10D5-77FE-53E9-9AE9C601E6BC</newElementsIDs>
+<usedAttributes>
+<attributeRef>25957ABB-10D5-77FE-53E9-9AE9C601E6BC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

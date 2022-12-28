@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAAC5A60-5F86-82D3-D0D7-5804CC4AE3D4" containerWithKeyObject="635F5D40-1D27-F699-BC6D-1BA21E1C0072" localFKIndex="FBEE4F47-73FC-6C40-A428-1D05927D229A" name="TXT_TOU_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:10:11 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<referredTableLongName>TOURNAMENTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B2C6D65C-8039-7D06-7698-3C8CB3CF5745</referredTableID>
+<keyObject>7CE7E42E-BE1D-CD33-2E6B-AFB329258560</keyObject>
+<referredKeyID>7CE7E42E-BE1D-CD33-2E6B-AFB329258560</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TOU_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

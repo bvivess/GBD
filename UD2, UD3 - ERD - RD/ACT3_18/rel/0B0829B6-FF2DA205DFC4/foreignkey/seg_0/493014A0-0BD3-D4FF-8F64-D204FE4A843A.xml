@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="493014A0-0BD3-D4FF-8F64-D204FE4A843A" containerWithKeyObject="F6CC1211-1695-FFE3-9C74-4E794932DA8F" localFKIndex="830B59CD-FAFB-6123-00ED-8A4B3944B612" name="TXC_CON_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>9C11B6CA-9CED-8D3B-C90A-06473F1B8F79</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<referredTableLongName>CONDUCTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36F531CF-6FF5-99B0-F538-337CC9260A93</referredTableID>
+<keyObject>F395B697-6E4A-F71E-B523-BA25B01B3AEE</keyObject>
+<referredKeyID>F395B697-6E4A-F71E-B523-BA25B01B3AEE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CON_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

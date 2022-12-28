@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C99406F-674A-A455-B658-66A4F24D8E32" name="PROVINCE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>6254E96C-6289-4E30-A1EA-7C21A371496E</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<ordsAlias>prv</ordsAlias>
+<abbreviation>PRV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRV_CODE" id="3C11D327-764C-E4F5-5A19-AD58FE44A41A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>7F3FABC6-A62D-65FD-436D-CBAEEE3D6153</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRV_NAME" id="995B5862-982E-F6D5-F348-448415626C3D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>777133AE-ED1A-0125-C365-53D434B5B87E</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRV_STT_CODE" id="392F0188-2C1F-352E-AE88-695041753663">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>81C26F3A-6186-3FCD-9120-BA36CC0487E2</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA2B0C4E-E260-0BF1-7B21-69A3F58DAF84" referredColumn="C3B84B62-B356-C6D4-0CDB-87776C374DA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6248643-556A-A164-C7B9-96D96D88F346" name="PRV_PRV_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>7DB6CD47-BE3E-C2FE-2A4F-04FF2ACB2F37</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C11D327-764C-E4F5-5A19-AD58FE44A41A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5739EC58-24A6-C011-C4EB-88A818A88A8D" name="PRV_STT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:20:57 UTC</createdTime>
+<generatorID>37E58CE9-311A-6047-09FF-B16955C8C78D</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="392F0188-2C1F-352E-AE88-695041753663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

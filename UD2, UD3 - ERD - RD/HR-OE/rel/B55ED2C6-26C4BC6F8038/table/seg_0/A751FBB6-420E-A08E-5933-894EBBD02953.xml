@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A751FBB6-420E-A08E-5933-894EBBD02953" name="CATEGORIES_TAB">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:42:48 UTC</createdTime>
+<generatorID>0143DA17-2C08-0BAA-436C-1C2014A57A87</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGORY_ID" id="7E32C25E-707A-8E84-2D6A-F2FCFD9F1C32">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:42:48 UTC</createdTime>
+<generatorID>67C97CA8-D3D3-0100-5029-FDF108102F5A</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY_NAME" id="AE4B2DF2-151B-EB9D-0282-B78DD27EC596">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:42:48 UTC</createdTime>
+<generatorID>1D0FC557-1B43-DD57-7787-41E4CEE8558F</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY_DESCRIPTION" id="3675A2A6-E094-F81E-016E-AEBC6543686D">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:42:48 UTC</createdTime>
+<generatorID>FF6039BD-502C-9696-9A52-08ADFDC9A520</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_CATEGORY_ID" id="E1913999-A973-A6D6-2693-5AF561824B1C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:42:48 UTC</createdTime>
+<generatorID>4564BC79-3D25-372E-43EB-84BF2EDF47E8</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0E087E6-CCDE-4303-82F7-482BB23AAC62" referredColumn="7E32C25E-707A-8E84-2D6A-F2FCFD9F1C32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84E10336-DFFF-2F72-CE5C-885E46FC19A7" name="CATEGORIES_TAB_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:42:48 UTC</createdTime>
+<generatorID>6EB65271-9A61-4FCA-F3F2-19D316E48E1B</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E32C25E-707A-8E84-2D6A-F2FCFD9F1C32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95D64EF4-9AA0-C60A-F089-88588256F130" name="PARENT_CATEGORIES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:42:48 UTC</createdTime>
+<generatorID>AE794699-83B6-2823-6026-2EB9176FDFFC</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1913999-A973-A6D6-2693-5AF561824B1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

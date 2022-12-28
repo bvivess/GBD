@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56EC6336-F56C-092E-508C-256926EBB79E" name="AUTONOMOUS_COMUNITIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>0F80724E-9AA5-AA10-0EC0-C7D5E888E7FA</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAComunity" id="427D86FC-64AA-8919-6129-4CD45246CFAD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>A0AE92DE-D9AD-224D-8231-5D07045BD167</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="457FBB70-605B-C8AA-8D17-E655AB3AA8FD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>E06EA848-AADC-6EEB-3D8F-C2D3C6AEC296</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF78C7D8-18EC-5364-7420-D2F138AFF6EE" name="AUTONOMOUS_COMUNITIES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>EE26FC06-3FC4-B5FF-55DC-41E423B0E652</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="427D86FC-64AA-8919-6129-4CD45246CFAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

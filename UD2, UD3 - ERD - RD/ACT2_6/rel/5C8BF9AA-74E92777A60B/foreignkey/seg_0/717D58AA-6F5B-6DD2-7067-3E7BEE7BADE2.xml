@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="717D58AA-6F5B-6DD2-7067-3E7BEE7BADE2" containerWithKeyObject="1FF903C8-CA42-77A0-854E-35271405C24A" localFKIndex="78FEE107-0919-2F05-59EE-914D3B04FFC6" name="MXT_MEM_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>661DAEC0-C18A-6CEE-6709-60485D6C518D</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>MEMBERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A2A3A8D0-E268-D135-DA4A-6D831E7A8735</referredTableID>
+<keyObject>BC906BA1-7191-C600-2422-09B39F7C7030</keyObject>
+<referredKeyID>BC906BA1-7191-C600-2422-09B39F7C7030</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MEM_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

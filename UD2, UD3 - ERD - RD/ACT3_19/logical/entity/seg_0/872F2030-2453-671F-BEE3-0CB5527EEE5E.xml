@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="872F2030-2453-671F-BEE3-0CB5527EEE5E" name="EDAD">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:04:13 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<engineerTo>
+<item key="6E8CFA85-EB0B-4EE4-6F7C-CB711337455E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="51552AAD-747A-10D6-201F-CF2F3E1A0307">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:04:21 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<engineerTo>
+<item key="6E8CFA85-EB0B-4EE4-6F7C-CB711337455E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8BC5BC86-3D2E-167C-FA00-2AF223D73553" name="EDAD PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:04:26 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<engineerTo>
+<item key="6E8CFA85-EB0B-4EE4-6F7C-CB711337455E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51552AAD-747A-10D6-201F-CF2F3E1A0307</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

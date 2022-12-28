@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="73B194A2-A453-DEDD-28E8-73DAEF4CC8C1" name="Arc_1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-11 11:39:05 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD3</ownerDesignName>
+<engineerTo>
+<item key="04C9A7C0-31F1-E30A-65D2-A410EA824F35" value="true"/>
+</engineerTo>
+<entity>C8303D0D-78B6-D13E-8C1C-7D48BE16B04A</entity>
+<relations>
+<relationID>1BFCDBFD-CC5E-9599-4372-72773F15A058</relationID>
+<relationID>08CD50D6-2303-C394-A1F5-4A4DD6F34BDA</relationID>
+</relations>
+</Arc>

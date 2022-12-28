@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TDIXMET" directorySegmentName="seg_0" id="50004A0D-01AE-0DD3-9537-874B56CEE0BD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:54:44 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7BAD77F2-6759-E3B0-CA1E-F5CFCE8B7318</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>61B20014-E535-1F58-512A-473149FA5908</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1418E17B-0013-F314-D213-F3701385F7D1" containerWithKeyObject="A2D099A4-A59F-8C68-5F54-DF959B6EAA4B" localFKIndex="0EFD1744-CAE9-6BC5-9339-A07A25CE3686" name="PXM_PLA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>A224DC7D-AD12-93DE-083D-72B73393B48A</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<referredTableLongName>PLAYERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF8D1DDC-D0A0-69C1-774C-E277757245A5</referredTableID>
+<keyObject>637CD7E9-9CB7-A5B0-1108-8736BC9CA7EF</keyObject>
+<referredKeyID>637CD7E9-9CB7-A5B0-1108-8736BC9CA7EF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PLA_PEO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

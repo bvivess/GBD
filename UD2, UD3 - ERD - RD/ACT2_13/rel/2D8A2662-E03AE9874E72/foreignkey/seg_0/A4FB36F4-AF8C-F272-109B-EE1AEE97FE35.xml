@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4FB36F4-AF8C-F272-109B-EE1AEE97FE35" containerWithKeyObject="6DF8EF9E-DA99-0A49-921F-4DAC11C7D62F" localFKIndex="1CA0E4D3-BC54-34D8-FA4A-445C53F9662C" name="SXC_SCO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>956792D2-2E37-B4AE-4EEB-48F17B1C7451</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<referredTableLongName>SCOMPANIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED961EE6-15F2-E775-545F-38E3D3857E4D</referredTableID>
+<keyObject>65C5CCA3-1EC0-6663-8E7E-1B906B868946</keyObject>
+<referredKeyID>65C5CCA3-1EC0-6663-8E7E-1B906B868946</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SCO_ENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

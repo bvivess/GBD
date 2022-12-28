@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22E185BA-4096-4B10-DC0C-605A2B63800B" name="SOCIS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:49:29 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SOC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIF" id="2EA2770A-8A13-D61C-0013-9FB5FC13FD88">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:49:50 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM" id="5222D74E-0E53-C10B-21AB-CB3FA9D959A9">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:50:52 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LLINATGE1" id="A06FE869-AE68-9BFF-2708-D224CF6E5B26">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:50:58 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LLINATGE2" id="47F94038-BE8B-5E56-43FD-4C48BB588E31">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:51:05 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARRER" id="7B055DC4-4108-DF16-3D5E-9FA5685BC863">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:52:28 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="52BB3C1F-D7D7-43B9-BF41-EF9E82479264">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:52:33 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOCALITAT" id="A2C87618-0B0A-5597-D408-59426B9703CF">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:55:55 UTC</createdTime>
+<generatorID>4E5A85D8-A70C-8733-A25B-83D7B50D30E2</generatorID>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<referedAttribute>119F6E3B-004A-ADBC-241B-AFD35A590B7D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25162105-DFE0-2B16-A8FD-DD89B22D3B27" name="SOCIS PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:50:48 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<engineerTo>
+<item key="1789A1A5-841F-7BAC-26F7-4DDB2173C0B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2EA2770A-8A13-D61C-0013-9FB5FC13FD88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

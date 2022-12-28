@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADE0064C-5D25-E9E5-FFFA-BF7A08214705" name="ADDRESSES">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>C3FE5929-6BEB-044F-FEE6-6FBFB90FC5A9</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<ordsAlias>address</ordsAlias>
+<abbreviation>ADD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADD_ID" id="09A3DE9C-E2E6-461E-B979-A5C663ECB464">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>7EE0B3D4-2214-2E40-7F18-F8C59F4A0964</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_NAME" id="D920EC44-6F4C-7CA5-7B36-1EEBAB37A43C">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>1E3975CF-9BF7-DD43-4CF5-085AB5AAC4FE</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADD_PDI_ID" id="B51ED8AF-5E0B-DCEA-2653-36FB1C10ECD8">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>0962CDFF-19D3-C810-9CDC-60C4176E9811</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAAB89E6-ACA7-5AED-A599-1624C9F1F991" referredColumn="3B345690-B89D-180A-FC0C-031976BFE658"/>
+</associations>
+</Column>
+<Column name="ADD_TAD_ID" id="F41A8E75-2379-16C9-D2C9-361F80917166">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>B8C2F5AC-F286-B477-EA00-8530AC285B81</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65F94C8D-EE12-02FA-3720-205C48A14FC8" referredColumn="88D0A511-0BEB-96E6-4360-579364182C6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A5A2135-7C0A-05E2-C337-B52883EC4067" name="ADD_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>AA9877C3-F8D1-E9AD-C213-AD0B2DD1083B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09A3DE9C-E2E6-461E-B979-A5C663ECB464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1741621-954E-3425-83FB-63FCDF07CC7B" name="ADD_PDI_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>A451B350-A06B-C654-E48E-1A0F8D95424E</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B51ED8AF-5E0B-DCEA-2653-36FB1C10ECD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A4F4A53-A78B-6901-EE79-518A266BDB35" name="ADD_TAD_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>AA768BF7-B893-1605-D923-57B401ED55FC</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F41A8E75-2379-16C9-D2C9-361F80917166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

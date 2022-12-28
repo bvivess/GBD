@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8274A6A7-BB3B-2F98-E867-234558D88A81" name="TITLESXPUBLISHERS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>AED5D917-98AF-9648-6AE5-8C3E8F6D97CE</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>CXP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TXP_ISBN" id="972CEDCB-AF06-2EB0-42F8-D7C3BAF1567C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>14EA2511-DA5D-2653-A1CF-E4A75E816ED4</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TXP_TIT_ID" id="A9AB134B-8678-3858-7E2B-D99017658FE7">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>786F833E-0F32-1049-B834-7E78895FB2A6</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BEC30F1-7EE2-114D-9489-3857485A0B5D" referredColumn="670B3231-1A41-5A3C-9FB8-E9CBC78FD306"/>
+</associations>
+</Column>
+<Column name="TXP_PUB_ID" id="FC209E0B-F93B-C8BE-F806-AAD2697FAB81">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>848316F5-B5D4-A445-40C4-D4CAC45FCEC4</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4C1E9DE-B4AB-F971-5EB6-0A8C83F2DD8B" referredColumn="B69EE1CF-7F51-8CD5-019E-D6D9498359BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B9A5D28-F60C-0D8A-67A0-3690B6CC220A" name="TITLESXPUBLISHERS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>DB1660BB-ADA6-143D-649C-594CBBC6840F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="972CEDCB-AF06-2EB0-42F8-D7C3BAF1567C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B311CA77-2C8E-5A5A-2660-4A97B18B3681" name="TXP_UK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 20:01:28 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9AB134B-8678-3858-7E2B-D99017658FE7"/>
+<colUsage columnID="FC209E0B-F93B-C8BE-F806-AAD2697FAB81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAF9552E-9EEF-74BF-CE29-C7DC698EAF05" name="TXP_TIT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>13A3C71D-3CC0-DA58-C04D-AD6833818D77</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9AB134B-8678-3858-7E2B-D99017658FE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FD31A76-A342-37E7-AD02-BE8A92F98BA6" name="TXP_PUB_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>72FEB2D9-552C-9B9E-DCAF-B26A81FDA654</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC209E0B-F93B-C8BE-F806-AAD2697FAB81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

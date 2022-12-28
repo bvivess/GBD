@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="210FF719-5012-6ACF-9FC9-81A28C9C86A7" name="PROVINCES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>9C265F86-E66C-66EE-D72E-D37F91CBC871</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProvince" id="0F644E8A-5A01-6E37-2BEC-0EF85FD7704B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>84FF32D4-EA05-3128-2E62-000B7562C945</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="B5AC417C-AE98-2DF1-B1E7-E5CDA6C9ABC2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>358801FE-DC4E-A0D9-C046-66EF5FA1C863</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTONOMOUS_COMUNITIES_IdAComunity" id="7B7B9FB8-36EF-734F-B2D1-B80CD3924BE5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>BEEA8AAC-25FA-DE51-4990-52F51C8BF232</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83EC4628-3B47-5A75-F77A-5EB7E98A8A07" referredColumn="427D86FC-64AA-8919-6129-4CD45246CFAD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="665FA403-1C06-907F-360B-A1126F9202F3" name="PROVINCES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>ADE58F94-E787-2546-1C98-3ED2ED25AF2E</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F644E8A-5A01-6E37-2BEC-0EF85FD7704B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="270448C6-CBEF-BCFA-EA83-1B42BB0EBB2E" name="PROVINCES_AUTONOMOUS_COMUNITIES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:45:14 UTC</createdTime>
+<generatorID>4D7E4D00-C7C8-8F9C-461B-3102118C8327</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B7B9FB8-36EF-734F-B2D1-B80CD3924BE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

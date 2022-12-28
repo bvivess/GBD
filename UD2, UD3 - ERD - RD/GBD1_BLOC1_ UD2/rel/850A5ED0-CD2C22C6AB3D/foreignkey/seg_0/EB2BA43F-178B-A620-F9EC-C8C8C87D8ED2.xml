@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB2BA43F-178B-A620-F9EC-C8C8C87D8ED2" containerWithKeyObject="DCB43C62-D414-7BC2-68C4-B4FE37B8FFAD" localFKIndex="3D2B3412-49BF-FF4C-AB64-043B8D1E0ED1" name="SXP_SKI_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:33:23 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<referredTableLongName>SKILLS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F9CDDE0-AA3A-E2D8-997B-FB20CA1EA515</referredTableID>
+<keyObject>97D50193-5D6A-DEFF-EBCF-D3C1763331CA</keyObject>
+<referredKeyID>97D50193-5D6A-DEFF-EBCF-D3C1763331CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SKI_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

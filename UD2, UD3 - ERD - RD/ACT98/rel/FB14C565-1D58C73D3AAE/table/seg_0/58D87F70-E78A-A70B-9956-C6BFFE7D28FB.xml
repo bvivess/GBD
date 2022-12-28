@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58D87F70-E78A-A70B-9956-C6BFFE7D28FB" name="A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>17BA6100-CC38-A3D6-E549-31B76A430B04</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_A" id="874FEDDC-09B6-6454-4121-4F0BAE0CC2A4">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>7EB44995-B1A1-A4F3-DA5C-F89A2D028018</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_Id_B" id="875490B3-35F0-7BA5-9FC0-21A9CF7E49D3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>98D7ECAB-C13B-8E6A-1CBF-BA70AADC7E34</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D080941-9243-ACE8-BE94-80C43249A25D" referredColumn="C5B40AF8-8B7E-AEAE-9B8B-0A2371E56DC5"/>
+</associations>
+</Column>
+<Column name="Id_A1" id="E4EE533E-677A-48D9-8A82-7EB426648770">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>97FEC717-C301-3A82-DD97-FDE44C571B7F</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_Id_C" id="E62FF5BA-CC01-1F3B-5C6A-A333551D70C1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>42598D03-146E-05F8-8CED-2A00CE0D4FCF</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="908E2261-7149-DC38-45F4-E158141EA6E2" referredColumn="1405D1EA-69BD-36F9-62D9-4EDB06F7E45C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76726B46-773D-682D-068F-D6D215672F73" name="A_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>044C07EC-3091-6664-A96D-84EF3C2FE940</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="874FEDDC-09B6-6454-4121-4F0BAE0CC2A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD16F9DD-FE98-F9D9-396B-B83DA373DE05" name="A_B_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>7A842238-0570-5ED9-AABD-19AF5970E9B2</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="875490B3-35F0-7BA5-9FC0-21A9CF7E49D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C99AB36-3094-0C65-49FC-CFA26E516911" name="A_C_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:57:35 UTC</createdTime>
+<generatorID>645DD249-D3BF-FF99-9D51-0CC37992DDD3</generatorID>
+<ownerDesignName>ACT98</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E62FF5BA-CC01-1F3B-5C6A-A333551D70C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

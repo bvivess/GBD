@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ECC57A1A-DF34-E3C1-F97F-72DC4472DBFA" containerWithKeyObject="1BE01005-B295-2614-F25F-CBD2B685607D" localFKIndex="AF657FC7-0888-8889-8156-BAA85D3538F6" name="MAT_MDA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>3F49E120-1D56-DB25-5008-EB1780E223FD</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<referredTableLongName>MATCHDAYS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FBE375F-E8A6-328E-2DF5-E8F8965B748E</referredTableID>
+<keyObject>AE53531B-674D-86F9-3BDC-B583F14A8CC1</keyObject>
+<referredKeyID>AE53531B-674D-86F9-3BDC-B583F14A8CC1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MDA_NUMBER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

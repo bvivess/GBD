@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C224A599-C5E2-59AA-6C18-24E94F2ABBB7" name="DEPORTISTAS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>04A1A6A1-83B7-41A9-9D98-A3838C86E9AF</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<abbreviation>DEP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEP_CODIGO" id="B5A79C10-C902-18D5-0041-1484029282BC">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>CBEEF543-18D5-FE07-96F4-1CB3D34BC69B</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEP_NOMBRE" id="C4AE6F42-FAAC-811D-51D9-410DB5B238C7">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>38DA144B-2C04-FF30-5DD1-AEDB971CF5B3</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEP_APELLIDO1" id="0D6081CF-E623-4263-5566-7D2A9FB893BF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>22155CF1-B341-1DD9-2A05-4A37C6BEA1C9</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEP_APELLIDO2" id="5D6B01E7-4878-2F09-AA25-F5C17C1766FA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>0D58E322-EE40-6BF6-98C7-537C12029147</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEP_CALLE" id="5B30E19F-B980-6D53-754B-EF7F5CC30F56">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>944D04FB-A9D1-C8A7-D98A-A419C2871E8E</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEP_NUMERO" id="F229AA6A-0192-57B2-E0A8-D81A56F84BB6">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>7114F7BB-AA3E-1D58-7CC3-2ECF8FDE3DBE</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEP_CIU_CODIGO" id="37180D6F-1576-48AC-60DA-4B8F927E9EA2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>99EE1BC1-04C7-1EC5-7B2D-A4B6192027E0</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36F1C014-BA86-26C6-4427-572B30F9A98F" referredColumn="7BDCA21D-DB3E-FDD2-3E9B-9034C9819908"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D394DB6A-D2CF-0CB1-5D29-5E199ACB8BAC" name="DEPORTISTAS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>789EC4E8-54DF-D66F-5971-1AF77D689041</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A79C10-C902-18D5-0041-1484029282BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0C8D704-30DE-F2F1-657F-1CA577918B60" name="DEPORTISTAS_CIUDADES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>B883BD3D-83E4-9867-1662-E7F8C364DC85</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37180D6F-1576-48AC-60DA-4B8F927E9EA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

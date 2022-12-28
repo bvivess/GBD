@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59C5908A-D8E9-D642-A872-660C69F55373" name="MEMBERS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>892C27F1-7C93-606B-DD56-B6D5B2B72F67</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>MEM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEM_ID" id="1E95A900-00E1-B213-3B99-E1AA8CCE7095">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>E09DC963-536D-46A8-E1D6-BE222D642426</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_NAME" id="F818324B-F349-64FD-1B84-92FDB190B8C2">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>DBEAF1F1-E4A4-62C1-94C4-A52ADCC69984</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_SURNAME1" id="B0365ECE-FD29-08D4-318C-07EE42ADB305">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>3E6976C3-45D6-CDFC-2F10-8F5512A6577D</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_SURNAME2" id="09D7D0FE-F76F-4BBE-1C31-B4097BE545E9">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>4830B0DF-285C-671E-60DF-00E37EADCDDF</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_DNI" id="209B14FA-7E2F-14B5-BAAB-93CF11953790">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-20 07:15:05 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_ADDRESS" id="C321C857-50E5-4804-A70D-003EB72C02A7">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>B24FDEA6-80EA-0F2A-6906-CB0491DC9A9A</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_NUMBERADDRESS" id="A23C76B5-15DE-2870-4B83-979A0D1BDC9C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>65DAF94C-9394-8909-C9CC-D7898C18A2B7</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_ZIPCODE" id="2FBF8656-60B7-BFD0-EE9F-AD0AA1DD7DA7">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>9EF77437-5C3C-EE96-42D6-87876238CB13</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_LOC_ID" id="851A56AB-20C4-303E-3B52-97989E33564A">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>0C9B0637-CC44-DF35-29D0-064235CBD821</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD1726C2-A4F6-A034-3051-D4970DEDF92E" referredColumn="D6C120A8-8EB0-586F-CCC0-1A10648ECD75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1CB2127-A4CB-5903-A141-F0F2E53A2501" name="MEM_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>704BE1F9-9B7A-4F74-E806-9E6808343E9B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E95A900-00E1-B213-3B99-E1AA8CCE7095"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6E5D51B-D850-2996-95E3-04BB798CA14E" name="MEM_UK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-20 07:15:27 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="209B14FA-7E2F-14B5-BAAB-93CF11953790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B5E2CA1-5825-2F0F-7558-CC91DEE42010" name="MEM_LOC_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>1A69D4C3-07BC-FDF5-9A93-5DCE1AE1278C</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="851A56AB-20C4-303E-3B52-97989E33564A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

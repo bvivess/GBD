@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCB43C62-D414-7BC2-68C4-B4FE37B8FFAD" name="SKILLSXPLAYER">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:33:09 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<abbreviation>SXP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SXP_SKI_ID" id="08D10848-1258-2DC5-ED72-C08007DBFBB8">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:33:23 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB2BA43F-178B-A620-F9EC-C8C8C87D8ED2" referredColumn="858ABEA1-8B7F-443A-1F85-53BD5ED1EA70"/>
+</associations>
+</Column>
+<Column name="SXP_PLA_PEO_ID" id="94BB4F8B-61FC-5631-7B99-5F800A3D88A9">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:34:02 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C68A063F-A7C2-E865-4B07-9A631C2BDF39" referredColumn="158E185B-357F-0752-DE0B-F42557A46669"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D2B3412-49BF-FF4C-AB64-043B8D1E0ED1" name="SXP_SKI_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:33:23 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08D10848-1258-2DC5-ED72-C08007DBFBB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="334E01FD-6D1F-9D7A-DB78-FA65FA93F32E" name="SXP_PLA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:34:02 UTC</createdTime>
+<generatorID>5554A639-5696-CFC0-9588-2327C6003E71</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BB4F8B-61FC-5631-7B99-5F800A3D88A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

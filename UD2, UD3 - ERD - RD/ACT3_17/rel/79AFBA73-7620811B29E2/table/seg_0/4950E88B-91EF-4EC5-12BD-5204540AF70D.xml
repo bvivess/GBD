@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4950E88B-91EF-4EC5-12BD-5204540AF70D" name="LOCALIDADES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>3C4BF4CD-566F-FC6C-C9A9-0CDCA0A96EF4</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<abbreviation>LOC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOC_CODIGO" id="BC625618-4334-7E9B-6F23-0D3A8EC6F753">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>A7C332E9-747B-D80E-510C-1264BB91A8AF</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48AEF03B-4732-55E4-47A0-1E812F561224" name="LOCALIDADES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>B4F1D4E6-57FD-23B4-61A9-12CA75A29E54</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC625618-4334-7E9B-6F23-0D3A8EC6F753"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

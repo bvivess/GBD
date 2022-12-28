@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RHEXCOP" directorySegmentName="seg_0" id="E2A42C39-644F-8887-63ED-DF6D8CD36E4F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:33:49 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8191EDBA-9E03-211B-182F-A328659F2AE2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C3D07ECE-8E4A-3C51-04BB-4ED07602BEDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

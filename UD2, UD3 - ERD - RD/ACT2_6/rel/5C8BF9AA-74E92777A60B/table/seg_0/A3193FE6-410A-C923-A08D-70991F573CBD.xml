@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3193FE6-410A-C923-A08D-70991F573CBD" name="COPIES">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>8191EDBA-9E03-211B-182F-A328659F2AE2</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>COP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COP_ID" id="69071480-8FF8-E339-68F7-2BC1535C5C14">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>1ECC6986-3773-3BC9-12DD-EDD2922BB176</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COP_PTI_ISBN" id="406CE7C6-F482-03CE-F787-C0C9FF26DBDA">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 07:19:37 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7925F93D-B50E-E081-2D1A-963227738E51" referredColumn="55928638-CFA1-3EC2-8499-4458F4750BE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACC4DE92-14CC-B640-D722-C065EEA89189" name="COP_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>CABD9A56-E577-45C8-C164-B402B9CA441D</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69071480-8FF8-E339-68F7-2BC1535C5C14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE5A7024-6159-16A0-9CB7-469276907D36" name="COP_PTI_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 07:19:37 UTC</createdTime>
+<generatorID>DB1660BB-ADA6-143D-649C-594CBBC6840F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="406CE7C6-F482-03CE-F787-C0C9FF26DBDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

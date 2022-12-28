@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3D07ECE-8E4A-3C51-04BB-4ED07602BEDB" name="RENTING-SERVICES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:31:41 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>RSE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="1785C54C-E576-0295-636D-08CE2F5D53BB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:32:02 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="9E75F51E-9F6D-4901-2140-2F2F05B2BD60">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:46:50 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hour" id="6BC55391-61AA-15A7-7A1F-28BF3A73539A">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:46:55 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StartDate" id="5089DE6D-BE39-5757-9E27-DECD88B9DCED">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:32:23 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndDate" id="CCB06B84-8D85-2675-5E50-71625939EBDA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:32:41 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id " id="7F9AB3C1-A587-F582-2CB2-DE4310662E4E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-05 07:27:56 UTC</createdTime>
+<generatorID>BC4E6E5C-B81A-62BE-256B-7C30FB606688</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<referedAttribute>E09DC963-536D-46A8-E1D6-BE222D642426</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91389D9A-DAEE-31ED-001B-74D389C7D19F" name="RENTAL HEADERS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:32:19 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1785C54C-E576-0295-636D-08CE2F5D53BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

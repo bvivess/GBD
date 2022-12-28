@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="892C27F1-7C93-606B-DD56-B6D5B2B72F67" name="MEMBERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:01:03 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MEM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id " id="E09DC963-536D-46A8-E1D6-BE222D642426">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:01:22 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="DBEAF1F1-E4A4-62C1-94C4-A52ADCC69984">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:01:29 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname1" id="3E6976C3-45D6-CDFC-2F10-8F5512A6577D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:01:42 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname2" id="4830B0DF-285C-671E-60DF-00E37EADCDDF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:02:04 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="4418DA64-4042-8415-65BA-B2045A473E75">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-20 07:13:12 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="29174A7C-2DDF-42C9-47CC-0F9AA54DEA94">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:35:33 UTC</createdTime>
+<generatorID>47BC8A34-2155-BB09-773C-4D28E4BDB67E</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<referedAttribute>D12A423D-DBF4-7417-B835-378E9C228FCE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="915A23CC-9368-B4D4-FB24-697FD7DB6476">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:36:42 UTC</createdTime>
+<generatorID>47BC8A34-2155-BB09-773C-4D28E4BDB67E</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<referedAttribute>3DA2BB15-047A-9F7F-23D5-E2F95CF9B437</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="704BE1F9-9B7A-4F74-E806-9E6808343E9B" name="MEMBERS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-05 16:02:01 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E09DC963-536D-46A8-E1D6-BE222D642426</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="1DEDC32A-E80C-A883-6820-0E012C545162" name="Key_2">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-20 07:13:30 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+<item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
+</engineerTo>
+<newElementsIDs>4418DA64-4042-8415-65BA-B2045A473E75</newElementsIDs>
+<usedAttributes>
+<attributeRef>4418DA64-4042-8415-65BA-B2045A473E75</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

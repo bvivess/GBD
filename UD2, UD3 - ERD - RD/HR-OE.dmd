@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HR-OE" id="CC1DDFD9-0EAC-24D5-156E-694A8E5216DD" version="3.5">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:21:00 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CC1DDFD9-0EAC-24D5-156E-694A8E5216DD</designId>
+</OSDM_Design>

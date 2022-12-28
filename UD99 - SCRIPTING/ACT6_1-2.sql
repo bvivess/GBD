@@ -1,0 +1,19 @@
+SET SERVEROUTPUT ON
+
+DECLARE
+	i NUMBER := 1; 
+BEGIN
+    WHILE (i < 10) LOOP
+        DBMS_OUTPUT.PUT_LINE( i );
+		--
+        i := i + 1;
+	END LOOP;
+END;
+
+DECLARE
+	i NUMBER; 
+BEGIN
+    FOR i IN 1..10 LOOP
+		DBMS_OUTPUT.PUT_LINE( i );
+	END LOOP;
+END;

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0435A040-A60D-D426-AA39-41AB20E65290" name="LOCATIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:43:20 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>LOC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_LC" id="55F347D8-FBD5-3920-0111-F10396FE8589">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:43:25 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="6AF44640-F1A8-AE59-248A-4C7376D9DC4A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:43:56 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_PR" id="61DDA72F-13A1-9F39-6B9B-0AABAB843581">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-04 09:20:54 UTC</createdTime>
+<generatorID>C4C1FEF7-21C8-6817-5BE4-F810AADB1B1A</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<referedAttribute>84FF32D4-EA05-3128-2E62-000B7562C945</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_TL" id="4B403B08-8BB6-FE7E-9C8D-E42EDAB6D039">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-04 09:21:00 UTC</createdTime>
+<generatorID>14CED8F5-30BA-3DAF-0197-333E2477118F</generatorID>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<referedAttribute>F1EC845D-559F-6CD5-24F8-D5E97A850910</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B2D3907-2CEA-859A-1AB0-BBAA741CDC5B" name="LOCATIONS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 08:43:54 UTC</createdTime>
+<ownerDesignName>ACT2_4</ownerDesignName>
+<engineerTo>
+<item key="9F94904B-8021-4ED3-DF2A-76200B817CD0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55F347D8-FBD5-3920-0111-F10396FE8589</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

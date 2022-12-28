@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD226BFA-64D1-0271-5EE4-B7F044B70FC8" name="EDAD">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>872F2030-2453-671F-BEE3-0CB5527EEE5E</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<abbreviation>EDA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EDA_CODIGO" id="24066B4B-C1C8-2D0F-18ED-870A4CEE17BF">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>51552AAD-747A-10D6-201F-CF2F3E1A0307</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57D5834B-60AD-D8C6-4CFD-AABE5FF59A61" name="EDAD_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>8BC5BC86-3D2E-167C-FA00-2AF223D73553</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24066B4B-C1C8-2D0F-18ED-870A4CEE17BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

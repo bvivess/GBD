@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D438976-E867-AA77-803F-AF1E51C71A87" name="ADETAILS">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>9534E7D0-3FE8-7B2F-9AE2-6B6B4C95D8CF</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<ordsAlias>administrative_details</ordsAlias>
+<abbreviation>ADE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADE_PEO_ID" id="66C9A854-01F6-B7E6-8E26-1B184E183B03">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>20ADFF97-EF2C-B3C6-051A-5FEEDC64B58A</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B316076-46F1-6518-E724-8DD3E06C6DBA" referredColumn="AB0932E7-6B44-C6A3-6A2D-BC9FEFA89754"/>
+</associations>
+</Column>
+<Column name="ADE_DBIRTH" id="4B588280-BCC5-84E3-C237-972BEB50A1BC">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>11BB59A3-DDBB-05E9-BDF4-90A29FB48D77</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADE_DNI" id="CD44A340-19DE-37D3-0FC0-F7BF279F3659">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>C113537C-6C17-74E9-1704-24E082326912</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADE_NSS" id="F8D25794-4CC6-71AC-4A80-12D8DA8A809D">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>6A0298A5-A2E0-E3F4-0CAB-6B6BE903ACDC</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADE_CSTATUS" id="F75CCC6E-69FF-8676-B5A7-4BE294863720">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>FBFA7293-CFD7-CBA3-A55B-08DF99D9BD0C</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DF1E8B3-0B5B-B571-E143-EC0C9FA66C34" name="ADE_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>1E40293B-F84D-2179-032D-0B2990207462</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66C9A854-01F6-B7E6-8E26-1B184E183B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B49F96F6-6F87-47B5-B41E-FBEC651E3839" name="ADE_UK1">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:44:32 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD44A340-19DE-37D3-0FC0-F7BF279F3659"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5D5514E-D6DB-B7BF-145A-14C4DD9A8D21" name="ADE_UK2">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:44:32 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8D25794-4CC6-71AC-4A80-12D8DA8A809D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88B29CC9-2B37-69CF-9FB2-B46D60828B13" name="ADE_PEO_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>BEB3472C-D6B7-BD2A-AF92-1BE8A707CA7F</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66C9A854-01F6-B7E6-8E26-1B184E183B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

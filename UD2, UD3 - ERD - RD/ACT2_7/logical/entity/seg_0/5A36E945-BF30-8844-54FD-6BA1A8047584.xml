@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A36E945-BF30-8844-54FD-6BA1A8047584" name="INFERMERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:50:50 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>INF</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codi" id="F8F0944D-2C36-12F9-E201-2D0CD79DB542">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:50:59 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nom" id="F7CC1168-7CEE-78A9-F423-77AD33AFB12B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:51:04 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Llinatge1" id="2DF7F4B6-2F86-0820-1E76-8273A29176F9">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:51:18 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Llinatge2" id="DAD22317-CCD0-7ED2-96D9-AD3FF2C28C58">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:51:07 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="F8545E98-1097-D6D3-21AA-663FA3717056">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:53:34 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codi1" id="35E91F1E-C3EB-6341-8CEF-5276E9312447">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:52:39 UTC</createdTime>
+<generatorID>FB144B52-BF10-C249-BD5D-1EEAB5E0C0BC</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>BB8CFC9A-40FC-3934-8DCD-446615BECC74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codi2" id="8CACA854-BA89-2708-DD09-7964B4F45518">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-25 05:26:50 UTC</createdTime>
+<generatorID>E0BA3476-54F1-BEDD-659F-D2B89866745C</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>BB8CFC9A-40FC-3934-8DCD-446615BECC74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F1C4130-D6AF-8B42-9910-44BDFEC82A95" name="INFERMERES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:51:03 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8F0944D-2C36-12F9-E201-2D0CD79DB542</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BCEA251B-9B54-5D69-028B-CF44249571D8" name="Key_2">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-25 05:28:39 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<newElementsIDs>F8545E98-1097-D6D3-21AA-663FA3717056</newElementsIDs>
+<usedAttributes>
+<attributeRef>F8545E98-1097-D6D3-21AA-663FA3717056</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

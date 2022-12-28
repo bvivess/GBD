@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D817C656-7C1F-3C0A-C365-98FE2734AE86" name="B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:19:33 UTC</createdTime>
+<ownerDesignName>ACT99</ownerDesignName>
+<engineerTo>
+<item key="0E5E9A2F-A603-8552-8EA4-E4F7C66D6D09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_B" id="567C5091-5F0B-0DEC-4151-DCB8441A4B78">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:19:36 UTC</createdTime>
+<ownerDesignName>ACT99</ownerDesignName>
+<engineerTo>
+<item key="0E5E9A2F-A603-8552-8EA4-E4F7C66D6D09" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_A1" id="EC5EC129-927E-DE27-4A71-382F31366E3B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:22:00 UTC</createdTime>
+<generatorID>7A842238-0570-5ED9-AABD-19AF5970E9B2</generatorID>
+<ownerDesignName>ACT99</ownerDesignName>
+<engineerTo>
+<item key="0E5E9A2F-A603-8552-8EA4-E4F7C66D6D09" value="true"/>
+</engineerTo>
+<referedAttribute>7EB44995-B1A1-A4F3-DA5C-F89A2D028018</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F90AF02A-EC87-AE59-FEF7-5450B3DF32BE" name="A PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-08 11:19:47 UTC</createdTime>
+<ownerDesignName>ACT99</ownerDesignName>
+<engineerTo>
+<item key="0E5E9A2F-A603-8552-8EA4-E4F7C66D6D09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>567C5091-5F0B-0DEC-4151-DCB8441A4B78</attributeRef>
+<attributeRef>EC5EC129-927E-DE27-4A71-382F31366E3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

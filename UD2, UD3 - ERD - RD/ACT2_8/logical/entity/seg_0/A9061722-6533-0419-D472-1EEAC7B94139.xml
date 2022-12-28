@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9061722-6533-0419-D472-1EEAC7B94139" name="TEACHERS">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:26:40 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TEA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="9D55DC7A-69F8-F5CB-41E0-961E985F8083">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:27:24 UTC</createdTime>
+<generatorID>020E1654-6A4F-6618-D61A-8352730E3C07</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<referedAttribute>65E4E482-CFD9-8069-F601-739ACBB2B92C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05322A95-9B39-8350-9085-4680210641E1" name="TEACHERS PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:27:24 UTC</createdTime>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<engineerTo>
+<item key="0ABF6C70-12C0-893B-0E51-596F0857C1FD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D55DC7A-69F8-F5CB-41E0-961E985F8083</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

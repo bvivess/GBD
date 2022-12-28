@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A62F8AC4-66E5-4652-133F-109087D915BB" containerWithKeyObject="848445F5-466C-3FB6-3F9D-47CB7B85B12B" localFKIndex="C952B85E-3625-F81B-D0E9-1779FD4B28E1" name="MAT_TEA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>4EAE0FD8-4236-D3CA-B241-2DB495E944C9</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<referredTableLongName>TEAMS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB7DD0BA-7F81-56D9-8E1E-22190224ADC1</referredTableID>
+<keyObject>EC51F4BA-FCE4-E1B1-09D4-59E03D7BD066</keyObject>
+<referredKeyID>EC51F4BA-FCE4-E1B1-09D4-59E03D7BD066</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TEA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

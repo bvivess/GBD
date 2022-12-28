@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ACT3_23" id="4CF74B8B-57B4-4E1A-7BD1-F3DF75175F1E" version="3.5">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-17 05:47:41 UTC</createdTime>
+<ownerDesignName>ACT3_23</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4CF74B8B-57B4-4E1A-7BD1-F3DF75175F1E</designId>
+</OSDM_Design>

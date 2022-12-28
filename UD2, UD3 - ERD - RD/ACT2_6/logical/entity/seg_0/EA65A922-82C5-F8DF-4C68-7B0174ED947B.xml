@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA65A922-82C5-F8DF-4C68-7B0174ED947B" name="POSTAL DISTRICTS">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:31:06 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PDI</shortName>
+<synonymToDisplay>POSTAL DISTRICT</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="5FF72A09-8F32-3382-5144-B272E1308A66">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:31:19 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="869D961A-0DD9-F8CF-7B49-FAAE072E7642">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:31:29 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="67107438-C4FA-213D-0A93-E1EE768798D9">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:33:24 UTC</createdTime>
+<generatorID>06517BAF-9D92-26AA-8A87-DD2DF53519D8</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<referedAttribute>B20051BB-C81E-F27C-C4D8-33A790875964</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAE18E7B-BB99-03C5-D0CB-8032A6A64374" name="POSTAL DISTRICT PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 05:31:25 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FF72A09-8F32-3382-5144-B272E1308A66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

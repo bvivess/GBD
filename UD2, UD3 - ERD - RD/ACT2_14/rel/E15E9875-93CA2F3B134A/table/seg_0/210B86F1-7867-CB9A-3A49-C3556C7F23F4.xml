@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="210B86F1-7867-CB9A-3A49-C3556C7F23F4" name="MATCHDAYS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>8B84AD31-E008-1991-2C20-BF22A15A2E56</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<abbreviation>MDA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MDA_ID" id="8441F226-05C5-B36C-6B5C-14A84A5A0698">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>A16E7A6B-9F27-4E0D-E7AC-5FBAD84CCDD1</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MDA_DREFERENCE" id="B49F9573-4A44-A568-9194-7DBFAFDB69CD">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>B8B06E47-D01E-0CF0-C663-E99A20C974B6</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D43B570-5534-E87B-8B34-522FA10DABFC" name="MDA_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>D0D0014F-99C1-50C4-D374-FD3FBB3F873E</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8441F226-05C5-B36C-6B5C-14A84A5A0698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

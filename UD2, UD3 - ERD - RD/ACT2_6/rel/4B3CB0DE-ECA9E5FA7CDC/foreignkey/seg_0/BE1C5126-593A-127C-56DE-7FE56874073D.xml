@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE1C5126-593A-127C-56DE-7FE56874073D" containerWithKeyObject="1535ADDB-6FDD-7935-8FC5-988EDBBB787A" localFKIndex="C5EA01F8-DBFC-1E53-4816-223D34B8B5FA" name="COP_TXP_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>90AF1E04-1CA3-064C-E645-9869B7C8EFA9</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<referredTableLongName>TITLESXPUBLISHERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8274A6A7-BB3B-2F98-E867-234558D88A81</referredTableID>
+<keyObject>0B9A5D28-F60C-0D8A-67A0-3690B6CC220A</keyObject>
+<referredKeyID>0B9A5D28-F60C-0D8A-67A0-3690B6CC220A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TXP_ISBN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D5B3D41-6068-1E39-41A3-79E6D7193CD0" name="REPAIRLOG">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>17969982-0D10-DE4E-E8EB-10E00C86FDD3</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<abbreviation>RLG</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RLG_NUMBER" id="693C2E82-C4C3-F074-6F55-B1F385DA81BC">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>65F72FA5-73AE-EF26-7BF3-53AE68AE0D9C</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RLG_DESCRIPTION" id="675A4457-4358-45CE-72FA-71BA32AE0E11">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>B74034CD-76F0-1803-4025-627BE3A858FF</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RLG_RHE_ID" id="826EB24F-C94D-6F0B-4D9A-D2F79A041A2C">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>D37C50E1-CFF4-BB1B-BD28-A8A80D9E74D5</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="920063CE-DA1D-FFE2-902C-218B56373208" referredColumn="3ADFF3BD-4F14-7F38-2E0B-214ED7095760"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6AF74BD-6C52-A019-CB55-F8F56247734E" name="RLG_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>AF44B600-495B-F4C3-F80E-5D3B008209FF</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="693C2E82-C4C3-F074-6F55-B1F385DA81BC"/>
+<colUsage columnID="826EB24F-C94D-6F0B-4D9A-D2F79A041A2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30014DF0-E799-650E-E8E9-CDF623F601B2" name="RLG_RHE_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>71817FA4-9607-4FB1-D3CE-915BAB6A36C8</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="826EB24F-C94D-6F0B-4D9A-D2F79A041A2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

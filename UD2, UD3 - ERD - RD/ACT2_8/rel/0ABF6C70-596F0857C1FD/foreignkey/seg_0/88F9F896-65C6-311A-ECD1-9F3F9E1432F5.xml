@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88F9F896-65C6-311A-ECD1-9F3F9E1432F5" containerWithKeyObject="593AD865-463A-FDD2-5EFE-80A92C914142" localFKIndex="9DDCF383-5AC8-767D-C4A4-BC835A4A8D51" name="COU_DEG_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2022-01-17 08:32:22 UTC</createdTime>
+<generatorID>D0DFE174-6777-64D2-1262-8AF97C9718B1</generatorID>
+<ownerDesignName>ACT2_8</ownerDesignName>
+<referredTableLongName>DEGREES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCB285B7-1D12-9390-17DA-E401438B05FB</referredTableID>
+<keyObject>793AF9C3-FB6A-42F9-7C10-77938276B48F</keyObject>
+<referredKeyID>793AF9C3-FB6A-42F9-7C10-77938276B48F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DEG_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

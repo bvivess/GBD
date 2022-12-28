@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6A44F94-8AA7-BABE-5030-A4CC0A5DF505" name="PEOPLE">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>6B7CBD26-ECD9-2F29-DC1F-E19DBE2517CC</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<abbreviation>PEO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEO_ID" id="CAFFBE4C-E3C2-ABEF-5D46-1DF61009DD60">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>CFBEF59D-3535-BD7C-BEFF-18AE7FFA7386</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEO_NAME" id="3CD7CF99-481B-74A2-2642-2FE25A8756E3">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>D35DF4F4-B31B-AA76-ADA6-586BAF1A90E0</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEO_SURNAME1" id="E1DFA5D1-682F-86CA-E742-57A4462E85DE">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>1DD7ABAF-F239-E849-F400-AFB6250D0076</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEO_SURNAME2" id="A1D963C5-04E1-6C21-125E-133452DE004D">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>02550DC8-5A36-1392-9C82-8FDB7662D936</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEO_TELEPHONE" id="6227FC8C-D374-CC68-8761-378B27E55595">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>0CF6DBB7-A6B4-0E78-587F-C414CD36D754</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEO_COU_ID" id="50F6953A-AAB0-54C1-CC8D-EAAF72EB7087">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>7E6B9D7D-6615-2467-EFA3-2DDCB8056BA0</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3151EB33-74E4-C228-CFA8-8D83DF612229" referredColumn="88DB8B56-FF1F-3103-58BD-DD9C19D19F40"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76D5599E-A558-084D-1C30-2B6E7D109ACF" name="PEO_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>C8498197-7EC9-F245-A2C4-DB29FDAF9548</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAFFBE4C-E3C2-ABEF-5D46-1DF61009DD60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5FF08B1-E284-1E8B-1193-A9D582230511" name="PEO_COU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>831DE40D-8F94-F15C-29CC-57CE2DEE9863</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50F6953A-AAB0-54C1-CC8D-EAAF72EB7087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

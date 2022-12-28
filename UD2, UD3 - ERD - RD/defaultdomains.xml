@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DESCRIPCIONS" id="145017BE-49F2-F608-FDC8-6266BACDB394">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-15 08:36:58 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="IMPORTS" id="81ADF122-68EB-E364-F1AF-A2C0F7F64667">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-15 08:52:12 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CODI_CURT" id="9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-15 08:43:00 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>5</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CODI_LLARG" id="A028BA4B-35D4-379F-59B6-C7AC380BA111">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-15 08:36:22 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>bvives</createdBy>
+<createdTime>2017-09-15 14:38:29 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

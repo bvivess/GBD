@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5E601D0-D0DE-62A0-2D86-96519B55E74D" name="CIUDADES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>96087ABA-B1C8-92B5-E9B1-D87C7E6B46B6</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<abbreviation>CIU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CIU_CODIGO" id="7BDCA21D-DB3E-FDD2-3E9B-9034C9819908">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>7D51A0C8-D5A8-D65F-1BC0-C802B6A03C2B</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIU_NOMBRE" id="717E4CB0-4BEB-7F4D-17F1-21890D05E89A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>25957ABB-10D5-77FE-53E9-9AE9C601E6BC</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2CA6F05-4B15-5E71-6FEF-B27A8EBCAA8E" name="CIUDADES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 10:14:08 UTC</createdTime>
+<generatorID>9524B145-6706-7022-8CE8-8F47D8B3CBD2</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BDCA21D-DB3E-FDD2-3E9B-9034C9819908"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

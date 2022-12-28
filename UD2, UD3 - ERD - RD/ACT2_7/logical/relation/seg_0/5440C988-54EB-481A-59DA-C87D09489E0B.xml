@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TDEXPAC" directorySegmentName="seg_0" id="5440C988-54EB-481A-59DA-C87D09489E0B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:57:42 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>97658F47-91DF-4266-DDE4-1D220F84604F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8080B9F-B7D6-3AA0-5707-6673FBB5ECE5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Data" id="AFF9010B-FC2F-BF71-611A-813D9194DBA0">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:58:04 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Import" id="216A17A7-462C-2FF8-7272-F34B15006B8C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:58:38 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

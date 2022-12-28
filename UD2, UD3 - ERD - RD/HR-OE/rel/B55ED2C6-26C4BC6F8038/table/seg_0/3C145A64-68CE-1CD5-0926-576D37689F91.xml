@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C145A64-68CE-1CD5-0926-576D37689F91" name="JOBS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>F0E68306-AE52-3FCC-A51F-7F8B2B59C7CC</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JOB_ID" id="0DA9AC42-6CD6-3D63-51CD-0ABB90B7F45D">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>2FFE9E36-EF4C-5F0C-FBE2-1A0226EF3F55</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_TITLE" id="B10D4AE6-266A-2A60-C4DA-9D4D2F6BEED6">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>90DE2BB9-CBDA-DD16-2623-2DAE9E017711</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIN_SALARY" id="061A3AB4-8DE3-7FA3-2220-8377A33622A6">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>2E0A2D4C-5C2C-0131-72CA-C29DE75127FC</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX_SALARY" id="65BB2B3A-F5CB-86CA-28F7-3E8C29B1CD40">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>6E69E292-9C96-47D3-E5E3-521ED3CD3D85</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6114F607-BBD3-DC76-437C-4930F826EC97" name="JOB_ID_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:27:20 UTC</createdTime>
+<generatorID>0B1CEF37-5A64-4CA7-B55B-4C66CE694FAC</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DA9AC42-6CD6-3D63-51CD-0ABB90B7F45D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

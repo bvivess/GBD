@@ -1,0 +1,232 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABA67573-F560-5E12-4DAA-B284CED45436" name="GAMES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>8CC89462-CB05-1BBE-E006-61C135F489E3</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<abbreviation>GAM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GAM_ID" id="F5832DCA-B70C-5566-0BF0-46652AC21582">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>2E8FA611-A275-61C9-837A-3529A992A682</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GAM_ROO_ID" id="B87AA0FF-C10B-D6AF-C3C4-654774324EAB">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>D7336CF6-DA5F-C4B7-3258-CB99BA6D798E</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA1D2A52-1E8F-6FE6-8C0C-BF21C871C0FE" referredColumn="B501AAE7-D222-4E9F-CF2E-08AFBFFD4C4C"/>
+</associations>
+</Column>
+<Column name="GAM_ROU_ID" id="256130CC-947F-4F5E-A550-A1204050F25C">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>61E9DB2C-85B3-59D1-451E-13835ED25EB2</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F5A1B44-1B36-91E4-AD31-1D33EBA93C26" referredColumn="719EACD3-B0F0-F917-03F7-4705EF0959C3"/>
+</associations>
+</Column>
+<Column name="GAM_DATE" id="F509E22F-023D-2F38-EB6D-81121BF24D48">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>BB7D7C8C-A425-F1C7-7F45-252FEEFD18F7</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>AA1D2A52-1E8F-6FE6-8C0C-BF21C871C0FE</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="GAM_TIME" id="CED8706B-977B-AA8B-032F-F38F2EC9E56F">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>843A1461-177B-D147-DF21-9BC244217C3E</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>AA1D2A52-1E8F-6FE6-8C0C-BF21C871C0FE</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="GAM_POINTS_WHITE" id="66CA5429-DDD3-C5F2-B657-1A1DE340B6C9">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>F14BD334-74AF-A765-9E10-1BF83CB6F10E</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>676FB836-C4F0-2518-4419-7ADE2BA183A5</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="GAM_POINTS_BLACK" id="590721BD-F32C-DC8E-6AB7-AAAFF1B42571">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>DD36DBEA-7E36-9A12-E3C4-4AEF06CEA081</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>F58306D8-3DC8-BB0E-F894-61BE66C438D4</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="GAM_PLA_ID_WHITE" id="E7D6CE8D-4A34-2EBC-BFFD-DEA395F9547E">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>461534B9-2687-CAE6-134B-BE7C9DD8E83A</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="676FB836-C4F0-2518-4419-7ADE2BA183A5" referredColumn="DA673D36-2C1E-8BFD-D27A-8F3A08699DE3"/>
+</associations>
+</Column>
+<Column name="GAM_PLA_ID_BLACK" id="FA13E46A-43A3-CCAC-977D-AEECCFE2EBD2">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>99E1700E-A55B-0B49-099C-C1AFD4B7B5B5</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F58306D8-3DC8-BB0E-F894-61BE66C438D4" referredColumn="DA673D36-2C1E-8BFD-D27A-8F3A08699DE3"/>
+</associations>
+</Column>
+<Column name="GAM_REF_ID" id="1AE5ECB0-534B-C625-4C82-A59CDFED392A">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>47AF605F-49E4-EE45-3BB8-1E029F5D5889</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F65DD58B-82C8-D4B0-AB61-5FBCC6200382" referredColumn="AF643194-971E-BAA0-7C2E-38E0E8DE33CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A93ED85C-E577-696A-134B-C97ED768F1CE" name="GAM_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>EE5B80B9-6A70-1021-1932-19E6AB7FC14E</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5832DCA-B70C-5566-0BF0-46652AC21582"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC815FCF-45DC-A59F-3C5F-B4260AD2E202" name="GAM_ROO_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>69CE41B9-2B97-7978-A584-7E154DAA1F4F</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B87AA0FF-C10B-D6AF-C3C4-654774324EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05A248D0-368F-8BB5-EBB0-C4C05CC44780" name="GAM_ROU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>D419121F-02C9-2333-AFE5-A9EE4F2CF624</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="256130CC-947F-4F5E-A550-A1204050F25C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F247BE56-3A49-AB68-F059-E64E15A53106" name="GAM_PLA_FK_WHITE">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>A7CDE191-857C-8CD3-6C20-B49672F58D72</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7D6CE8D-4A34-2EBC-BFFD-DEA395F9547E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39C3CD26-8DEA-EFFC-0654-F25B3C07ECED" name="GAM_PLA_FK_BLACK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>ADEE06B9-7BDE-87F5-7C4E-FDB43BD6A43D</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA13E46A-43A3-CCAC-977D-AEECCFE2EBD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55B123A4-54D9-024A-62F2-D8A540A75DE7" name="GAM_REF_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>37F27C6C-24E6-9EA3-78CB-3C41CAF64A4A</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE5ECB0-534B-C625-4C82-A59CDFED392A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

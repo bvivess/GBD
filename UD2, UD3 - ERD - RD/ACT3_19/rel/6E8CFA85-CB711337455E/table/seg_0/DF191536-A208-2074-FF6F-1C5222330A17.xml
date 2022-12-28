@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF191536-A208-2074-FF6F-1C5222330A17" name="CAT_X_PEL">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<ordsAlias>relation_7</ordsAlias>
+<abbreviation>CXP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CXP_CAT_CODIGO" id="DFCB9032-2663-83FA-8B62-EADFE9F8177D">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0A8DA27-7075-B82B-45CC-7367A06EC2F5" referredColumn="5D1CF03B-EB00-D2FA-F412-0D6AD620B86A"/>
+</associations>
+</Column>
+<Column name="CXP_PEL_CODIGO" id="1BCE38D2-8BC4-4728-1FBD-6546BB70C55C">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PELICULES_PEL_TITULO" id="E90C8722-7867-87DD-1E6C-34D4D7B89892">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:45:27 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E95CD6E2-CF54-6AF1-DCDB-5653047D0089" referredColumn="FB0145D0-D99B-B882-B114-337D31CCE2D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08A50BB5-3A9F-BE7B-B4EE-FA87A989ED7F" name="CXP_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFCB9032-2663-83FA-8B62-EADFE9F8177D"/>
+<colUsage columnID="1BCE38D2-8BC4-4728-1FBD-6546BB70C55C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="337D2C05-FCDD-9E4C-3EFB-C144D2EE5B91" name="CXP_CAT_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>99D96454-D184-6A60-305A-FB5B2765E413</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFCB9032-2663-83FA-8B62-EADFE9F8177D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1110773C-B6A1-1CE8-8673-044ACCCFF9A4" name="CXP_PEL_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>99D96454-D184-6A60-305A-FB5B2765E413</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E90C8722-7867-87DD-1E6C-34D4D7B89892"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

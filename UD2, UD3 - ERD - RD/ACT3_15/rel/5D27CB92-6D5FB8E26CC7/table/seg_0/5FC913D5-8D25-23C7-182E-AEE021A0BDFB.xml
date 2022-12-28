@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FC913D5-8D25-23C7-182E-AEE021A0BDFB" name="CINVOICES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>EA3774F1-FB6C-D8A9-CE94-CA4643E5E768</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<abbreviation>CIN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CIN_ID" id="02125EE7-E4A4-43EA-F467-F5387E230722">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>9374341B-C492-A150-0554-FE0BD944F23A</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIN_INVDATE" id="0AEBC260-5760-24DF-D807-4ACF380E5DFC">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>34E47761-61D9-5D1D-CE97-FDD387953BE7</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIN_COLLDATE" id="82011B0B-FB33-4ECB-8C62-B03775F273FF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>CC110D57-605C-FB9E-ECC7-94E127773B8C</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIN_CUS_ID" id="B42DFEAD-62EC-D03A-0CF5-23B3F5F2E523">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>C670A7CA-3032-8AC9-4A40-9089A1F4DDDE</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DD551CA-1485-71C6-B265-C02D815B6FE0" referredColumn="C9DD8FF9-888E-7480-865E-8C7243874CF2"/>
+</associations>
+</Column>
+<Column name="CIN_BUD_ID" id="9D3EDCB3-B51E-0F2D-4034-17316AF4FBCD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>768FCF9F-E780-AA81-0E01-3AB6D5381778</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D123ADE8-5DA0-00F9-0BAF-F3B76B024400" referredColumn="15A00AC4-6FEA-E77C-F31F-A4B08BBCCB3A"/>
+</associations>
+</Column>
+<Column name="CIN_CIN_ID" id="051D6F42-3C06-ADDA-84E4-3D4963F82A4C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-16 06:49:22 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5070245-87F4-72F6-9EF7-6F86B3810831" referredColumn="02125EE7-E4A4-43EA-F467-F5387E230722"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0063A9D9-0520-A94C-DFFA-AF8B643BFE9E" name="CIN_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>EFD272D5-9AA1-97A9-5A15-33D7075C3118</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02125EE7-E4A4-43EA-F467-F5387E230722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="206C8DB6-30A8-11E7-8929-3568D78208D4" name="CIN_CUS_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>6D8DA866-DA30-1319-00E5-2456C31A9CEC</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B42DFEAD-62EC-D03A-0CF5-23B3F5F2E523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8C1D8AD-D36B-C870-5C51-879C5B272D0C" name="CIN_BUD_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>E9707260-D565-DAD1-4AFE-98EC87C9016D</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D3EDCB3-B51E-0F2D-4034-17316AF4FBCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7B5E6ED-19E1-A45C-ECD0-0B30CCE71681" name="CIN_CIN_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-16 06:49:22 UTC</createdTime>
+<generatorID>EFD272D5-9AA1-97A9-5A15-33D7075C3118</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="051D6F42-3C06-ADDA-84E4-3D4963F82A4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

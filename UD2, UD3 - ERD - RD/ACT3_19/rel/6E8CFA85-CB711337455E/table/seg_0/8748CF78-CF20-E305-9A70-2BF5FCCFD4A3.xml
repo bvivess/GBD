@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8748CF78-CF20-E305-9A70-2BF5FCCFD4A3" name="ACT_X_PEL">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<ordsAlias>relation_8</ordsAlias>
+<abbreviation>AXP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AXP_PEL_CODIGO" id="82BA0730-9E64-6353-38F1-037520BA521B">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AXP_ACT_CODIGO" id="72A19610-8EF6-C210-F0F1-E5A643626201">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA85798-FBCD-638F-8A3E-BDD1167CB973" referredColumn="1FAB418E-2578-CD30-F1FD-E21E13BEAF4A"/>
+</associations>
+</Column>
+<Column name="PELICULES_PEL_TITULO" id="B53082AC-D5C1-292F-B5BC-A7901684A545">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:45:27 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8259C5C8-6747-F3CC-3201-E2308527AE9C" referredColumn="FB0145D0-D99B-B882-B114-337D31CCE2D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0504D528-EB85-8234-EE75-939D451DE2CD" name="AXP_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82BA0730-9E64-6353-38F1-037520BA521B"/>
+<colUsage columnID="72A19610-8EF6-C210-F0F1-E5A643626201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A6876EA-682E-8489-4976-284C6CF77827" name="AXP_PEL_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>3103A362-C185-F5C7-7457-6CBE564359CF</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B53082AC-D5C1-292F-B5BC-A7901684A545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB2F5339-0D6C-5987-F6A0-DF44EAC8F9E8" name="AXP_ACT_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>3103A362-C185-F5C7-7457-6CBE564359CF</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72A19610-8EF6-C210-F0F1-E5A643626201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0ADC255-1315-B7E4-F6EB-4E00BC37AE45" name="PDISTRICTS">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>EA65A922-82C5-F8DF-4C68-7B0174ED947B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<ordsAlias>postal_district</ordsAlias>
+<abbreviation>PDI</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PDI_ID" id="3B345690-B89D-180A-FC0C-031976BFE658">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>5FF72A09-8F32-3382-5144-B272E1308A66</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PDI_NAME" id="542376AF-FF0B-BE2E-65B4-0570CBA882CB">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>869D961A-0DD9-F8CF-7B49-FAAE072E7642</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PDI_LOC_ID" id="364EDB6E-02AE-C898-4DD3-CB1A610F0556">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>67107438-C4FA-213D-0A93-E1EE768798D9</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55A7C5BD-83CB-29EF-282A-D1EA15782CF9" referredColumn="D6B22DF6-5444-1C2D-9E7C-3BF8E17075CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C140A711-9B84-0E69-DF1C-41BA69224C18" name="PDI_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>DAE18E7B-BB99-03C5-D0CB-8032A6A64374</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B345690-B89D-180A-FC0C-031976BFE658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9056A60C-BEE9-491E-AA50-D81D41DE3AD1" name="PDI_LOC_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>06517BAF-9D92-26AA-8A87-DD2DF53519D8</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="364EDB6E-02AE-C898-4DD3-CB1A610F0556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

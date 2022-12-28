@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="848445F5-466C-3FB6-3F9D-47CB7B85B12B" name="MATCHES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>F77F6AD3-6FA8-C7F7-589C-B460C7B247C1</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<abbreviation>MAT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAT_ID" id="015D39A4-4A47-6CD1-0C9A-7A663810F5AE">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:26:12 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_MDA_ID" id="9ED927DA-2CC7-4141-25AF-75833E462A36">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>A1C2C5CC-1259-2CF6-A666-4F14730E1BDA</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC2735BC-1831-301A-F922-9B72C631FB13" referredColumn="8441F226-05C5-B36C-6B5C-14A84A5A0698"/>
+</associations>
+</Column>
+<Column name="MAT_TEA_ID_LOCAL" id="20E5E233-3252-A9CB-C8FB-BD7ABEFE766F">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>BBECBBC9-F49C-E641-BCBA-BC28F98562A0</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A62F8AC4-66E5-4652-133F-109087D915BB" referredColumn="24DDFF1C-9AFA-8DFD-1377-A7CD860FE7F5"/>
+</associations>
+</Column>
+<Column name="MAT_TEA_ID_AWAY" id="A11F335F-E485-0186-3D70-6A6BF3C1750D">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>24597D73-1605-F95A-1B36-96D7F354C29F</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3DB98FE-BDAD-22D5-5906-3535D4852024" referredColumn="24DDFF1C-9AFA-8DFD-1377-A7CD860FE7F5"/>
+</associations>
+</Column>
+<Column name="MAT_DATE_OF_MATCH" id="603E7C31-31BF-8208-CFD0-08CF851CBFD1">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>45F7E722-BF60-6B8F-E3B4-D2B0F48B872A</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_HOUR" id="B682CE23-14EE-1FA7-70DC-95851F099B30">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>11EA6728-8C9D-A996-CD50-C39F4222194F</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_GOALS_LOCAL" id="77CBF356-64B0-FDEE-6D68-A7B3263DBE15">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>81C041E4-9F55-1549-B2F9-5310C626176A</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>A62F8AC4-66E5-4652-133F-109087D915BB</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="MAT_GOALS_AWAY" id="CDA34B95-B4CE-26D9-67D2-D0457C220C3E">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>BF3D0379-C81D-4B0D-9648-9227F496CD43</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>F3DB98FE-BDAD-22D5-5906-3535D4852024</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F524BD0-7A45-FCD6-4726-147155E6049A" name="MAT_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>5AB91976-7440-9B9B-1B7C-3F04AFF832E8</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015D39A4-4A47-6CD1-0C9A-7A663810F5AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE76A951-EBE1-0167-1CBA-68C863BFB90A" name="MAT_UK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:27:06 UTC</createdTime>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ED927DA-2CC7-4141-25AF-75833E462A36"/>
+<colUsage columnID="20E5E233-3252-A9CB-C8FB-BD7ABEFE766F"/>
+<colUsage columnID="A11F335F-E485-0186-3D70-6A6BF3C1750D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB2BA45B-2208-67D6-048F-E8E7782526D4" name="MAT_MDA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>E90BB0F2-D4A3-847D-1F7C-AA949EA2B098</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ED927DA-2CC7-4141-25AF-75833E462A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C952B85E-3625-F81B-D0E9-1779FD4B28E1" name="MAT_TEA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>4EAE0FD8-4236-D3CA-B241-2DB495E944C9</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E5E233-3252-A9CB-C8FB-BD7ABEFE766F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31D27B57-CFD6-AD2D-6938-881E80719DBC" name="MAT_TEA_FKV2">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>1444F913-9EDC-8A89-315C-97A41C6B9853</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A11F335F-E485-0186-3D70-6A6BF3C1750D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

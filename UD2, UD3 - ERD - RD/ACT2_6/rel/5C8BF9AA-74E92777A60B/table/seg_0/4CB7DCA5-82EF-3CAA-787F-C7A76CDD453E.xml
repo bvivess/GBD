@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CB7DCA5-82EF-3CAA-787F-C7A76CDD453E" name="PTITLES">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>AED5D917-98AF-9648-6AE5-8C3E8F6D97CE</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<ordsAlias>titlesxpublishers</ordsAlias>
+<abbreviation>PTI</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PTI_ISBN" id="55928638-CFA1-3EC2-8499-4458F4750BE6">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>14EA2511-DA5D-2653-A1CF-E4A75E816ED4</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTI_TIT_ID" id="A391F69A-5F03-E5E7-F7B9-CF5846B328DD">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>786F833E-0F32-1049-B834-7E78895FB2A6</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D646C868-E4A6-B4C4-C313-47F47F150849" referredColumn="9ED81E08-AE45-A540-01ED-DDE48C14A171"/>
+</associations>
+</Column>
+<Column name="PTI_PUB_ID" id="E86C73E3-56A1-72F4-FA8F-078DB04625DC">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>848316F5-B5D4-A445-40C4-D4CAC45FCEC4</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9D4888A-324A-8C12-4656-7C38C66D5AA1" referredColumn="9E173569-9A6B-1381-788A-D9AD724481DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="594433BA-0D20-A565-699B-D541ECEDEEE8" name="PTI_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>DB1660BB-ADA6-143D-649C-594CBBC6840F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55928638-CFA1-3EC2-8499-4458F4750BE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9CBA0F3-362F-9807-C069-ABC6AC6CEBBE" name="PTI_UN">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>478FB826-1FE2-4A50-B63B-23A6F42170D5</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A391F69A-5F03-E5E7-F7B9-CF5846B328DD"/>
+<colUsage columnID="E86C73E3-56A1-72F4-FA8F-078DB04625DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56EBC83B-EDEE-5E9C-6838-08D0D4E56D79" name="PTI_TIT_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>13A3C71D-3CC0-DA58-C04D-AD6833818D77</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A391F69A-5F03-E5E7-F7B9-CF5846B328DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D00B6BD-AD48-12B3-324A-55B79EADB7C6" name="PTI_PUB_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>72FEB2D9-552C-9B9E-DCAF-B26A81FDA654</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E86C73E3-56A1-72F4-FA8F-078DB04625DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

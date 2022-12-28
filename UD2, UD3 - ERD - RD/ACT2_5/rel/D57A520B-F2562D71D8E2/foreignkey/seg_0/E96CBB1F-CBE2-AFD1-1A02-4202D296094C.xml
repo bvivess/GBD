@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E96CBB1F-CBE2-AFD1-1A02-4202D296094C" containerWithKeyObject="FD4C740E-80D9-A3D6-AF6E-E10A1DD67386" localFKIndex="A99802B5-2195-89F5-3F97-8300D1DECB40" name="SXH_SPA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-14 13:00:47 UTC</createdTime>
+<generatorID>A302BE8A-62ED-0A92-E87E-368BD9DE5841</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<referredTableLongName>SPAREPARTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>66BB6A68-AED0-1485-4253-A83CDC22F446</referredTableID>
+<keyObject>C4B50909-7B4C-524F-2764-DEFF98AF24E7</keyObject>
+<referredKeyID>C4B50909-7B4C-524F-2764-DEFF98AF24E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SPA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

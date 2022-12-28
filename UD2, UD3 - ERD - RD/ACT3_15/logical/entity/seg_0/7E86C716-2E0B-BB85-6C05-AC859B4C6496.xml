@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E86C716-2E0B-BB85-6C05-AC859B4C6496" name="SINVOICES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:05:35 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SIN</shortName>
+<synonymToDisplay>SUPPLIER INVOICES</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="61740EE7-D56B-C6BB-D7DB-5A0CE0DBFD7E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:05:56 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Suppl Invoice Id" id="B2103EBC-8726-29E6-F115-362DEA22B403">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:06:15 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Invoice Date" id="4C2DD37B-7419-478E-18D1-3B6658F273B5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:06:30 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Payment Date" id="13CD3E34-3E04-B1FD-FB7F-307F7D920ACD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:07:04 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="6CE7A008-23F1-8C2B-5DD4-F1B11AF1BFA3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:08:37 UTC</createdTime>
+<generatorID>A716FD71-0F7D-ED65-FD00-475FCED84BEE</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<referedAttribute>1B078961-8181-D566-570E-DC73C69998A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="012A720F-A087-8FC7-738B-07372529816B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:09:21 UTC</createdTime>
+<generatorID>B2F1EC1F-7AE0-2B14-E084-FA92EFDF6C92</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<referedAttribute>303A1551-7895-DD2E-36B0-3C8FBDA6F8E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id3" id="00B9505A-4AC4-4256-6FE4-1C36BCE96CFC">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-16 06:48:11 UTC</createdTime>
+<generatorID>CEC0F783-A149-7642-DABB-94D85297FE55</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>61740EE7-D56B-C6BB-D7DB-5A0CE0DBFD7E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7609F6C-937E-9BD1-7726-C6B125EA9F45" name="SINVOICES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 07:06:13 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61740EE7-D56B-C6BB-D7DB-5A0CE0DBFD7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

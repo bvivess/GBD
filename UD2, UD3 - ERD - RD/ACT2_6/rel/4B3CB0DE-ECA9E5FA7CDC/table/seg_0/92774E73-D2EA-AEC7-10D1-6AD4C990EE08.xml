@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92774E73-D2EA-AEC7-10D1-6AD4C990EE08" name="TELEPHONES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>E48B1E89-8A16-DB3D-5CD1-A8988B74E051</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>TEL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEL_MEM_ID" id="D29A149D-C890-8857-775A-1500D51F487E">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>1999A253-77E7-C739-6AF4-2D030DEFBDEA</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B67AE587-B7A7-2A44-2887-D541054D90B5" referredColumn="1E95A900-00E1-B213-3B99-E1AA8CCE7095"/>
+</associations>
+</Column>
+<Column name="TEL_TNUMBER" id="64017B31-0BEB-861E-7A70-075618E218D4">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>0CEDC911-E4F6-7610-9B56-07FEBC801FF6</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="211609FE-CE7C-AA2E-FA74-418296FF25FF" name="TEL_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>DCA170BB-4BEA-AA14-AE83-4E45DC89A293</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64017B31-0BEB-861E-7A70-075618E218D4"/>
+<colUsage columnID="D29A149D-C890-8857-775A-1500D51F487E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0DE9419-0847-E14F-A04E-E3FED4DE92C6" name="TEL_MEM_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>BE9FD3BC-6CED-C041-358C-DE835BD9893F</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D29A149D-C890-8857-775A-1500D51F487E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

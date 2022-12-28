@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB264389-3FBC-6719-8E81-1E08C9AD77D8" containerWithKeyObject="38AD8424-3C52-674D-D5F5-97992E3CECEF" localFKIndex="B644D49A-EB53-7295-4131-13A736FEBA85" name="TRA_CAM_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>7C338418-CF70-0486-29C3-FE9A466BA000</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<referredTableLongName>CAMIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>616D1436-5751-5DE4-B95A-39A2AE3A0E47</referredTableID>
+<keyObject>D61B28A3-AEA9-25A8-A8CB-FA3FEEC1601B</keyObject>
+<referredKeyID>D61B28A3-AEA9-25A8-A8CB-FA3FEEC1601B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CAM_MATRICULA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

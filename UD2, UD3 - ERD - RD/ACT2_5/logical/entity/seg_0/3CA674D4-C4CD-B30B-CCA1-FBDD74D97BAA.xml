@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CA674D4-C4CD-B30B-CCA1-FBDD74D97BAA" name="CARS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 08:50:05 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CAR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PlateNumber" id="3ABF981C-1BDC-5DD1-11FB-2CAC7EEF1333">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 08:50:13 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegistrationDate" id="E4995FCC-BEB1-814F-8C21-EA7E8FC758DE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 08:59:54 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="9F317079-439D-AF0E-D971-EEB2A435DB62">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-05 08:09:49 UTC</createdTime>
+<generatorID>1884F01B-0951-5484-4AFA-B5CB698588D5</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<referedAttribute>4CED86F5-5E0A-364D-8DB9-3508D5282ED5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="4E51FC49-4979-4697-C370-36215A8BABBD">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-05 08:09:54 UTC</createdTime>
+<generatorID>DCBA8738-BE65-6A11-41AD-8068FBE2F6AE</generatorID>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<referedAttribute>7AABAFCB-2ABC-29AF-A082-2A64A9AEFE17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8E3C3B0-64A4-9218-33DB-2A5150383AA6" name="CARS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-10 08:50:32 UTC</createdTime>
+<ownerDesignName>ACT2_5</ownerDesignName>
+<engineerTo>
+<item key="D57A520B-9CFD-E394-CAB7-F2562D71D8E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3ABF981C-1BDC-5DD1-11FB-2CAC7EEF1333</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

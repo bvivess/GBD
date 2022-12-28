@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABD22135-4AF4-DB71-1B5A-3350C4368722" containerWithKeyObject="0762443F-4886-658D-A6FC-957636424164" localFKIndex="2B922D6A-A80B-C6AB-7F8B-CB3FFC0E6291" name="UTILIZACION_PROFESORES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-08 08:16:22 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<referredTableLongName>PROFESORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5247F25A-F3F2-C813-17EC-AA4F168DEA40</referredTableID>
+<keyObject>5F14BBD0-42EB-D139-BEE9-F5B5AF3BCA9E</keyObject>
+<referredKeyID>5F14BBD0-42EB-D139-BEE9-F5B5AF3BCA9E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

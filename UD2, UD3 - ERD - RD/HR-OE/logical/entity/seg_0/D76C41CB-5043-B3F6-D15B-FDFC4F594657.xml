@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D76C41CB-5043-B3F6-D15B-FDFC4F594657" name="PRODUCT_INFORMATIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:46:22 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRODUCT_ID" id="1413D747-6C02-82FD-8466-5E147811B1D7">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:59:00 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_NAME" id="43D4A3D6-5BE5-A75F-475D-F5AEEC310C1A">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:59:17 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_DESCRIPTION" id="18F54532-AA14-BB9F-9C74-CDF1F06FF71B">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:59:30 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY_ID" id="2F0508E1-FD44-302D-0D6E-C59706C7D1CA">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:00:43 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEIGHT_CLASS" id="44AB2318-9E78-9087-01AE-BEAB65FE5684">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:01:06 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WARRANTY_PERIOD" id="CE9F4C82-6A1E-1005-1FB7-CD1AE3787D4C">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:01:27 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT048</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUPPLIER_ID" id="90DA153C-80DE-BDF0-E340-A674493B04D9">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:02:06 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRODUCT_STATUS" id="20FBD579-A98D-D626-E33A-FE336895FCEA">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:02:55 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LIST_PRICE" id="7E810AC2-26EF-87A8-6DC4-BD47486AC4BD">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:03:18 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MIN_PRICE" id="6125F85F-32A1-50C2-C535-6BC85E8C9B00">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:03:42 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATALOG_URL" id="2702E85A-7B2B-FE26-7A66-814F120F27CB">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 11:03:56 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORY_ID1" id="8422C558-E3D2-2356-ADE5-F1569B9F631F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-02-09 14:45:08 UTC</createdTime>
+<generatorID>091C1879-BEDB-272F-2977-B5B4B347E65F</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>67C97CA8-D3D3-0100-5029-FDF108102F5A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8D92C2D-4C63-513C-E7BA-7FFA1B2763E6" name="PRODUCT_INFORMATION PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:59:59 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1413D747-6C02-82FD-8466-5E147811B1D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

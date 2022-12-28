@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D8D9FBD-5875-7026-114A-3010CCE8ACCB" name="RUTASXCIUDADES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<abbreviation>RXC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RXC_RUT_CODIGO" id="C3BDE489-DE02-18CB-981D-19C2CCCA43EB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAB2CAA3-CE45-44C5-7528-808148C62F47" referredColumn="F25166AF-EEA4-A212-342C-51A36B2786BB"/>
+</associations>
+</Column>
+<Column name="RXC_CIU_CODIGO" id="54827E55-E3DF-390D-DAE6-109515EA74C3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AD1D394-1984-0FC9-1D80-FD67C7F3C450" referredColumn="E3861D1E-F450-4CD2-2546-2C64AAA46BE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D3A8277-EF41-B34D-6465-DECE6850765C" name="RUTASXCIUDADES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3BDE489-DE02-18CB-981D-19C2CCCA43EB"/>
+<colUsage columnID="54827E55-E3DF-390D-DAE6-109515EA74C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="179FD45A-0D7B-2A6D-90B2-371FDF0B0963" name="RUTASXCIUDADES_RUTAS_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>FF7FE05D-E0AD-3BAA-FDD1-C078F4049434</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3BDE489-DE02-18CB-981D-19C2CCCA43EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99C6BAEA-015F-C6C1-53EE-0F0580446695" name="RUTASXCIUDADES_CIUDADES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:01:18 UTC</createdTime>
+<generatorID>FF7FE05D-E0AD-3BAA-FDD1-C078F4049434</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54827E55-E3DF-390D-DAE6-109515EA74C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

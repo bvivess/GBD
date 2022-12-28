@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8259C5C8-6747-F3CC-3201-E2308527AE9C" containerWithKeyObject="8748CF78-CF20-E305-9A70-2BF5FCCFD4A3" localFKIndex="1A6876EA-682E-8489-4976-284C6CF77827" name="AXP_PEL_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>3103A362-C185-F5C7-7457-6CBE564359CF</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<referredTableLongName>PELICULES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F40A418A-0DE1-7AEB-298A-6395D29A6C73</referredTableID>
+<keyObject>1748E2CC-2994-FD27-C6B9-1E5481A8892F</keyObject>
+<referredKeyID>1748E2CC-2994-FD27-C6B9-1E5481A8892F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PEL_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5803E13F-7B5C-B083-0F92-E60E4955013A" name="TRAXCIU">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<ordsAlias>relation_9</ordsAlias>
+<abbreviation>CXT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CXT_CIU_CODIGO" id="F5FA2BBD-0FFC-899A-6531-70F6726EAAED">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52CA8B86-A77F-1CE4-0DF0-5A4C41729620" referredColumn="5FD6D6EB-8195-A3FE-54C5-F41A6B9B94F9"/>
+</associations>
+</Column>
+<Column name="CXT_CAM_MATRICULA" id="D8B1ADAF-EE21-8A90-992F-7C39E0E4A35A">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE8E94D9-3225-EF55-D5BE-AD0A9DD6EFD3" referredColumn="8DC0C25D-E3D5-098D-4C95-EC1803662973"/>
+</associations>
+</Column>
+<Column name="CXT_TRA_DIA" id="DC7898AF-C993-B805-154E-B5530CCFF96F">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:57:52 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE8E94D9-3225-EF55-D5BE-AD0A9DD6EFD3" referredColumn="28B0D773-61A7-11B5-2E8F-10D03AF54584"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD5E2EF5-B82D-8560-D9C5-2F46D98CCE14" name="CXT_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5FA2BBD-0FFC-899A-6531-70F6726EAAED"/>
+<colUsage columnID="D8B1ADAF-EE21-8A90-992F-7C39E0E4A35A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="912130A8-33C3-45BE-7FD1-66F3543B260D" name="CXT_CIU_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>8129A93A-2A00-FFFF-EF97-EE33D3F8924E</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5FA2BBD-0FFC-899A-6531-70F6726EAAED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5AF1095-98A0-61B7-9DDE-0045BA401F65" name="CXT_TRA_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 08:54:55 UTC</createdTime>
+<generatorID>8129A93A-2A00-FFFF-EF97-EE33D3F8924E</generatorID>
+<ownerDesignName>ACT3_18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8B1ADAF-EE21-8A90-992F-7C39E0E4A35A"/>
+<colUsage columnID="DC7898AF-C993-B805-154E-B5530CCFF96F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

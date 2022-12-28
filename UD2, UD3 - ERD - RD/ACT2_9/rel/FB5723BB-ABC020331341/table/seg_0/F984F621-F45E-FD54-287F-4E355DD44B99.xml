@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F984F621-F45E-FD54-287F-4E355DD44B99" name="COMMENTS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>141DFEE9-9259-CCC9-3DE0-C960CAD67B5F</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<abbreviation>COM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COM_MOV_ID" id="A8A73266-C881-2A3E-B233-ACF3D4D7505F">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>30BA568D-B7E4-2FF4-796F-8B3EE1B52760</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E74310E-056D-2632-2280-D759FFDB3582" referredColumn="B09EF204-78EC-CA49-291B-D6CBB1F230C0"/>
+</associations>
+</Column>
+<Column name="COM_NUMBER" id="BDA6839C-A12C-EF15-16A1-743104F544E9">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>12A6D472-5690-B8EA-2B32-84C760EBA793</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COM_DESCRIPTION" id="C6994C37-4712-2398-320A-56C9FD3B5F44">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>24543762-6156-065D-2453-5CADE6FC1007</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADCC2F2F-661F-F482-E1A5-2DF53E8F6439" name="COM_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>3DA5DE41-AC4D-478D-B141-574256C683D7</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8A73266-C881-2A3E-B233-ACF3D4D7505F"/>
+<colUsage columnID="BDA6839C-A12C-EF15-16A1-743104F544E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29C8A01E-AF54-8987-6170-503089E742A2" name="COM_MOV_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>C4B031C0-99E6-B16A-EFF2-6073A29CFCB2</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8A73266-C881-2A3E-B233-ACF3D4D7505F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

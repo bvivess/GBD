@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TDIXINF" directorySegmentName="seg_0" id="0469DF7E-D0DF-8701-A9B3-F7CF24214261">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:54:40 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5A36E945-BF30-8844-54FD-6BA1A8047584</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>61B20014-E535-1F58-512A-473149FA5908</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

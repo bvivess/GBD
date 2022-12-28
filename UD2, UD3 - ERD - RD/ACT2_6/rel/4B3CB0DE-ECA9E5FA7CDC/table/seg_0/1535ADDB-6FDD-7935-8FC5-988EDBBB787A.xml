@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1535ADDB-6FDD-7935-8FC5-988EDBBB787A" name="COPIES">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>8191EDBA-9E03-211B-182F-A328659F2AE2</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>COP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COP_ID" id="4942B05B-BE16-C172-63BD-CEE65377CA2D">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>1ECC6986-3773-3BC9-12DD-EDD2922BB176</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COP_TXP_ISBN" id="522CC141-64A8-6395-8795-3E620D718EB9">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 20:01:28 UTC</createdTime>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE1C5126-593A-127C-56DE-7FE56874073D" referredColumn="972CEDCB-AF06-2EB0-42F8-D7C3BAF1567C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7812539E-958B-8110-9B98-F404945D916C" name="COP_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>CABD9A56-E577-45C8-C164-B402B9CA441D</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4942B05B-BE16-C172-63BD-CEE65377CA2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5EA01F8-DBFC-1E53-4816-223D34B8B5FA" name="COP_TXP_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-10-21 19:44:21 UTC</createdTime>
+<generatorID>90AF1E04-1CA3-064C-E645-9869B7C8EFA9</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="522CC141-64A8-6395-8795-3E620D718EB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

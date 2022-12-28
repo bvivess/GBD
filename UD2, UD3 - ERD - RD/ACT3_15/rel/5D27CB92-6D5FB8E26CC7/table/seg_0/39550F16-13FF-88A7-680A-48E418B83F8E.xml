@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39550F16-13FF-88A7-680A-48E418B83F8E" name="PAYMENTS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<abbreviation>PAY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAY_SIN_ID" id="AB493120-D3EB-A8C3-60C5-4A7DAC7B2001">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5EB3CFA-E31A-7A43-591D-55B6D50A8BA3" referredColumn="5F4DB089-8643-7C04-D8FF-C5AC1EA8B830"/>
+</associations>
+</Column>
+<Column name="PAY_BMO_ID" id="4EDB9DFE-1B95-0FBE-3203-A95E9BE1F3DF">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE59F591-F43A-D43A-3FD4-6823727E8F9F" referredColumn="64193545-D75F-2E44-BFBC-85C25FE31BC0"/>
+</associations>
+</Column>
+<Column name="PAY_AMOUNT" id="9A70A9E1-BF98-2424-E8E3-9E8089C23650">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>B092D2AE-AE07-B7A2-D003-7AFE5E5013AB</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7A7782E-AB9C-D9A6-0B5D-4F6256727A0B" name="PAY_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB493120-D3EB-A8C3-60C5-4A7DAC7B2001"/>
+<colUsage columnID="4EDB9DFE-1B95-0FBE-3203-A95E9BE1F3DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="372D5C89-FDDB-5D52-91FB-E62B9D9FC126" name="PAY_SIN_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>2584671F-8B47-4373-7936-F9B7EF8CD28D</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB493120-D3EB-A8C3-60C5-4A7DAC7B2001"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FF30315-F0A9-CE31-5546-25FF327C4BA0" name="PAY_BMO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>2584671F-8B47-4373-7936-F9B7EF8CD28D</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EDB9DFE-1B95-0FBE-3203-A95E9BE1F3DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

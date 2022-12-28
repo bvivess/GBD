@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45EFC9AB-A3F4-353C-8ECA-B6F784E6C182" name="STAFFXMATCH">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 07:43:31 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<abbreviation>SXM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SXM_STA_ID" id="D56BCC25-2EEC-F45D-27E5-F3533129523B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 07:43:53 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDA08394-92C5-E25C-0D0A-548AC0E84E95" referredColumn="1AFB16F8-63AC-07BF-CEBB-A65987876094"/>
+</associations>
+</Column>
+<Column name="SXM_MAT_ID" id="BFD332F6-C824-3DE6-79D1-9D0AEB190FF8">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 07:44:00 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="040278EC-6DD5-5B77-773C-82F702FBDB6C" referredColumn="2408C373-AF4B-9593-51CA-F059CE66B817"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A05C9DC4-4755-FBCA-7641-B93501B80E99" name="SXM_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 07:44:44 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFD332F6-C824-3DE6-79D1-9D0AEB190FF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="779596A0-1B5D-FDB7-CF02-F70E4480B74A" name="SXM_STA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 07:43:53 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D56BCC25-2EEC-F45D-27E5-F3533129523B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D427DBF8-4816-DDA8-B2C7-3EF0070076F8" name="SXM_MAT_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 07:44:00 UTC</createdTime>
+<generatorID>33BD8D69-8864-D0CA-8411-38E23B6F3748</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFD332F6-C824-3DE6-79D1-9D0AEB190FF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

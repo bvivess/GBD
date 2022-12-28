@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CECF389E-4547-D042-75D7-2A9D5433E570" name="CUSTOMERS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 06:56:00 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CUS</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="593341FE-AC85-4209-E011-DF7AA28E2369">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 06:56:29 UTC</createdTime>
+<generatorID>99C63961-A9E4-F35D-4998-5F1EAEF15EA7</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<referedAttribute>981BF9D7-B0F0-DE33-CFD1-C572986C9B26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE35F7CB-48FC-D42C-CE94-FEE28B9B4B3F" name="CUSTOMERS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 06:56:54 UTC</createdTime>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<engineerTo>
+<item key="5D27CB92-75C0-5A61-60B0-6D5FB8E26CC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>593341FE-AC85-4209-E011-DF7AA28E2369</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

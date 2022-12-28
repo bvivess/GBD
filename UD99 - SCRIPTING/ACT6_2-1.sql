@@ -1,0 +1,173 @@
+﻿SET SERVEROUTPUT ON
+
+-- Exemple 1
+DECLARE
+	a	EXCEPTION;
+	b	EXCEPTION;
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('inici');
+	--
+	RAISE a;
+	--
+	DBMS_OUTPUT.PUT_LINE('final');
+EXCEPTION
+	WHEN b THEN
+		DBMS_OUTPUT.PUT_LINE('b');
+END;
+
+-- Exemple 2
+DECLARE
+	a		EXCEPTION;
+	b		EXCEPTION;
+	dummy	VARCHAR2(3);
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('inici');
+	--
+	dummy := 'abc';
+	--
+	RAISE b;
+	--
+	DBMS_OUTPUT.PUT_LINE('final');
+EXCEPTION
+	WHEN a THEN
+		DBMS_OUTPUT.PUT_LINE('a');
+	WHEN NO_DATA_FOUND THEN
+		DBMS_OUTPUT.PUT_LINE('c');
+	WHEN OTHERS THEN
+		DBMS_OUTPUT.PUT_LINE('z');
+END;
+
+-- Exemple 3
+DECLARE
+	v_last_name	employees.last_name%TYPE;
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('inici');
+	--
+	SELECT last_name INTO v_last_name 
+	FROM employees;
+	--
+	DBMS_OUTPUT.PUT_LINE( v_last_name );
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN
+		DBMS_OUTPUT.PUT_LINE('a');
+	WHEN TOO_MANY_ROWS THEN
+		DBMS_OUTPUT.PUT_LINE('b');
+	WHEN OTHERS THEN
+		DBMS_OUTPUT.PUT_LINE('z');
+END;
+
+-- Exemple 4
+DECLARE
+	a			EXCEPTION;
+	b			EXCEPTION;
+	v_last_name	employees.last_name%TYPE;
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('inici');
+	--
+	RAISE a;
+	--
+	BEGIN
+		SELECT last_name INTO v_last_name 
+		FROM employees
+		WHERE employee_id = 100;
+	EXCEPTION
+		WHEN a THEN
+			DBMS_OUTPUT.PUT_LINE('aa');
+	END;
+	--
+	RAISE b;
+	--
+	DBMS_OUTPUT.PUT_LINE('final');
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN
+		DBMS_OUTPUT.PUT_LINE('0');
+	WHEN a THEN
+		DBMS_OUTPUT.PUT_LINE('a');
+	WHEN b THEN
+		DBMS_OUTPUT.PUT_LINE('b');
+	WHEN OTHERS THEN
+		DBMS_OUTPUT.PUT_LINE('z');
+END;
+
+-- Exemple 5
+DECLARE
+	a			EXCEPTION;
+	b			EXCEPTION;
+	v_last_name	employees.last_name%TYPE;
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('inici');
+	--
+	BEGIN
+		SELECT last_name INTO v_last_name 
+		FROM employees
+		WHERE employee_id = 1;
+	EXCEPTION
+		WHEN TOO_MANY_ROWS THEN
+			DBMS_OUTPUT.PUT_LINE('a');
+			RAISE A;
+		WHEN a THEN
+			DBMS_OUTPUT.PUT_LINE('b');
+			RAISE b;
+		WHEN OTHERS THEN
+			DBMS_OUTPUT.PUT_LINE('c');
+			RAISE NO_DATA_FOUND;
+	END;
+	--
+	RAISE b;
+	--
+	DBMS_OUTPUT.PUT_LINE('final');
+EXCEPTION
+	WHEN NO_DATA_FOUND THEN
+		DBMS_OUTPUT.PUT_LINE('a');
+	WHEN a THEN
+		DBMS_OUTPUT.PUT_LINE('b');
+	WHEN b THEN
+		DBMS_OUTPUT.PUT_LINE('c');
+	WHEN OTHERS THEN
+		DBMS_OUTPUT.PUT_LINE('z');
+END;
+
+-- EXEMPLE 6
+DECLARE
+   v_last_name	VARCHAR2(1);
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('inici');
+	--
+	SELECT last_name INTO v_last_name 
+	FROM employees
+	WHERE employee_id = 100;
+   --
+	DBMS_OUTPUT.PUT_LINE('final');
+EXCEPTION
+   WHEN no_data_found THEN
+		DBMS_OUTPUT.PUT_LINE('a');
+   WHEN value_error THEN
+		DBMS_OUTPUT.PUT_LINE('b');
+END;
+
+-- Exemple 7
+DECLARE
+	a			EXCEPTION;
+	v_last_name	employees.last_name%TYPE;
+BEGIN
+	DBMS_OUTPUT.PUT_LINE('inici');
+	--
+	 SELECT last_name INTO v_last_name FROM employees WHERE employee_id = 100
+	UNION
+	 SELECT last_name FROM employees WHERE employee_id = 101;
+	--
+	RAISE a;
+	--
+	DBMS_OUTPUT.PUT_LINE('final');
+EXCEPTION
+	WHEN a THEN
+		DBMS_OUTPUT.PUT_LINE('a');
+	WHEN NO_DATA_FOUND THEN
+		DBMS_OUTPUT.PUT_LINE('b');
+	WHEN OTHERS THEN
+		DBMS_OUTPUT.PUT_LINE('z');
+END;
+
+
+
+

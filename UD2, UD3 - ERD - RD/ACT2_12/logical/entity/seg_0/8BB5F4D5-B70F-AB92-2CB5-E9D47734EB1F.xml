@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BB5F4D5-B70F-AB92-2CB5-E9D47734EB1F" name="MOVEMENTS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:56:25 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>MOV</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="10435CB0-A51D-2124-D8B5-5FE77B736CED">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:56:41 UTC</createdTime>
+<generatorID>2640E4C2-05A8-2E42-08EC-8BB2A79AD7B9</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<referedAttribute>2E8FA611-A275-61C9-837A-3529A992A682</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="8172918F-E8FE-4C84-9BB3-96FA86ED4BF1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 15:12:49 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PlayDescription" id="2C379595-8991-8FA6-CB60-0E348C11D3D6">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 15:13:03 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comment" id="2C0F3D89-3C1C-1783-D593-CB3779607ED2">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 15:13:55 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF9A8FFF-DED2-C868-6B6F-D76201A75C5F" name="MOVEMENTS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-23 14:56:51 UTC</createdTime>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<engineerTo>
+<item key="31963193-8BC2-2533-63D0-CE3106E87A88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10435CB0-A51D-2124-D8B5-5FE77B736CED</attributeRef>
+<attributeRef>8172918F-E8FE-4C84-9BB3-96FA86ED4BF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

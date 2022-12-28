@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DB009D6-050C-42E4-34B3-63EE1DC379CA" name="TRABAJADORES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>CF5F6928-652A-66D5-C260-AC2BC96E3AF4</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<abbreviation>TRA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRA_DNI" id="EBE0F2BE-59B2-D186-3127-DD08A29FC002">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>8F5C6937-B382-5E87-B95D-5FF7A7C24A9F</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRA_NOMBRE" id="913D6323-D77E-6EED-CA48-4053624E35BA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>AA1C3A5E-7A4A-16D7-9BB3-03C8E80D55AD</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FE37358-2558-0D38-E11F-0B2B4F8EFCB8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRA_APELLIDO1" id="D9908125-8D18-0C82-D0F0-2319382D0A34">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>EE54755C-46AC-E7EA-D94A-125C8238531C</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FE37358-2558-0D38-E11F-0B2B4F8EFCB8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRA_APELLIDO2" id="8B8950C1-44AA-B5C0-6B4D-740461AF1921">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>A8F43EEE-FEE5-3670-BBC5-B2CDB9CA9B93</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5FE37358-2558-0D38-E11F-0B2B4F8EFCB8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81E998CA-FD58-046A-F819-112FB1BB50E8" name="TRABAJADORES_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>0CE48445-38BE-0690-8AED-3BD3E3455831</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBE0F2BE-59B2-D186-3127-DD08A29FC002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

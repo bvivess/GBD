@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BE01005-B295-2614-F25F-CBD2B685607D" name="MATCH">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>A9FF3C6B-68D8-FB24-063B-5BC6CA12180C</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<abbreviation>MAT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAT_ID" id="2408C373-AF4B-9593-51CA-F059CE66B817">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 08:03:37 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_TOU_ID" id="3A0235BA-C183-BAD0-283B-3E9745A2F1E3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 10:03:26 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECC57A1A-DF34-E3C1-F97F-72DC4472DBFA" referredColumn="3EA535B3-20B2-90B5-6968-C5762377B5C9"/>
+</associations>
+</Column>
+<Column name="MAT_MDA_NUMBER" id="C1AFE0B9-33E4-9ED7-4BAA-84D563F49726">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>6F8275A3-C07D-2F41-9B1F-AB397485A3EC</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECC57A1A-DF34-E3C1-F97F-72DC4472DBFA" referredColumn="409FB86A-7D33-C92C-6D34-D940E06B9AD1"/>
+</associations>
+</Column>
+<Column name="MAT_TEA_LOCAL" id="00C60A48-34E8-D48C-6DF1-1B4E3DE46999">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>C6E0D07F-B001-A11E-31C7-074977E08698</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44DBC628-77BC-5CF6-F004-A33D97BB9926" referredColumn="8C15B165-EC63-D3EE-1A35-EEB21463038B"/>
+</associations>
+</Column>
+<Column name="MAT_TEA_AWAY" id="2CD61ED8-A825-6345-6D2D-00556238811B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>DAA1AAE2-BBFA-4672-63B8-B66A77B1E9CA</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A6F4E06-008E-DC0C-5704-A66E96A77752" referredColumn="8C15B165-EC63-D3EE-1A35-EEB21463038B"/>
+</associations>
+</Column>
+<Column name="MAT_POINTSLOCAL" id="649CBA24-54DA-2872-1090-6A4B71CC15A6">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>F2308BB1-B77C-44BA-98A9-BAECD116B71A</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>3A6F4E06-008E-DC0C-5704-A66E96A77752</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="MAT_POINTSAWAY" id="279D65A7-386C-DACD-821F-BE8526F7A8E5">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>E38F8398-B189-D28E-8F73-1B2D58D09B05</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>44DBC628-77BC-5CF6-F004-A33D97BB9926</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="MAT_DATE" id="FBBF23AE-04D3-E602-E569-71F87A5C7E3E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:23:27 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAT_TIME" id="E57D8892-A617-21FA-C448-DB28F8E2D918">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:23:27 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA13A6BE-7931-7B54-D06C-39B1F33C4F26" name="MAT_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>33BD8D69-8864-D0CA-8411-38E23B6F3748</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2408C373-AF4B-9593-51CA-F059CE66B817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54991129-99F8-D2B4-BE0F-43EBB2CC0268" name="MAT_UN">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 08:03:37 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A0235BA-C183-BAD0-283B-3E9745A2F1E3"/>
+<colUsage columnID="C1AFE0B9-33E4-9ED7-4BAA-84D563F49726"/>
+<colUsage columnID="00C60A48-34E8-D48C-6DF1-1B4E3DE46999"/>
+<colUsage columnID="2CD61ED8-A825-6345-6D2D-00556238811B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F3FB2FE-F552-D758-79C1-C8ADCF041083" name="MAT_TEA_FK_LOCAL">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>3B25F16B-78C8-761E-78A3-72A99BEEE9B9</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C60A48-34E8-D48C-6DF1-1B4E3DE46999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A856783-02BF-ABF2-7CCC-0BF6F0341AE4" name="MAT_TEA_FK_AWAY">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>7366C40E-8794-113C-530D-9D621A08EAA8</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CD61ED8-A825-6345-6D2D-00556238811B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF657FC7-0888-8889-8156-BAA85D3538F6" name="MAT_MDA_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>3F49E120-1D56-DB25-5008-EB1780E223FD</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A0235BA-C183-BAD0-283B-3E9745A2F1E3"/>
+<colUsage columnID="C1AFE0B9-33E4-9ED7-4BAA-84D563F49726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

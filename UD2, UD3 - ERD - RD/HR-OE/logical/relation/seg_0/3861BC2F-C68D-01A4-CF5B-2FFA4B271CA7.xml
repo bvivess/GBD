@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JHIST_JOB_FK" directorySegmentName="seg_0" id="3861BC2F-C68D-01A4-CF5B-2FFA4B271CA7">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:37:28 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="FC1E6755-FDCE-71DD-4BFD-D27EBC8ACD0F" value="true"/>
+</engineerTo>
+<sourcePk>0B1CEF37-5A64-4CA7-B55B-4C66CE694FAC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0E68306-AE52-3FCC-A51F-7F8B2B59C7CC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F1442FA-D2D8-5320-B7C7-4546F5FBE83D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

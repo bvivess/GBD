@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD77E3DF-2787-0B55-F1A4-2DA934878FA1" name="ROUNDS">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>4F148B22-EC4D-5FE4-9D0B-B7FFD593B6A6</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<abbreviation>ROU</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROU_ID" id="719EACD3-B0F0-F917-03F7-4705EF0959C3">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>192A7455-72D1-8AF6-9DD1-740DDED1A5FC</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROU_DESCRIPTION" id="A4134AA1-C35D-4E77-2122-D2BA13520CD8">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>FD524149-A5CB-C1A7-C6F8-B287F597836B</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80A596A3-19B7-3688-F212-77FEA53E3422" name="ROU_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-14 17:30:09 UTC</createdTime>
+<generatorID>FCEFD120-2666-DF83-D469-89BB1AA5D02E</generatorID>
+<ownerDesignName>ACT2_12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="719EACD3-B0F0-F917-03F7-4705EF0959C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

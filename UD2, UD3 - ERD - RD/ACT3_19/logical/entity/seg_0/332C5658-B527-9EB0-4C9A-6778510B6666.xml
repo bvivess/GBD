@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="332C5658-B527-9EB0-4C9A-6778510B6666" name="PELICULES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 08:09:00 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<engineerTo>
+<item key="6E8CFA85-EB0B-4EE4-6F7C-CB711337455E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PEL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TITULO" id="FE55A455-113D-3C48-7821-8706EED929FA">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 08:10:01 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<engineerTo>
+<item key="6E8CFA85-EB0B-4EE4-6F7C-CB711337455E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO1" id="642B5644-F581-40EA-4AC5-167064935216">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:04:44 UTC</createdTime>
+<generatorID>85791D37-214E-1BA8-8D69-BD0F1C3FBBD4</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<engineerTo>
+<item key="6E8CFA85-EB0B-4EE4-6F7C-CB711337455E" value="true"/>
+</engineerTo>
+<referedAttribute>51552AAD-747A-10D6-201F-CF2F3E1A0307</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4366E9D1-FE84-186E-7106-8314DB690DF9" name="PELICULES PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-23 08:09:11 UTC</createdTime>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<engineerTo>
+<item key="6E8CFA85-EB0B-4EE4-6F7C-CB711337455E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE55A455-113D-3C48-7821-8706EED929FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

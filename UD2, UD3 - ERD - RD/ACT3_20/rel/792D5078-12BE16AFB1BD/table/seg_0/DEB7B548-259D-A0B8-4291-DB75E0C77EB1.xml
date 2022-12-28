@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEB7B548-259D-A0B8-4291-DB75E0C77EB1" name="SEC_X_CLUBES">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-01 18:17:13 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>SXC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SECCIONES_SEC_NOMBRE" id="EEDE3364-BE8B-058C-E768-2641990EC155">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-01 18:18:24 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B59C7E8-E3B5-5470-AB99-0D67F81C7331" referredColumn="1E5EFF3A-063E-4EB2-2AC4-1DB52C7FDAE3"/>
+</associations>
+</Column>
+<Column name="CLUBES_CLU_CODIGO" id="EE172994-2975-95B7-084A-1A522A59566E">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-01 18:18:31 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E7F34D5-294F-70B1-AF2F-62CDFE6EEA97" referredColumn="40AA3126-C6F8-B6A9-DD60-AA1F22741BEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DD4F9F4-A002-0200-F022-67A58D471FF7" name="SEC_X_CLUBES_SECCIONES_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-01 18:18:24 UTC</createdTime>
+<generatorID>82F7E0E3-C58E-D49B-73D5-C38170606CB7</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEDE3364-BE8B-058C-E768-2641990EC155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69C3F5A5-72A1-B7C3-A8BF-38C98478047F" name="SEC_X_CLUBES_CLUBES_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-01 18:18:31 UTC</createdTime>
+<generatorID>AB6AD1A0-58A2-AE18-3988-C7CA1EE16818</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE172994-2975-95B7-084A-1A522A59566E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

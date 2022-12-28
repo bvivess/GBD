@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="1AB5AEDC-753E-5CC3-0D52-ED8AF820171D">
+<createdBy>bvives</createdBy>
+<modifiedBy>bvives</modifiedBy>
+<createdTime>2018-10-09 13:35:30 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3BC97E0A-7D92-7808-EDBF-710C64F7A46F" otype="Entity" vid="7EA10888-3C10-E4C9-82A2-DDDACC901AB6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="294" y="35" width="170" height="93"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5CE25AC8-9EEE-DC31-A006-FD92F61B5E9B" otype="Entity" vid="2FDC9926-0339-8DCB-D9E8-B026D6244630">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="288" y="358" width="170" height="88"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6254E96C-6289-4E30-A1EA-7C21A371496E" otype="Entity" vid="853543E2-B025-79B9-6C05-42C1B608758F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="297" y="183" width="160" height="96"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="37E58CE9-311A-6047-09FF-B16955C8C78D" otype="Relation" vid_source="7EA10888-3C10-E4C9-82A2-DDDACC901AB6" vid_target="853543E2-B025-79B9-6C05-42C1B608758F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="377" y="128"/>
+<point x="377" y="183"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="582492DB-676C-7520-C1BD-3D8DDB753967" otype="Relation" vid_source="853543E2-B025-79B9-6C05-42C1B608758F" vid_target="2FDC9926-0339-8DCB-D9E8-B026D6244630">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="377" y="279"/>
+<point x="377" y="358"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

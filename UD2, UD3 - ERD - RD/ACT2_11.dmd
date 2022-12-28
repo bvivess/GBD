@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ACT2_11" id="FD60BF41-EF2F-33F3-64FA-5AA98FCD103B" version="3.5">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 14:36:03 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FD60BF41-EF2F-33F3-64FA-5AA98FCD103B</designId>
+</OSDM_Design>

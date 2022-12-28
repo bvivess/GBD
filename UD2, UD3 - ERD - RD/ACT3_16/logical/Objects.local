@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="7639ECE1-B0A4-B523-7367-F2DE34CA2962" name="DESPACHOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="52958A58-7840-5FEF-5578-349C1B866AFE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="94EC21D7-14F5-CE22-2B87-C050B42464EB" name="PROFESORES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="52958A58-7840-5FEF-5578-349C1B866AFE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="94676B38-B1E5-24AC-907D-0A2B57B592B3" name="RECURSOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="52958A58-7840-5FEF-5578-349C1B866AFE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="DB12AE30-65D3-F0E5-791B-224021CD1BA5" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="52958A58-7840-5FEF-5578-349C1B866AFE" propertySourceId="7639ECE1-B0A4-B523-7367-F2DE34CA2962" propertyTargetId="94EC21D7-14F5-CE22-2B87-C050B42464EB"/>
+   <object objectType="Relation" objectID="6C717DE0-B5F1-6FEA-7578-862B1082F349" name="UTILIZACION" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="52958A58-7840-5FEF-5578-349C1B866AFE" propertySourceId="94EC21D7-14F5-CE22-2B87-C050B42464EB" propertyTargetId="94676B38-B1E5-24AC-907D-0A2B57B592B3"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

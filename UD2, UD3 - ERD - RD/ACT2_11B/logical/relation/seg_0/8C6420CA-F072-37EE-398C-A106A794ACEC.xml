@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MANXNCOM" directorySegmentName="seg_0" id="8C6420CA-F072-37EE-398C-A106A794ACEC">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-22 07:29:11 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<engineerTo>
+<item key="EEDBB228-97BD-3B2E-D733-962354E75380" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>99504829-2A13-9523-7BE7-041DE11E24AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD52DAE8-3E74-3138-B551-C156EB476BA5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36AC4C54-3793-215A-C745-694854098FBA" name="HABITACIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 09:59:58 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>HAB</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Num" id="8046E6EE-E7AB-F7C7-E7D0-CBCC434B5CE3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 10:00:07 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codi1" id="C7C26DC0-9878-993D-B560-10FB02DCF375">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 10:00:32 UTC</createdTime>
+<generatorID>5B82CD9F-C965-AFAB-3B26-4F27ABD0CBC2</generatorID>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="true"/>
+</engineerTo>
+<referedAttribute>BB8CFC9A-40FC-3934-8DCD-446615BECC74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="681DB801-34AB-875E-2D59-848674D01DF3" name="HABITACIONS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 10:00:12 UTC</createdTime>
+<ownerDesignName>ACT2_7</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="41469014-1C66-1040-506E-C473556F09BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8046E6EE-E7AB-F7C7-E7D0-CBCC434B5CE3</attributeRef>
+<attributeRef>C7C26DC0-9878-993D-B560-10FB02DCF375</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

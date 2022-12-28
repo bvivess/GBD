@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04A1A6A1-83B7-41A9-9D98-A3838C86E9AF" name="DEPORTISTAS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:38:44 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>DEP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="CBEEF543-18D5-FE07-96F4-1CB3D34BC69B">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:38:50 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="38DA144B-2C04-FF30-5DD1-AEDB971CF5B3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:38:59 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO1" id="22155CF1-B341-1DD9-2A05-4A37C6BEA1C9">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:39:26 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO2" id="0D58E322-EE40-6BF6-98C7-537C12029147">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:39:36 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CALLE" id="944D04FB-A9D1-C8A7-D98A-A419C2871E8E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:47:04 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="7114F7BB-AA3E-1D58-7CC3-2ECF8FDE3DBE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:47:11 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE1" id="14B49B26-B39F-73E6-1DF3-061C0353344D">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-12-01 18:12:35 UTC</createdTime>
+<generatorID>B883BD3D-83E4-9867-1662-E7F8C364DC85</generatorID>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<referedAttribute>25957ABB-10D5-77FE-53E9-9AE9C601E6BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="789EC4E8-54DF-D66F-5971-1AF77D689041" name="DEPORTISTAS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 09:39:23 UTC</createdTime>
+<ownerDesignName>ACT3_20</ownerDesignName>
+<engineerTo>
+<item key="792D5078-4478-8650-7C2D-12BE16AFB1BD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBEEF543-18D5-FE07-96F4-1CB3D34BC69B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

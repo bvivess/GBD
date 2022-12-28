@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5E1F25EE-6424-3FFC-2879-6173D6EDC6D1" containerWithKeyObject="CAEC01BC-E32C-8F03-FB9C-E8FDCDFD6A04" localFKIndex="5C795937-4066-C778-3B96-6B40295C453C" name="SIN_SUP_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>A716FD71-0F7D-ED65-FD00-475FCED84BEE</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<referredTableLongName>SUPPLIERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6EC10640-8865-92A0-EB21-25E5A03BB5BD</referredTableID>
+<keyObject>01BD5B21-C4AE-7F1B-AE02-B3C57DAAF3A4</keyObject>
+<referredKeyID>01BD5B21-C4AE-7F1B-AE02-B3C57DAAF3A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SUP_ENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FF22F6A-A84B-2C3F-6C02-C3C06D4185F6" containerWithKeyObject="126B12D4-3A16-5657-4D33-CA129FF12989" localFKIndex="8530AED7-C7D9-CF5A-0A7B-CD49FD0E1C8A" name="SER_BUD_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-14 09:30:29 UTC</createdTime>
+<generatorID>B9E2AC16-5538-8B00-2923-4895BDDE693D</generatorID>
+<ownerDesignName>ACT3_15</ownerDesignName>
+<referredTableLongName>BUDGETS</referredTableLongName>
+<arc>2E9895CB-820C-A96D-5A98-25C443E019C1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9CDF75CC-C2C6-FD03-2CD7-3FC7DD14DBD1</referredTableID>
+<keyObject>D9A115F7-BA06-AE06-FB85-6DD7A55C949A</keyObject>
+<referredKeyID>D9A115F7-BA06-AE06-FB85-6DD7A55C949A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BUD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

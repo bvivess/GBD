@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEE5E0BE-A0FE-54E4-CBA9-5BDFA38DF349" name="ADRESSES">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 14:51:56 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ADR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Street" id="3919FDAA-5F56-44B2-A987-A26B2B35AB88">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 14:52:37 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="5FF53337-DFC1-A156-81EE-C292CCE7655D">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 14:52:45 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="8F972758-E92C-6185-4EE3-8F3A0E4F21E9">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:36:12 UTC</createdTime>
+<generatorID>79351EAA-D4FB-9E26-E53C-1182D35F71D4</generatorID>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<referedAttribute>41707930-BE03-AEBC-B31B-9DE8F6F0A2FC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CA2EBF01-0D0B-A645-443E-55782B320941</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZipCode" id="10721F6C-679F-15E3-8C4E-B7A735806C98">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:38:44 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE8C929D-5F45-CBCE-8C4F-4FB43EAB11B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="91BD84C2-1EF2-55FC-5861-5A6B8EB63315" name="ADRESSES PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-25 14:53:03 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3919FDAA-5F56-44B2-A987-A26B2B35AB88</attributeRef>
+<attributeRef>5FF53337-DFC1-A156-81EE-C292CCE7655D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

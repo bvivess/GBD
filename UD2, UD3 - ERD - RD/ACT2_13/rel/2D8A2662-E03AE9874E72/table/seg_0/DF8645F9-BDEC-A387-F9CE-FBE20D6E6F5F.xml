@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF8645F9-BDEC-A387-F9CE-FBE20D6E6F5F" name="SCOXNUC">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<ordsAlias>relation_26</ordsAlias>
+<abbreviation>SXN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SXN_NUC_PRO_ID" id="588BD8A4-E483-384C-B229-433DAE99CEA2">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="347B7251-09FA-E061-7116-9FCF268626F6" referredColumn="B1FB3076-3FCD-1EEA-F027-8F9EEE0C1881"/>
+</associations>
+</Column>
+<Column name="SXN_SCO_ENT_ID" id="57572E90-D235-4A39-31F4-2162C7E31ACA">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73035018-530E-51EF-2262-F8393C61B9CE" referredColumn="5B39D924-EA5F-8CB3-62B2-A7957C2DCF82"/>
+</associations>
+</Column>
+<Column name="SXN_DAY" id="C0B19505-120B-397A-45F3-A34B41E13C74">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>2BE37F65-3877-4956-6F48-8021689BB91F</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="SXN_TIME" id="2C442C09-13EC-E0AB-AF84-174066B959DB">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>03AA8223-0986-D274-F082-9FB3DA9AE6FF</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="SXN_WEIGHT" id="9F52CD24-2711-8390-CA34-4528EF88D8DB">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>B2443D91-FE2E-E02D-D80B-9FBBB0EACC26</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B95EA8DB-B175-4DD2-84B5-3CA5379747CD" name="SXN_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="588BD8A4-E483-384C-B229-433DAE99CEA2"/>
+<colUsage columnID="57572E90-D235-4A39-31F4-2162C7E31ACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A355F17-15AA-B0CD-1FB3-010FB46A4DB7" name="SXN_NUC_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>6BE472E5-F4DC-C670-E1DD-D108E44CE5A0</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="588BD8A4-E483-384C-B229-433DAE99CEA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="408F557B-92EE-C1A1-4EA1-B58688A25135" name="SXN_SCO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 09:24:23 UTC</createdTime>
+<generatorID>6BE472E5-F4DC-C670-E1DD-D108E44CE5A0</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57572E90-D235-4A39-31F4-2162C7E31ACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

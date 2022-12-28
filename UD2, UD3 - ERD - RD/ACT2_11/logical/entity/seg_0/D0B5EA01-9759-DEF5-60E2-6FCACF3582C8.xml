@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0B5EA01-9759-DEF5-60E2-6FCACF3582C8" name="PROVINCES">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:27:31 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="2292539B-48D1-6B11-790E-260AF9D65487">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:27:39 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE8C929D-5F45-CBCE-8C4F-4FB43EAB11B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="73CA48B8-F2E9-8073-966A-F02C92B2ADE9">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:27:46 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64EA2D53-90DF-E01D-99FD-D6276702C0E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="0F10C4E9-ADAF-6259-ADF3-9AC59C83BC38">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:36:00 UTC</createdTime>
+<generatorID>2C912DE0-38B3-D0E1-0C25-F66D506B6DF3</generatorID>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<referedAttribute>3FBD03B5-DC78-16AC-C94E-79684C7E32F3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE8C929D-5F45-CBCE-8C4F-4FB43EAB11B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1BB48D7-475E-182C-3B95-54F79583CC53" name="PROVINCES PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2019-10-28 14:28:37 UTC</createdTime>
+<ownerDesignName>ACT2_11</ownerDesignName>
+<engineerTo>
+<item key="1B4CD705-FFC6-D1C5-5A7B-39D280AF9D9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2292539B-48D1-6B11-790E-260AF9D65487</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

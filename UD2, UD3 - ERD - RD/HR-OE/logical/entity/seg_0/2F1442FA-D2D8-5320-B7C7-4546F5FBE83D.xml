@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F1442FA-D2D8-5320-B7C7-4546F5FBE83D" name="JOB HISTORY">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:21:10 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="FC1E6755-FDCE-71DD-4BFD-D27EBC8ACD0F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="START_DATE" id="BEF4040D-12A0-8D78-8C27-8CFA02C4B477">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:24:39 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="FC1E6755-FDCE-71DD-4BFD-D27EBC8ACD0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END_DATE" id="0377DCAF-351E-7142-EB68-84F1A469BEBD">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:25:05 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="FC1E6755-FDCE-71DD-4BFD-D27EBC8ACD0F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLOYEE_ID" id="6CB5085C-724B-B860-0059-70FD5BD64D2F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:30:41 UTC</createdTime>
+<generatorID>D36BC628-2BCD-7B71-4258-16CC6DE7BBA0</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="FC1E6755-FDCE-71DD-4BFD-D27EBC8ACD0F" value="true"/>
+</engineerTo>
+<referedAttribute>8359E579-E682-249F-BFCB-15B5556240A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JOB_ID" id="408F5C63-7896-596B-37A5-F83E6A46FDB6">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:37:28 UTC</createdTime>
+<generatorID>3861BC2F-C68D-01A4-CF5B-2FFA4B271CA7</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="FC1E6755-FDCE-71DD-4BFD-D27EBC8ACD0F" value="true"/>
+</engineerTo>
+<referedAttribute>2FFE9E36-EF4C-5F0C-FBE2-1A0226EF3F55</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPARTMENT_ID" id="734B4961-7C5F-BB65-0D79-D8CC977F5495">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 09:01:55 UTC</createdTime>
+<generatorID>6351CFA1-2961-E2C6-51A0-2C72718CF0BE</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="FC1E6755-FDCE-71DD-4BFD-D27EBC8ACD0F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FECFE0E3-1805-06CD-8982-5B10F33F161E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EE501F6-C622-4B4B-0077-B5F9F6815B3E" name="JHIST_EMP_ID_ST_DATE_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 08:23:54 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="FC1E6755-FDCE-71DD-4BFD-D27EBC8ACD0F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BEF4040D-12A0-8D78-8C27-8CFA02C4B477,D36BC628-2BCD-7B71-4258-16CC6DE7BBA0</newElementsIDs>
+<usedAttributes>
+<attributeRef>BEF4040D-12A0-8D78-8C27-8CFA02C4B477</attributeRef>
+<attributeRef>6CB5085C-724B-B860-0059-70FD5BD64D2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

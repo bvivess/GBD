@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="494E0D76-2BD6-D80E-AF00-DC7E542366F8" containerWithKeyObject="FB13B979-C209-4057-8B33-6D2270159DC2" localFKIndex="99C67E4E-EE22-5160-F70B-AE1D8683BCCD" name="LOC_PRO_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>05D57581-6D55-9702-9321-3A8C98080066</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<referredTableLongName>PROVINCES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2354601-D202-0B39-405F-2ECAC7F3EF80</referredTableID>
+<keyObject>F9132560-8521-67B2-4343-5F6A12159F65</keyObject>
+<referredKeyID>F9132560-8521-67B2-4343-5F6A12159F65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

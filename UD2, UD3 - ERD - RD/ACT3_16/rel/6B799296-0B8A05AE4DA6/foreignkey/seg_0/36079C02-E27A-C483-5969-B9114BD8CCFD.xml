@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36079C02-E27A-C483-5969-B9114BD8CCFD" containerWithKeyObject="0762443F-4886-658D-A6FC-957636424164" localFKIndex="C5C9495E-B232-7387-A4C2-D64D543521A7" name="UTILIZACION_RECURSOS_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-08 08:16:26 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<referredTableLongName>RECURSOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6534056A-10EA-0EC6-D3C5-DA144DF259B7</referredTableID>
+<keyObject>BE375D13-AA97-DBB0-DD2E-9F0E0BA0D472</keyObject>
+<referredKeyID>BE375D13-AA97-DBB0-DD2E-9F0E0BA0D472</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RECURSO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

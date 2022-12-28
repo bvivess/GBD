@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06E20FF9-3A18-F1BD-5322-E11B2E3AB268" name="TURNOS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<ordsAlias>asignaciones</ordsAlias>
+<abbreviation>TUR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TUR_TRA_DNI" id="0D2288B3-60DA-7C89-53E6-56C17DB0853E">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B016C208-9AA9-349D-65D8-302C78B84137" referredColumn="EBE0F2BE-59B2-D186-3127-DD08A29FC002"/>
+</associations>
+</Column>
+<Column name="TUR_TIE_CODIGO" id="6EE9247B-908B-7397-0AAA-4B5EE6E8AFE4">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9938AC7C-EF77-7D2D-D13A-0CD9B7CB4262" referredColumn="2F4997F6-97E6-FBAD-1AB5-627DE120972C"/>
+</associations>
+</Column>
+<Column name="TUR_FECHA" id="790CF2D0-CB32-99E5-4980-9B2560A453EB">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>0DBD7C8B-3FC0-79EF-7677-30926EF795E1</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="TUR_TTURNO" id="14926178-0F32-980D-7F88-C71086BE358A">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>5B8F8AAB-CA79-5398-1D73-234A37E58DE7</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="M" description="Mañana"/>
+<valueDef value="N" description="Noche"/>
+<valueDef value="T" description="Tarde"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7F90F22-D5EB-127A-0E44-7AA29EC9C180" name="TURNOS_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2288B3-60DA-7C89-53E6-56C17DB0853E"/>
+<colUsage columnID="6EE9247B-908B-7397-0AAA-4B5EE6E8AFE4"/>
+<colUsage columnID="790CF2D0-CB32-99E5-4980-9B2560A453EB"/>
+<colUsage columnID="14926178-0F32-980D-7F88-C71086BE358A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E063B804-EE73-0965-7291-24BB1749EE64" name="TURNOS_TRABAJADORES_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>B479E90E-F885-83B6-1868-6F5AF55BA3EE</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D2288B3-60DA-7C89-53E6-56C17DB0853E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE9EA60B-63DC-059F-3474-1025F983800A" name="TURNOS_TIENDAS_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 08:17:54 UTC</createdTime>
+<generatorID>B479E90E-F885-83B6-1868-6F5AF55BA3EE</generatorID>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EE9247B-908B-7397-0AAA-4B5EE6E8AFE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

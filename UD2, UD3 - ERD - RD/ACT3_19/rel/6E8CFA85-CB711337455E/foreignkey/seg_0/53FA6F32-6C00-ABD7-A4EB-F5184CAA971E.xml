@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53FA6F32-6C00-ABD7-A4EB-F5184CAA971E" containerWithKeyObject="F40A418A-0DE1-7AEB-298A-6395D29A6C73" localFKIndex="01EBA24C-F30F-F4E8-748A-43416FD41845" name="PELICULES_EDAD_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 20:27:02 UTC</createdTime>
+<generatorID>85791D37-214E-1BA8-8D69-BD0F1C3FBBD4</generatorID>
+<ownerDesignName>ACT3_19</ownerDesignName>
+<referredTableLongName>EDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD226BFA-64D1-0271-5EE4-B7F044B70FC8</referredTableID>
+<keyObject>57D5834B-60AD-D8C6-4CFD-AABE5FF59A61</keyObject>
+<referredKeyID>57D5834B-60AD-D8C6-4CFD-AABE5FF59A61</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EDA_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

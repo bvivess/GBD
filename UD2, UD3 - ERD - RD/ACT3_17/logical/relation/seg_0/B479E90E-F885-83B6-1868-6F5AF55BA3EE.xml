@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASIGNACIONES" directorySegmentName="seg_0" id="B479E90E-F885-83B6-1868-6F5AF55BA3EE">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:54:28 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>CF5F6928-652A-66D5-C260-AC2BC96E3AF4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C2717C5-2154-053C-4463-5339CE26C03B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="FECHA" id="0DBD7C8B-3FC0-79EF-7677-30926EF795E1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:54:44 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="TTURNO" id="5B8F8AAB-CA79-5398-1D73-234A37E58DE7">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-20 06:54:56 UTC</createdTime>
+<ownerDesignName>ACT3_17</ownerDesignName>
+<engineerTo>
+<item key="79AFBA73-2B0D-2756-026F-7620811B29E2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

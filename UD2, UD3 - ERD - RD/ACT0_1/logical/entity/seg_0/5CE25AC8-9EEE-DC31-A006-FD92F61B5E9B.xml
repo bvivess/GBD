@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CE25AC8-9EEE-DC31-A006-FD92F61B5E9B" name="LOCATIONS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:01:05 UTC</createdTime>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="235A851F-6A94-F127-4895-30F16E852061" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>LOC</preferredAbbreviation>
+<shortName>LOC</shortName>
+<synonym>LOC</synonym>
+<synonymToDisplay>LOCATIONS</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODE" id="1A6E306D-598A-6183-A81E-D0FDBFAB1C36">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:01:23 UTC</createdTime>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="235A851F-6A94-F127-4895-30F16E852061" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="1315AFBB-66CD-293C-B855-23CA66B35B90">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:01:53 UTC</createdTime>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="235A851F-6A94-F127-4895-30F16E852061" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODE1" id="835C4B5F-7741-B84D-5FCB-AAE49E8B62E3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:02:21 UTC</createdTime>
+<generatorID>582492DB-676C-7520-C1BD-3D8DDB753967</generatorID>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="235A851F-6A94-F127-4895-30F16E852061" value="true"/>
+</engineerTo>
+<referedAttribute>7F3FABC6-A62D-65FD-436D-CBAEEE3D6153</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AFAC5E52-6872-9888-DEE3-9206F54F8DC0" name="LOCATIONS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-09 14:02:10 UTC</createdTime>
+<ownerDesignName>ACT0_1</ownerDesignName>
+<engineerTo>
+<item key="235A851F-6A94-F127-4895-30F16E852061" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A6E306D-598A-6183-A81E-D0FDBFAB1C36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

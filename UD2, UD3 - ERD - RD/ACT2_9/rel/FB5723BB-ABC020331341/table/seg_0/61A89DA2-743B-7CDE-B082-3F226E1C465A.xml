@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61A89DA2-743B-7CDE-B082-3F226E1C465A" name="MOVIES">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>1217924C-963A-66CA-9833-1A2DE2B5DACC</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<abbreviation>MOV</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MOV_ID" id="B09EF204-78EC-CA49-291B-D6CBB1F230C0">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>5B0B23D7-48FB-ED82-4E90-A2B468CFD61D</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOV_TITTLE" id="C0E4B72A-487E-35FE-9E0F-8517DFCDA246">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>B4CD3F25-A17F-DA6F-FE2B-1E8DA46FF7CA</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOV_YEAR" id="B7EED2B9-4074-EDFF-52AC-F9691BC60C59">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>CA325AA1-0C09-3F42-546F-7986026B0B56</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOV_COU_ID" id="ABF3A38D-868A-55CD-5FC6-AB7E84B6B648">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-01-28 17:21:48 UTC</createdTime>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B704E9D-E0E8-9430-297B-3B6A674FA46D" referredColumn="B9C287D0-E5B4-7E53-6C7D-A8302CC11AB1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49483EDB-25BD-4634-0E61-D4EA90B27F13" name="MOV_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 07:53:39 UTC</createdTime>
+<generatorID>2DAAC1CF-CD6D-05C6-BB09-4BB835A2CE43</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B09EF204-78EC-CA49-291B-D6CBB1F230C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C392C46-AD87-2CF0-4016-ABA30B654DBD" name="MOVIES_COUNTRIES_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-01-28 17:21:48 UTC</createdTime>
+<generatorID>57B09270-03E8-89AC-52FA-67AE8DC224FE</generatorID>
+<ownerDesignName>ACT2_9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF3A38D-868A-55CD-5FC6-AB7E84B6B648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

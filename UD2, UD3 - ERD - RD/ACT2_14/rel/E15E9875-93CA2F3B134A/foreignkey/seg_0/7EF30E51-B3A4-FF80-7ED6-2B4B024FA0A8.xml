@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7EF30E51-B3A4-FF80-7ED6-2B4B024FA0A8" containerWithKeyObject="181F3967-3A1C-A324-99F9-391B08C1757D" localFKIndex="E08CFAFD-75F2-8AEF-3815-6F9B2C675804" name="RXM_REF_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-01-15 11:15:21 UTC</createdTime>
+<generatorID>CFDFAD8D-48BA-3C77-DCA6-A0C8C8CD31E8</generatorID>
+<ownerDesignName>ACT2_14</ownerDesignName>
+<referredTableLongName>REFEREES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EFF79DF7-2875-1059-9AE5-390C5D1A6893</referredTableID>
+<keyObject>69718C26-CD28-86F4-03D3-E95698243D25</keyObject>
+<referredKeyID>69718C26-CD28-86F4-03D3-E95698243D25</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>REF_PEO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

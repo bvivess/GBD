@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="3BC97E0A-7D92-7808-EDBF-710C64F7A46F" name="STATES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DC2875B9-2FBC-2CDA-B2F8-3F3B6623C84D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5CE25AC8-9EEE-DC31-A006-FD92F61B5E9B" name="LOCATIONS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DC2875B9-2FBC-2CDA-B2F8-3F3B6623C84D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6254E96C-6289-4E30-A1EA-7C21A371496E" name="PROVINCES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="DC2875B9-2FBC-2CDA-B2F8-3F3B6623C84D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="37E58CE9-311A-6047-09FF-B16955C8C78D" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="DC2875B9-2FBC-2CDA-B2F8-3F3B6623C84D" propertySourceId="3BC97E0A-7D92-7808-EDBF-710C64F7A46F" propertyTargetId="6254E96C-6289-4E30-A1EA-7C21A371496E"/>
+   <object objectType="Relation" objectID="582492DB-676C-7520-C1BD-3D8DDB753967" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="DC2875B9-2FBC-2CDA-B2F8-3F3B6623C84D" propertySourceId="6254E96C-6289-4E30-A1EA-7C21A371496E" propertyTargetId="5CE25AC8-9EEE-DC31-A006-FD92F61B5E9B"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

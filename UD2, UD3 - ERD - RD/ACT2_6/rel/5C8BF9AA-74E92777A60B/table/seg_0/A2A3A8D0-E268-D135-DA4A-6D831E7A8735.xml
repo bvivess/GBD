@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2A3A8D0-E268-D135-DA4A-6D831E7A8735" name="MEMBERS">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>892C27F1-7C93-606B-DD56-B6D5B2B72F67</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<abbreviation>MEM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEM_ID" id="04721928-672A-DCC5-7BC2-106C54A8F5D0">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>E09DC963-536D-46A8-E1D6-BE222D642426</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_NAME" id="53ED0298-9ACD-0972-C6E0-6BC0A9EFBEA4">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>DBEAF1F1-E4A4-62C1-94C4-A52ADCC69984</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_SURNAME1" id="01023265-751B-D807-3B35-14C26CB4536D">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>3E6976C3-45D6-CDFC-2F10-8F5512A6577D</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_SURNAME2" id="2213B99A-EE4D-9CCF-D831-A7D7DD9C02B7">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>4830B0DF-285C-671E-60DF-00E37EADCDDF</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_DNI" id="BC72CE1E-A392-BF1A-BEF5-8E26C7CC4B78">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>4418DA64-4042-8415-65BA-B2045A473E75</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEM_BUI_CODE" id="AEFF2170-A15D-62E5-211B-6AD62E797E5A">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>29174A7C-2DDF-42C9-47CC-0F9AA54DEA94</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9AEDCE5D-15E8-EA1F-99BE-0ECDAC087142</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D12F8E3F-1C19-1147-AD6D-7001E89F61B8" referredColumn="488C7BD3-D149-E026-7D5A-F90F922C045C"/>
+</associations>
+</Column>
+<Column name="MEM_BUI_ID" id="D5B989DE-653E-A449-6A99-2CF8DB382A3C">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>915A23CC-9368-B4D4-FB24-697FD7DB6476</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D12F8E3F-1C19-1147-AD6D-7001E89F61B8" referredColumn="85AF8937-8AA9-8CC1-E1CC-48FB2A1DCDA6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC906BA1-7191-C600-2422-09B39F7C7030" name="MEM_PK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>704BE1F9-9B7A-4F74-E806-9E6808343E9B</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04721928-672A-DCC5-7BC2-106C54A8F5D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEBD88AD-A9E0-4AAF-862F-DD967BFB90A8" name="MEM_DNI_UN">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>1DEDC32A-E80C-A883-6820-0E012C545162</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC72CE1E-A392-BF1A-BEF5-8E26C7CC4B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A9607A5-02EC-576B-B8FB-7970288B7474" name="MEM_BUI_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2021-10-26 06:02:41 UTC</createdTime>
+<generatorID>47BC8A34-2155-BB09-773C-4D28E4BDB67E</generatorID>
+<ownerDesignName>ACT2_6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEFF2170-A15D-62E5-211B-6AD62E797E5A"/>
+<colUsage columnID="D5B989DE-653E-A449-6A99-2CF8DB382A3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

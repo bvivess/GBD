@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5188D1CB-9B9E-479D-D035-FE9D9A3E9E39" containerWithKeyObject="5247F25A-F3F2-C813-17EC-AA4F168DEA40" localFKIndex="B7E1D3EE-E2DC-76FF-EC6F-46C70E1E58C5" name="PROFESORES_DESPACHOS_FK">
+<createdBy>winadmin</createdBy>
+<createdTime>2020-11-30 07:43:32 UTC</createdTime>
+<ownerDesignName>ACT3_16</ownerDesignName>
+<referredTableLongName>DESPACHOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5A2AAEF-D561-582F-AC45-FA8DC0EAE62E</referredTableID>
+<keyObject>595066DC-2199-BBF6-F23D-9CEED437141F</keyObject>
+<referredKeyID>595066DC-2199-BBF6-F23D-9CEED437141F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DES_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

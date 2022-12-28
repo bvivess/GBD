@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FBE375F-E8A6-328E-2DF5-E8F8965B748E" name="MATCHDAYS">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>114C9F2B-A9B8-6AD5-AB89-94264C10DA80</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<abbreviation>MDA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MDA_TOU_ID" id="3EA535B3-20B2-90B5-6968-C5762377B5C9">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:51:47 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BFA7AE1-D1AA-B5BD-8C5E-7AF25A8ABB68" referredColumn="D0040791-F744-33EF-8559-2205D04F89AE"/>
+</associations>
+</Column>
+<Column name="MDA_NUMBER" id="409FB86A-7D33-C92C-6D34-D940E06B9AD1">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>D09727A6-C399-16F5-BC19-40CC16DBD22C</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DDE178D-D2A9-46EF-3E1C-F0734031DE80</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MDA_REFDATE" id="A37514A2-84F4-C143-54A2-F19C3516C79D">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>807F09DE-2006-A11A-4E28-707A66AA481C</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE53531B-674D-86F9-3BDC-B583F14A8CC1" name="MAT_PK-">
+<createdBy>bvives</createdBy>
+<createdTime>2018-11-09 07:53:46 UTC</createdTime>
+<generatorID>10A03681-4FBA-E14A-69D4-8AF6A59CDDC8</generatorID>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA535B3-20B2-90B5-6968-C5762377B5C9"/>
+<colUsage columnID="409FB86A-7D33-C92C-6D34-D940E06B9AD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="234FD30B-8B64-13EA-5B6B-9819E050C4B8" name="MAT_TOU_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-12-02 09:51:47 UTC</createdTime>
+<ownerDesignName>GBD1_BLOC1_ UD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA535B3-20B2-90B5-6968-C5762377B5C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

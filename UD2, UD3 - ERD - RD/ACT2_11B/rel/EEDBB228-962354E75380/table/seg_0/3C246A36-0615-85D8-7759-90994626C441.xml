@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C246A36-0615-85D8-7759-90994626C441" name="OWNXPRO">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<ordsAlias>relation_5</ordsAlias>
+<abbreviation>OXP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OXP_OWN_ID" id="EDC536F5-FC1A-A8EB-DF59-CB3E167C55C3">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E783FAB-2A29-19AB-6B75-35B3AD6F1840" referredColumn="8BB62EF1-C836-03E1-3B2A-3CA740571972"/>
+</associations>
+</Column>
+<Column name="OXP_PRO_ID" id="4D2848D3-3E3A-D377-9140-46DACB40A97C">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 09:33:35 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E04E68CA-B9B2-F703-8868-3F538D5C19E0" referredColumn="5C12D8A7-E81A-D604-9C89-426343468BB2"/>
+</associations>
+</Column>
+<Column name="OXP_PERCENT" id="F820BE27-D07F-5161-8AC5-A185E54FC3C7">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>5C105F20-1C96-7582-80A4-E2363CA129D5</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4CAE5FF-07B3-5481-F3A2-415AC4C7DFD0" name="OXP_PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDC536F5-FC1A-A8EB-DF59-CB3E167C55C3"/>
+<colUsage columnID="4D2848D3-3E3A-D377-9140-46DACB40A97C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19E5E7FB-3292-D887-EB60-2B3B4E559F99" name="OXP_OWN_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>410DA7FE-8CE7-AC85-E8BD-35E0404CDC71</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDC536F5-FC1A-A8EB-DF59-CB3E167C55C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="178E3C56-FE9B-0558-7B00-78420BDB2CAD" name="OXP_PRO_FK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-30 08:34:00 UTC</createdTime>
+<generatorID>410DA7FE-8CE7-AC85-E8BD-35E0404CDC71</generatorID>
+<ownerDesignName>ACT2_11B</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D2848D3-3E3A-D377-9140-46DACB40A97C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

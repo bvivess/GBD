@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="257F046B-D3B6-3AF2-75A8-532DBEDABB14" name="SUPPLIER">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-26 06:02:35 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="30720515-BCCB-5647-86F6-4685C4E99B5E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SUP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="7F71A086-8508-AC89-3B07-C54D24EC6472">
+<createdBy>bvives</createdBy>
+<createdTime>2020-01-15 08:29:04 UTC</createdTime>
+<generatorID>0D81F79B-5A1E-EEDB-F1E0-8E498DB2B8E5</generatorID>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="30720515-BCCB-5647-86F6-4685C4E99B5E" value="true"/>
+</engineerTo>
+<referedAttribute>56064710-6A1A-580B-DB87-F23740436D63</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A028BA4B-35D4-379F-59B6-C7AC380BA111</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D47F631-FBBC-587A-A5CF-BBC16C8FF4F9" name="SUPPLIER PK">
+<createdBy>bvives</createdBy>
+<createdTime>2018-10-26 06:02:58 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<engineerTo>
+<item key="30720515-BCCB-5647-86F6-4685C4E99B5E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F71A086-8508-AC89-3B07-C54D24EC6472</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

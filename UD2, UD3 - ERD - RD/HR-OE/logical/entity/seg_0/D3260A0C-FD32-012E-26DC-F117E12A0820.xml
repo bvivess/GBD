@@ -1,0 +1,253 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3260A0C-FD32-012E-26DC-F117E12A0820" name="CUSTOMERS">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:24:47 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUSTOMER_ID" id="845E53FA-3B3C-E924-B5E0-577E2B54D8DF">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:32:48 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_FIRST_NAME" id="F08A2671-24EC-5982-BF4D-8B984AE7F87F">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:33:45 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_LAST_NAME" id="BD129EF6-F917-3750-3306-D4661153058A">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:34:05 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_ADDRESS" id="260EFBD6-4868-C954-6754-8DA97B2243E5">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:35:26 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE_NUMBERS" id="EE570E24-7D49-D3BF-F8B2-89783AD7C439">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:39:08 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NLS_LANGUAGE" id="229C7964-8CA7-B20A-6D6D-926B328E25BA">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:39:24 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NLS_TERRITORY" id="9CA34A1B-F489-9CEE-6E0F-867C5B901C47">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:39:35 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREDIT_LIMIT" id="FB995A31-B486-8983-D9D2-F453CCE9FABA">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:40:12 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_EMAIL" id="79F19C85-DA09-C5F4-9BD6-196063F54E7A">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:40:32 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_GEO_LOCATION" id="547DEE1C-FC14-CF4C-F1C6-BD401A11D0A5">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:40:57 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE_OF_BIRTH" id="C0963432-CE1C-25A2-6705-76ED07554F1D">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:41:12 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARITAL_STATUS" id="85ACFFFC-64C4-CA79-0239-03AAF70CC9B0">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:41:32 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENDER" id="AA9124F6-DEF4-1334-E8F4-4611A0CD5862">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:41:51 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INCOME_LEVEL" id="E5E157A5-D2A8-F52A-BA1A-9F95A9658334">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:42:18 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLOYEE_ID" id="D13C9550-62BE-0BFE-6563-2091AD918EEE">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:44:16 UTC</createdTime>
+<generatorID>D743AFA7-B035-6788-55D7-5DB3206D8BF7</generatorID>
+<ownerDesignName>HR-OE</ownerDesignName>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8359E579-E682-249F-BFCB-15B5556240A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="178A3D70-86DB-016A-0956-BFC8857A69C0" name="CUSTOMERS PK">
+<createdBy>bvives</createdBy>
+<createdTime>2019-01-28 10:33:28 UTC</createdTime>
+<ownerDesignName>HR-OE</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B55ED2C6-C1BA-7A37-DD77-26C4BC6F8038" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>845E53FA-3B3C-E924-B5E0-577E2B54D8DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
