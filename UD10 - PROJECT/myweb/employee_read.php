@@ -60,14 +60,16 @@
 				$conn = null;
 				
 				try {
+					if(isset($_GET["id"]) && !empty(trim($_GET["id"]))) {
+					$param_id = trim($_GET["id"]);
 					/* Attempt to connect to MySQL database */
 					$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 					mysqli_autocommit($conn, true);
 					
 					// Attempt select query execution
 					$query = "SELECT employee_id, first_name, last_name, department_name 
-								FROM departments d INNER JOIN employees e ON d.department_id = e.department_id 
-								ORDER BY employee_id";
+								FROM departments d INNER JOIN employees e ON d.department_id = e.employee_id 
+								WHERE e.employee_id = " . $param_id;
 					$table = mysqli_query($conn, $query);
 					if (mysqli_num_rows($table) > 0) {
 						echo '<table class="table table-bordered table-striped">';
@@ -105,7 +107,7 @@
 					} else {
 						echo '<div class="alert alert-danger"><em>No records were found.</em></div>';
 					}
-				} catch (mysqli_sql_exception $e) {
+				}} catch (mysqli_sql_exception $e) {
 					echo  "</p> ERROR:" . $e-> getMessage() . "</p>";
 				} catch (Exception $e) {
 					echo "</p>" . $e-> getMessage() . "</p>";
