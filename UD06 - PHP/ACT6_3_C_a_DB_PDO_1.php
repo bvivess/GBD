@@ -1,5 +1,5 @@
 <?php
-	$host='vps-ce1cd54b.vps.ovh.net'; // vps-ce1cd54b.vps.ovh.net
+	$host='192.168.210.1';
 	$dbname='HR';
 	$username='HR';
 	$passwd='Educacio123!';

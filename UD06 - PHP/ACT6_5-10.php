@@ -40,8 +40,8 @@
 	}
 	
 	echo "<br>demo('Conection should work fine') ---------------------------------------------------------------- <br>";
-	demo('127.0.0.1', 'HR', 'HR', 'Educacio123!');
+	demo('192.168.210.1', 'HR', 'HR', 'Educacio123!');
 	
 	echo "<br>demo('Conection should work wrong') ---------------------------------------------------------------- <br>";
-	demo('127.0.0.1', 'XX', 'XX', 'Educacio123!');
+	demo('192.168.210.1', 'XX', 'XX', 'Educacio123!');
 ?>

@@ -18,7 +18,7 @@
 	error_reporting(E_ALL);
 	
 	// Connection data
-	DEFINE('HOST','192.168.1.10');
+	DEFINE('HOST','192.168.210.1');
 	DEFINE('DBNAME','HR');
 	DEFINE('USERNAME','HR');
 	DEFINE('PASSWD','Educacio123!');
