@@ -18,7 +18,7 @@
 	error_reporting(E_ALL);
 	
 	// Connection data
-	DEFINE('HOST','vps-ce1cd54b.vps.ovh.net'); // vps-ce1cd54b.vps.ovh.net
+	DEFINE('HOST','192.168.1.10'); 
 	DEFINE('DBNAME','HR');
 	DEFINE('USERNAME','HR');
 	DEFINE('PASSWD','Educacio123!');
@@ -42,7 +42,7 @@
 				  ORDER BY department_name, last_name, first_name';
 		$table = mysqli_query($conn, $query);
 		
-		echo '<table border="1"><th>Department Name</th><th>Employee ID</th><th>Last Name</th><th>First Name</th>';
+		echo '<table border="0"><th>Department Name</th><th>Employee ID</th><th>Last Name</th><th>First Name</th>';
 		// 'dpt_ant' = ''
 		while( null !== ($row = mysqli_fetch_array($table)) ) { 
 			// comparamos el 'dpt_ant' con el actual, si es diferente mostramos el 'department_name'

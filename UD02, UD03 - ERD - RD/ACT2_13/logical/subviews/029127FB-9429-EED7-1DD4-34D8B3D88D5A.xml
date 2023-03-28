@@ -44,7 +44,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DCD8A8AC-4708-9C47-A274-B4519B3A1BA8" otype="Entity" vid="877BBFF6-D72A-031D-98D6-8945F9AA59E3">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="113" y="339" width="171" height="63"/>
+<bounds x="79" y="338" width="171" height="63"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EA23DC40-CAF5-BACC-0F8A-3BCC122A2D6E" otype="Entity" vid="181C7157-09CC-2281-8463-188BB5D6DC10">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -52,7 +52,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EC247994-3ADA-0A6A-AEDB-7D8D1B12F109" otype="Entity" vid="9C09EF0D-57D5-257E-84A1-07E92C503181">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="746" y="337" width="170" height="58"/>
+<bounds x="756" y="338" width="170" height="58"/>
 </OView>
 </objectViews>
 <connectors>
@@ -85,8 +85,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="615" y="282"/>
-<point x="771" y="337"/>
+<point x="615" y="281"/>
+<point x="764" y="338"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="7CEE011E-6B41-7196-7A37-5A961AEFD42B" otype="Relation" vid_source="1B0E7A07-FC0C-F253-4F76-0EE8C4BBBC1D" vid_target="1827BFE1-8E08-F30A-7CA5-9A5607C28949">
@@ -150,8 +150,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="445" y="280"/>
-<point x="284" y="354"/>
+<point x="445" y="277"/>
+<point x="250" y="341"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DB9C7EBF-35FC-C9EC-A71D-ECDCD385AFC1" otype="Relation" vid_source="181C7157-09CC-2281-8463-188BB5D6DC10" vid_target="E52ED44B-53F9-C652-14B0-64E389EF0688">
@@ -160,7 +160,7 @@
 <lineWidth>1</lineWidth>
 <centerLabel class="oracle.dbtools.crest.model.design.Label">
 <site>1</site>
-<labelBounds x="-163" y="-151" width="55" height="50"/>
+<labelBounds x="-190" y="-176" width="55" height="50"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </centerLabel>

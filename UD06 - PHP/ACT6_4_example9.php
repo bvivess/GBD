@@ -3,8 +3,11 @@
 		echo " Before try block<br>";
 		
 		// block try-catch
+	try {
 		try {
 			echo "Inside try block, entering <br>";
+			
+			$var = 10 / 0;
 			
 			if ($var == 0) {
 				throw new Exception('Throw executed');
@@ -18,6 +21,10 @@
 		} finally {
 			echo "Inside finally block <br>";
 		}
+	} catch(Error $e) {
+			echo $e->getMessage() . '<br>';
+			echo "zxzcxczczxzcxczxzcx Caught in catch section<br>";		
+	}
 		
 		echo " After try block<br>";		
 	}

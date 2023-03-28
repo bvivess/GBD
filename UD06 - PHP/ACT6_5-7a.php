@@ -18,7 +18,7 @@
 	error_reporting(E_ALL);
 	
 	// Connection data
-	DEFINE('HOST','vps-ce1cd54b.vps.ovh.net'); // vps-ce1cd54b.vps.ovh.net
+	DEFINE('HOST','192.168.1.10');
 	DEFINE('DBNAME','HR');
 	DEFINE('USERNAME','HR');
 	DEFINE('PASSWD','Educacio123!');
@@ -37,7 +37,7 @@
 		// Execution phase
 		$query = 'SELECT d.department_id department_id, department_name 
 		          FROM departments d LEFT JOIN employees e ON d.department_id = e.department_id
-				  WHERE e.employee_id IS NULL and 1=2
+				  WHERE e.employee_id IS NULL  
 				  ORDER BY department_name ';
 		$table = mysqli_query($conn, $query);
 		

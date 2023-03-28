@@ -13,7 +13,7 @@
 	});
 	
 	// Connection data
-	DEFINE('HOST', 'vps-ce1cd54b.vps.ovh.net'); // vps-ce1cd54b.vps.ovh.net
+	DEFINE('HOST', '192.168.1.102'); 
 	DEFINE('DBNAME','HR');
 	DEFINE('USERNAME','HR');
 	DEFINE('PASSWD','Educacio123!');

@@ -11,6 +11,7 @@
 
 			try {
 			   try {
+				  // $name contains others characters than a-z, A-Z ??
 				  if (preg_match("/[^A-Za-z]/", $name)) {
 					   // preg_match — Perform a regular expression match
 					   throw new Exception("$name contains character other than a-z A-Z");

@@ -20,7 +20,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="2FFF2792-1BAE-B806-C634-574B5B9B875F" otype="Table" vid="91950A12-FFC4-83C1-A7BC-9A86D210BB6F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="555" y="1027" width="253" height="116"/>
+<bounds x="555" y="1027" width="253" height="145"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3D336240-1DE0-606B-9892-F673C0F0D47B" otype="Table" vid="847378D4-6679-7FD0-5A71-9E80511435B4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -201,7 +201,7 @@
 <arcs>
 <Arc class="oracle.dbtools.crest.swingui.relational.TVFKArc" oid="2440E046-2969-9B23-03DA-4251A84C9793" otype="FKArc" vid="EF1C0D93-C550-DB63-3851-D698B8431F7D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="535" y="1007" width="293" height="156"/>
+<bounds x="535" y="1007" width="293" height="185"/>
 </Arc>
 <Arc class="oracle.dbtools.crest.swingui.relational.TVFKArc" oid="5A0ABDC6-9D93-B85F-DBA1-0D7EB9096C96" otype="FKArc" vid="20C4DFE4-2DAF-7A8B-7EED-B07567EAA6D6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

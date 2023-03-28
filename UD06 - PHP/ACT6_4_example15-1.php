@@ -16,7 +16,7 @@
 	error_reporting(E_ALL);
 
 	// Connection data
-	DEFINE('HOST','vps-ce1cd54b.vps.ovh.net'); // vps-ce1cd54b.vps.ovh.net
+	DEFINE('HOST','127.0.0.1'); // 192.168.210.1
 	DEFINE('DBNAME','HR');
 	DEFINE('USERNAME','HR');
 	DEFINE('PASSWD','Educacio123!');

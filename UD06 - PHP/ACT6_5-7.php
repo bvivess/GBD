@@ -18,7 +18,7 @@
 	error_reporting(E_ALL);
 	
 	// Connection data
-	DEFINE('HOST','192.168.1.23'); // vps-ce1cd54b.vps.ovh.net
+	DEFINE('HOST','192.168.1.20'); 
 	DEFINE('DBNAME','HR');
 	DEFINE('USERNAME','HR');
 	DEFINE('PASSWD','Educacio123!');
@@ -35,7 +35,7 @@
 		mysqli_autocommit($conn, false);
 			
 		// Execution phase
-		$stmt = ...
+		$table = ...
 
 		mysqli_commit($conn);
 		

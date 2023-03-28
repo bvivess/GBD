@@ -27,7 +27,7 @@
 				// try any of these statements separately
 				
 				// Catched by 'set_error_handler'
-				trigger_error("A trigger_error - USER_ERROR has been fired", E_USER_ERROR);
+				//trigger_error("A trigger_error - USER_ERROR has been fired", E_USER_ERROR);
 				//trigger_error("A trigger_error - USER_WARNING has been fired", E_USER_WARNING);
 				//trigger_error("A trigger_error - default has been fired");
 
@@ -35,14 +35,14 @@
 				//$var1 = 1 / "a";
 				//$var1 = 1 / 0;
 				//throw new myException("A 'myException' has been fired");
-				//throw new OutofBoundsException("An 'OutofBoundsException' has been fired");
+				throw new OutofBoundsException("An 'OutofBoundsException' has been fired");
 				//throw new Exception("An 'Exception' has been fired");
 				//throw new Error("An 'Error' has been fired");
 			} catch(myException $e) {
 				// Anything you want to do with $e
 				echo "myException--> " . $e-> getMessage();
 			} catch(OutofBoundsException $e) {
-					echo "OutofBoundsExceptio--> " . $e-> getMessage();
+					echo "OutofBoundsException--> " . $e-> getMessage();
 			} catch(Exception $e) {
 				// Anything you want to do with $e
 				echo "Exception--> " . $e-> getMessage();

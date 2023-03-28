@@ -13,7 +13,7 @@
 	});
 
 	// Connection data
-	DEFINE('HOST','vps-ce1cd54b.vps.ovh.net'); // vps-ce1cd54b.vps.ovh.net
+	DEFINE('HOST','192.168.33.141'); 
 	DEFINE('DBNAME','HR');
 	DEFINE('USERNAME','HR');
 	DEFINE('PASSWD','Educacio123!');
@@ -21,6 +21,7 @@
 	
 	// Set MySQLi to throw exceptions
 	mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);	
+	
 	try {
 		// Try a connection ...
 		echo '<p>Trying to connect to: '.USERNAME.'/'.PASSWD.'@'.DBNAME.' using MySQLi-Procedural Programing</p>';
@@ -32,7 +33,12 @@
 		$table = mysqli_query($conn, $query);
 		
 		// Display the '$table' variable by using different techniques
-		// ...
+		while( null !== ($row = mysqli_fetch_array($table)) ) { // fetch the database
+           // echo $row['employee_id']." ".$row['last_name']." ".$row['first_name']."<br>";
+           echo $row[0]." ".$row[1]." ".$row[2]."<br>";     // when mysqli_fetch_assoc
+        }
+
+
 		
 	} catch (mysqli_sql_exception $e) {
 		echo  "</p>" . $e-> getMessage() . "</p>";

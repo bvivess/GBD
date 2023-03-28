@@ -9,7 +9,7 @@
 	// Processing form data when form is submitted
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 		// Validate name
-		$input_name = trim($_POST["name"]);
+		z
 		if(empty($input_name)){
 			$name_err = "Please enter a name.";
 		} elseif(!filter_var($input_name, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-zA-Z\s]+$/")))){

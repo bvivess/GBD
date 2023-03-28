@@ -4,13 +4,13 @@
 		
 		try {
 			echo "try-1<br>";
-			throw new Error('Error-1');
+			//throw new Error('Error-1');
 			
 			// block try-catch-finally-2
 			try {
 				echo "try-2<br>";
 				throw new Exception('Exception-2');
-			} catch(Error $e) {
+			} catch(Exception $e) {
 				echo $e->getMessage() . '<br>';
 				echo "catch-2<br>";
 			} finally {

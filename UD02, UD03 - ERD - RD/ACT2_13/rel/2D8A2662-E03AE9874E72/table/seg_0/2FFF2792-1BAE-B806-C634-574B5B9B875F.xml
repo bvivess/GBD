@@ -80,5 +80,25 @@
 <colUsage columnID="6FF51A53-9C3D-ADDF-8F63-EB31E7857628"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="E30B300C-5D95-AEAE-0BF0-848C1F762E9E" name="ENT__UK1">
+<createdBy>winadmin</createdBy>
+<createdTime>2023-01-11 06:29:58 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C65FB95B-0AC1-E8CE-FCAF-4D88DD46385B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B776FC41-D3FA-98F0-22B3-042048E64EBC" name="ENT__UK2">
+<createdBy>winadmin</createdBy>
+<createdTime>2023-01-11 06:30:12 UTC</createdTime>
+<ownerDesignName>ACT2_13</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0ADC6E8-B023-E14F-46B9-8EF5DCE219E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

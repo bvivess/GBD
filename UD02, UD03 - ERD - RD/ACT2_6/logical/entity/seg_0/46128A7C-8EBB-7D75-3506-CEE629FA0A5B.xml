@@ -4,6 +4,7 @@
 <createdTime>2018-10-09 05:46:39 UTC</createdTime>
 <ownerDesignName>ACT2_6</ownerDesignName>
 <engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
 <item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -21,6 +22,7 @@
 <createdTime>2018-10-09 05:46:47 UTC</createdTime>
 <ownerDesignName>ACT2_6</ownerDesignName>
 <engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
 <item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,11 +36,13 @@
 <createdTime>2018-10-09 05:46:54 UTC</createdTime>
 <ownerDesignName>ACT2_6</ownerDesignName>
 <engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
 <item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<domain>145017BE-49F2-F608-FDC8-6266BACDB394</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -48,6 +52,7 @@
 <createdTime>2018-10-09 05:48:37 UTC</createdTime>
 <ownerDesignName>ACT2_6</ownerDesignName>
 <engineerTo>
+<item key="5C8BF9AA-9029-CCE2-7165-74E92777A60B" value="true"/>
 <item key="4B3CB0DE-7822-19EE-4408-ECA9E5FA7CDC" value="true"/>
 </engineerTo>
 <pk>true</pk>
