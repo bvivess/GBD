@@ -10,12 +10,8 @@ BEGIN
 	FROM jobs
 	WHERE job_id = :NEW.job_id;
 	--
-	IF :NEW.salary NOT BETWEEN min_salary AND max_salary THEN
+	IF (:NEW.salary NOT BETWEEN min_salary AND max_salary) THEN
 		RAISE_APPLICATION_ERROR(-20001,'Error, el salario no está en el margen definido: ' || TO_CHAR(min_salary) || '-' || TO_CHAR(max_salary));
 	END IF;
-EXCEPTION
-	WHEN NO_DATA_FOUND THEN
-		-- This case is not possible
-		NULL;
 END;
 /

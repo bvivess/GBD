@@ -1,26 +1,15 @@
+-- a non rollbacked sequence related to a COLUMN
 CREATE OR REPLACE TRIGGER trg_employees
-  BEFORE INSERT OR UPDATE OF salary OR UPDATE OF employee_id
-  ON employees
-  FOR EACH ROW
-DECLARE
-	PRAGMA AUTONOMOUS_TRANSACTION;
-	mgr_salary	employees.salary%TYPE;
+	BEFORE INSERT OR UPDATE OF employee_id
+	ON employees
+	FOR EACH ROW
 BEGIN
-	IF UPDATING('employee_id') THEN
-		RAISE_APPLICATION_ERROR(-20001, 'Error, no es posible modificar la columna PK');
+	IF INSERTING THEN
+		SELECT seq_employees INTO :NEW.employee_id FROM sequences_tab;
+		--
+		UPDATE sequences_tab SET seq_employees = seq_employees + 1;
 	ELSE
-		BEGIN
-			SELECT salary INTO mgr_salary
-			FROM employees
-			WHERE employee_id = NVL(:NEW.manager_id, -1);
-			--
-			IF NVL(:NEW.salary, 0) >= mgr_salary THEN
-				RAISE_APPLICATION_ERROR(-20002,'Error, salario excede importe posible.');
-			END IF;
-		EXCEPTION
-			WHEN NO_DATA_FOUND THEN
-				-- This employee does not have any manager.
-				NULL;
-		END;
+		RAISE_APPLICATION_ERROR(-20000,'Error, instrucción no permitida.');
 	END IF;
 END;
+/
