@@ -85,7 +85,7 @@
 			echo "Closing file " . PATHFILE . FILENAME . "<br>";
 			fclose($file);
 		} else {
-				throw new Exception ( 'File does not exists');
+			throw new Exception ( 'File does not exists');
 		}
 		
 		mysqli_commit($conn);
